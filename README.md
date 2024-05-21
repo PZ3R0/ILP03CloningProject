@@ -9,6 +9,9 @@ ILP03 Cloning : FIFA 2022 Site
 This is the page for home page
 Some general rules to follow
 
+
+Prefer Using Bootstrap over CSS.
+
 use folders
     1. Style : for CSS files
     2. Html : for HTML fiiles
