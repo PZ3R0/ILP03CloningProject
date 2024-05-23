@@ -114,7 +114,10 @@ body{
     cursor: pointer;
     top : 50%;
     transform: translateY(-50%);
+    z-index: 1;
+    opacity: 70%;
 }
+
 
 .wrapper i:first-child{
     left: -22px;
