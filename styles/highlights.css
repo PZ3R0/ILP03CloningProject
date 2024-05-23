@@ -1,6 +1,8 @@
+
 body{
     margin: 0% !important;
     padding: 0% !important;
+    background-color: #eeeee4 !important;
     
 }
 
@@ -8,3 +10,18 @@ body{
     padding-left: 0% !important;
     padding-right: 0% !important;
 } */
+
+.card{
+    
+    width: 300px;
+    height: 150px;
+    
+}
+
+.landing-head{
+    font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif";
+}
+.landing-para{
+    font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif";
+    width: 90%;
+}
