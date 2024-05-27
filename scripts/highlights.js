@@ -1,15 +1,29 @@
+
+
 document.addEventListener("DOMContentLoaded", function() { 
 	const carousel = document.querySelector(".carousel"); 
 	const arrowBtns = document.querySelectorAll(".wrapper i"); 
 	const wrapper = document.querySelector(".wrapper"); 
 
+	const carouselSmall = document.querySelector(".carousel-small"); 
+	const arrowBtnsSmall = document.querySelectorAll(".wrapper-small i"); 
+	const wrapperSmall = document.querySelector(".wrapper-small"); 
+
 	const firstCard = carousel.querySelector(".card"); 
 	const firstCardWidth = firstCard.offsetWidth; 
+
+	const firstCardSmall = carouselSmall.querySelector(".card-small"); 
+	const firstCardSmallWidth = firstCardSmall.offsetWidth; 
 
 	let isDragging = false, 
 		startX, 
 		startScrollLeft, 
 		timeoutId; 
+
+	let isDraggingSmall = false, 
+		startXSmall, 
+		startScrollLeftSmall, 
+		timeoutIdSmall; 
 
 	const dragStart = (e) => { 
 		isDragging = true; 
@@ -21,20 +35,14 @@ document.addEventListener("DOMContentLoaded", function() {
 	const dragging = (e) => { 
 		if (!isDragging) return; 
 	
-		// Calculate the new scroll position 
 		const newScrollLeft = startScrollLeft - (e.pageX - startX); 
 	
-		// Check if the new scroll position exceeds 
-		// the carousel boundaries 
 		if (newScrollLeft <= 0 || newScrollLeft >= 
 			carousel.scrollWidth - carousel.offsetWidth) { 
-			
-			// If so, prevent further dragging 
 			isDragging = false; 
 			return; 
 		} 
 	
-		// Otherwise, update the scroll position of the carousel 
 		carousel.scrollLeft = newScrollLeft; 
 	}; 
 
@@ -43,23 +51,54 @@ document.addEventListener("DOMContentLoaded", function() {
 		carousel.classList.remove("dragging"); 
 	}; 
 
-	const autoPlay = () => { 
+	const dragStartSmall = (e) => { 
+		isDraggingSmall = true; 
+		carouselSmall.classList.add("dragging"); 
+		startXSmall = e.pageX; 
+		startScrollLeftSmall = carouselSmall.scrollLeft; 
+	}; 
+
+	const draggingSmall = (e) => { 
+		if (!isDraggingSmall) return; 
 	
-		// Return if window is smaller than 800 
+		const newScrollLeftSmall = startScrollLeftSmall - (e.pageX - startXSmall); 
+	
+		if (newScrollLeftSmall <= 0 || newScrollLeftSmall >= 
+			carouselSmall.scrollWidth - carouselSmall.offsetWidth) { 
+			isDraggingSmall = false; 
+			return; 
+		} 
+	
+		carouselSmall.scrollLeft = newScrollLeftSmall; 
+	}; 
+
+	const dragStopSmall = () => { 
+		isDraggingSmall = false; 
+		carouselSmall.classList.remove("dragging"); 
+	}; 
+
+	const autoPlay = () => { 
 		if (window.innerWidth < 800) return; 
 		
-		// Calculate the total width of all cards 
 		const totalCardWidth = carousel.scrollWidth; 
-		
-		// Calculate the maximum scroll position 
 		const maxScrollLeft = totalCardWidth - carousel.offsetWidth; 
 		
-		// If the carousel is at the end, stop autoplay 
 		if (carousel.scrollLeft >= maxScrollLeft) return; 
 		
-		// Autoplay the carousel after every 2500ms 
 		timeoutId = setTimeout(() => 
 			carousel.scrollLeft += firstCardWidth, 2500); 
+	}; 
+
+	const autoPlaySmall = () => { 
+		if (window.innerWidth < 800) return; 
+		
+		const totalCardSmallWidth = carouselSmall.scrollWidth; 
+		const maxScrollLeftSmall = totalCardSmallWidth - carouselSmall.offsetWidth; 
+		
+		if (carouselSmall.scrollLeft >= maxScrollLeftSmall) return; 
+		
+		timeoutIdSmall = setTimeout(() => 
+			carouselSmall.scrollLeft += firstCardSmallWidth, 2500); 
 	}; 
 
 	carousel.addEventListener("mousedown", dragStart); 
@@ -69,12 +108,24 @@ document.addEventListener("DOMContentLoaded", function() {
 		clearTimeout(timeoutId)); 
 	wrapper.addEventListener("mouseleave", autoPlay); 
 
-	// Add event listeners for the arrow buttons to 
-	// scroll the carousel left and right 
+	carouselSmall.addEventListener("mousedown", dragStartSmall); 
+	carouselSmall.addEventListener("mousemove", draggingSmall); 
+	document.addEventListener("mouseup", dragStopSmall); 
+	wrapperSmall.addEventListener("mouseenter", () => 
+		clearTimeout(timeoutIdSmall)); 
+	wrapperSmall.addEventListener("mouseleave", autoPlaySmall); 
+
 	arrowBtns.forEach(btn => { 
 		btn.addEventListener("click", () => { 
 			carousel.scrollLeft += btn.id === "left" ? 
 				-firstCardWidth : firstCardWidth; 
+		}); 
+	}); 
+
+	arrowBtnsSmall.forEach(btn => { 
+		btn.addEventListener("click", () => { 
+			carouselSmall.scrollLeft += btn.id === "left" ? 
+				-firstCardSmallWidth : firstCardSmallWidth; 
 		}); 
 	}); 
 }); 
