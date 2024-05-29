@@ -2,34 +2,45 @@ console.log("HEllo WOrld")
 
 console.log("please discuss with team before you rename this file,purpose of this file is pretty self explanatory")
 
-
-async function fetchData() {
-    try {
-      // Replace 'YOUR_API_KEY' with your actual API key
-      const apiKey = 'YOUR_API_KEY';
-      const apiUrl = 'https://www.statbomb.com/api/v1/YOUR_ENDPOINT';
-
-      // Make a GET request to the API endpoint
-      const response = await fetch(apiUrl, {
-        headers: {
-          'Authorization': `Bearer ${apiKey}`
-        }
-      });
-
-      // Check if the request was successful
-      if (!response.ok) {
-        throw new Error('Failed to fetch data');
+document.addEventListener('DOMContentLoaded', function() {
+    var sidebar = document.getElementById('sidebarMenu');
+    var hamburger = document.getElementById('hamburger');
+    var sidebarOpen = false;
+    var backdrop = document.getElementById('backdrop');
+  
+    // Toggle sidebar when hamburger is clicked
+    hamburger.onclick = function() {
+      if (!sidebarOpen) {
+        openSidebar();
+      } else {
+        closeSidebar();
       }
-
-      // Parse the JSON response
-      const data = await response.json();
-
-      // Do something with the data
-      console.log(data);
-    } catch (error) {
-      console.error('Error:', error);
+    };
+  
+    // Close sidebar when clicking outside of it
+    document.body.addEventListener('click', function(event) {
+      if (sidebarOpen && !sidebar.contains(event.target) && event.target !== hamburger) {
+        closeSidebar();
+      }
+    });
+  
+    // Function to open the sidebar
+    function openSidebar() {
+      sidebar.style.left = "0";
+      sidebarOpen = true;
+      backdrop.classList.toggle('backdrop');      
+      
     }
-  }
+  
+    // Function to close the sidebar
+    function closeSidebar() {
+      sidebar.style.left = "-250px";
+      sidebarOpen = false;
+    //   targetElement.classList.remove('backdrop');
+      targetElement.classList.toggle('backdrop.backdrop-close');
+      
+    }
+  });
+  
 
-  // Call the fetchData function to fetch data from StatBomb API
-  fetchData();
+  

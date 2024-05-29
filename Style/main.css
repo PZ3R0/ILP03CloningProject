@@ -1,19 +1,139 @@
-/* please discuss with team before you rename this file,
-    purpose of this file is pretty self explanatory */
+/* 
+    please discuss with team before you rename this file,
+    purpose of this file is pretty self explanatory 
+*/
 
-    body {
-        height: 100%;
-        width: 100%;
-        padding: 10px;
+/* global-menu */
+.navbar {
+    background-color: var(--violet);
+    color: white;
+}
+
+.navbar-top-right a {
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-top-right>a:hover {
+    color: var(--golden);
+}
+
+.navbar-bottom-image {
+    height: 45px;
+}
+
+.scrollable {
+    display: inline-block;
+    padding: 10px;
+    gap: 4%;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none;
+}
+
+.scrollable a {
+    display: inline-block;
+}
+
+.navbar-bottom-right {
+    width: 12%;
+}
+
+/* sidebar menu */
+
+.sidebarMenu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease;
+}
+
+.sidebarMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebarMenu ul li {
+    padding: 10px;
+}
+
+.sidebarMenu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* backdrop bluish when open sidebar */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #03122b;
+    opacity: .8;
+    z-index: -1;
+    animation: backdropFadeIn .3s ease-out 0s, .3
+}
+
+.backdrop.backdrop-close {
+    animation: backdropFadeOut .3s ease-out 0s, .3
+}
+
+@keyframes backdropFadeIn {
+    0% {
+        opacity: 0
     }
 
-    .navbar{
-        background-color: #550065;
+    to {
+        opacity: .8
+    }
+}
+
+@keyframes backdropFadeOut {
+    0% {
+        opacity: .8
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes infinite-rotate-animation {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+
+
+
+/* FOR FOOOTER */
+/* footer-top */
+
+.footer-top {
+    min-height: 3.5rem;
+}
+
+.footer-logostrip {
+    padding-right: 10%;
+}
+
+#ot-sdk-btn {
+    
+        background-color: transparent;
+        border: none;
         color: white;
-    }
-    .navbar-top-right{
-        font-size: 14px;
-    }
-    .navbar-bottom-image{
-        height: 45px;
-    }
+      
+}
