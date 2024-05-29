@@ -463,3 +463,74 @@ img{
 }
 
 /* Large Card Carousel Design End */
+
+.archive-section{
+    /* background: url('https://digitalhub.fifa.com/transform/c15465ea-9930-4830-87ef-06d84e4ae05f/FIFAPLS_XX_A_TitleDescriptor_Axxxx_Banner_00?&quality=75'); */
+    /* height: 90vh; */
+    /* height: 100%;
+    display: inline-block;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    object-fit: fill;
+    background-position: 0%;
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+    /* position: relative; */
+    /* --aspect-ratio: calc(9 / 21 * 100%); */
+    /* width: 100%; */
+    
+    /* display: inline-block;
+    padding-top: 0%;
+    padding-bottom: 0% !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: calc(9 / 21 * 100%); */
+
+    
+   
+    /* background-image: linear-gradient(1turn, #550065, rgba(2, 15, 42, 0)); */
+    background: url('https://digitalhub.fifa.com/transform/c15465ea-9930-4830-87ef-06d84e4ae05f/FIFAPLS_XX_A_TitleDescriptor_Axxxx_Banner_00?&quality=75');
+    background-color: #f7c7ff !important;
+    background-blend-mode:multiply;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    align-items: center;
+    height:90vh;
+    object-fit: fill;
+}
+
+.archive-content{
+    padding-left: 5%;
+    max-width: 50%;
+    color: #fff;
+    
+}
+
+.archive-content button{
+    
+    color: #fff;
+    border-radius: 20px;
+    width:20%;
+    padding: 1%;
+    border-color: #fff solid;
+    /* border: 5px #fff; */
+    /* box-sizing: border-box; */
+    border: 2px solid #fff;
+    transition: transform 0.2s ease-in;
+}
+
+.archive-content button:hover{
+
+    transform: scale(1.1);
+    color: #fff;
+}
