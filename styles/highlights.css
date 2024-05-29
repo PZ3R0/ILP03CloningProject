@@ -3,7 +3,7 @@ body{
     margin: 0% !important;
     padding: 0% !important;
     background-color: #eeeee4 !important;
-    font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif";
+    font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif" !important;
     
 }
 
@@ -250,35 +250,39 @@ ul{
 
 .card-small .img-small{
     background-color: #eeeee4;
-    width: 100%;
+    width:100%;
     height: 100%;
+    
     /* padding-top: 10px; */
     border-radius: 5%;
 }
 .card-small .img-small img{
     background-color: #eeeee4;
-    width: 400px;
+    width: 100%;
     height: auto;
-    
-    object-fit: cover;
+    /* position: relative; */
+    object-fit:fill !important;
     border-radius: 2%;
+    /* vertical-align: initial; */
     
 }
 
 img{
     overflow: hidden;
-    transition: 1s ease !important;
+    transition: 1s ease-in-out !important;
 }
 
 .img-small img:hover{
     
-    transform: scale(1.1);
+    /* transform: scale(1.01) !important; */
     background-color: #eeeee4;
     width: 400px;
     height: auto;
+    /* max-width: 300px;
+    max-height: 250px; */
     object-fit: cover;
     border-radius: 2%;
-    background-size: 50%;
+    /* background-size: 50%; */
     overflow: hidden !important;
 
     /* object-fit: cover; */
@@ -313,3 +317,149 @@ img{
 }
 
 /* Small Card Carousel Design End*/
+
+/* Large Card Carousel Design */
+
+.card-large{
+    
+    width: 340px;
+    height: 220px;
+    
+}
+
+
+
+.wrapper-large{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper-large .carousel-large{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 2)-12px);
+    gap: 3.5%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+
+}
+
+
+
+.carousel-large::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel-large:where(.card-large, .img-large){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-large .dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel-large .no-transition{
+    scroll-behavior: auto;
+}
+
+.carousel-large .dragging .card-large{
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel-large .card-large{
+    scroll-snap-align: start;
+    height: 300px;
+    list-style: none;
+    background: #eeeee4;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 530px;
+    border: none;
+    overflow: hidden;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.card-large .img-large{
+    background-color: #eeeee4;
+    width:100%;
+    height: 100%;
+    
+    /* padding-top: 10px; */
+    border-radius: 5%;
+}
+.card-large .img-large img{
+    background-color: #eeeee4;
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+    object-fit:fill !important;
+    border-radius: 2%;
+    /* vertical-align: initial; */
+    
+}
+
+img{
+    overflow: hidden;
+    transition: 1s ease-in-out !important;
+}
+
+/* .img-large img:hover{
+    
+    
+    background-color: #eeeee4;
+    width: 600px;
+    height: auto;
+   
+    object-fit: cover;
+    border-radius: 2%;
+   
+    overflow: hidden !important;
+
+   
+    border-radius: 2%;
+} */
+
+
+.wrapper-large i{
+    height: 40px;
+    width: 40px;
+    background: #ff004c;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    color:#fff;
+    font-size: 1.25rem;
+    position: absolute;
+    cursor: pointer;
+    top : 40%;
+    transform: translateY(-40%);
+    z-index: 1;
+    opacity: 70%;
+}
+
+
+.wrapper-large i:first-child{
+    left: -22px;
+}
+
+.wrapper-large i:last-child{
+    right:-22px;
+}
+
+/* Large Card Carousel Design End */
