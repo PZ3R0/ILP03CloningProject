@@ -30,6 +30,7 @@ body{
 .landing-para{
     font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif";
     width: 90%;
+    padding-top:1% ;
 }
 
 /* Medium Card Design */
