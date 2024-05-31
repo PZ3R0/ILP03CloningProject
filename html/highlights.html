@@ -1992,6 +1992,7 @@
     let collectedForYouDiv = document.getElementById('collected-for-you')
     let signLanguageDiv = document.getElementById('sign-language')
     let everyTeamGoalsDiv = document.getElementById('every-teams-goals')
+    let highScoringClubsDiv = document.getElementById('high-scoreing-clubs')
 
 
     // Read json data
@@ -2013,6 +2014,7 @@
         let collectedForYouContent = ``;
         let signLanguageContent =``;
         let everyTeamGoalsContent = ``;
+        let highScoringClubsContent = ``;
 
         for(i=0;i<data.allHighlights.length;i++){
             console.log(data.allHighlights[i].image)
@@ -2077,14 +2079,31 @@
                 <li class="" >
                         <div class="card-small">
                             <div class="img-small" >
-                                <img src="${everyTeamGoals[i].image}" alt="" draggable="false">
+                                <img src="${data.everyTeamGoals[i].image}" alt="" draggable="false">
                             </div>
                         </div>
-                            <p class="landing-para">${everyTeamGoals[i].title}</p>
+                            <p class="landing-para">${data.everyTeamGoals[i].title}</p>
                 </li>
 
             `
-            everyTeamGoals.innerHTML = everyTeamGoalsContent
+            everyTeamGoalsDiv.innerHTML = everyTeamGoalsContent
+
+        }
+
+        for(i=0;i<data.highScoringClubs.length;i++){
+
+            highScoringClubsContent += `
+                <li class="" >
+                        <div class="card-small">
+                            <div class="img-small" >
+                                <img src="${data.highScoringClubs[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.highScoringClubs[i].title}</p>
+                </li>
+
+            `
+            highScoringClubsDiv.innerHTML = highScoringClubsContent
 
         }
 

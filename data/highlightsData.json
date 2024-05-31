@@ -194,8 +194,84 @@
 
     "everyTeamGoals" : [
         {
-            "image" : "",
-            "title" : ""
+            "image" : "https://digitalhub.fifa.com/transform/2962cb51-8069-41fd-a80f-5d7cc0dd971a/ALL_GOALS_ARGENTINA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Argentina | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/65693b48-0c28-4381-b66a-08425ff3f75d/ALL_GOALS_AUSTRALIA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Australia | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/acf8f699-dc0f-4cc4-953b-5e1550ca9934/ALL_GOALS_BELGIUM?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Belgium | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/92e3e8a4-059d-42e2-a85f-ae6eeef9db9a/ALL_GOALS_BRASIL?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Brazil | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/407b8e5b-dd5c-47a7-bba4-31f0a4a7e07d/ALL_GOALS_CAMEROON?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Cameroon | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/60e2f48d-7a5e-4dfe-bc50-8d177a7248a0/ALL_GOALS_CANADA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Canada | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/b133a974-c6ea-4fcc-90f4-d9187fee3489/ALL_GOALS_COSTA_RICA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Costa Rica | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/854f3203-fb29-4abc-b170-dd3741eecf73/ALL_GOALS_CROATIA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Croatia | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/dc21dbe3-1b33-4ba4-937a-6c9a960a29a4/ALL_GOALS_DENMARK?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Denmark | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/3cd14fe2-59ac-4313-a0c0-b1db27b4c6ee/ALL_GOALS_ECUADOR?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Ecuador | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/1d31c093-f76c-4ad6-b2b4-f749454509bb/ALL_GOALS_ENGLAND?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "England | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/9767d774-5866-4a2b-9880-0fb33bb33404/ALL_GOALS_FRANCE_V2?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "France | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/03307a0d-3ad1-4413-9883-8c94a933fac6/ALL_GOALS_GERMANY?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Germany | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/4278929c-d90d-418d-af26-89714de9c97f/ALL_GOALS_GHANA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Ghana | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/06e9f10e-b0c8-4cbe-b1a6-cf48a751f5c2/ALL_GOALS_IRAN?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "IR Iran | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/6465ae65-6ccc-4c6a-b443-9fe420d708a0/ALL_GOALS_JAPAN?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Japan | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/8deed693-7dca-4be6-8108-f4252385c319/ALL_GOALS_KOREA_REPUBLIC?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Korea Republic | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/b9a82cb7-0350-4247-8f0a-b475ddef6ecd/ALL_GOALS_MOROCCO?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Morocco | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/4ae253ce-ed6e-4ab3-82ba-86d34a11c440/ALL_GOALS_MEXICO?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Mexico | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/39451be3-0c12-4d19-8e72-2458b9850982/ALL_GOALS_NETHERLANDS?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Netherlands | All Goals | FIFA World Cup Qatar 2022™"
         }
         
     ],
