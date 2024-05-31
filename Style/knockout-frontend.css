@@ -11,9 +11,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.test {
-  max-width: 100vw;
-  max-height: 100vh;
+.knockout {
+  /* max-width: 100vw;
+  max-height: 100vh; */
+  width: 100%;
+  scale: 60%;
+  margin-left: -13%;
 }
 .round {
   display: flex;
@@ -54,7 +57,7 @@ body {
   position: absolute;
   width: 2px;
   background-color: blue;
-  left: 23.5%;
+  left: 23%;
   transform: translateX(-50%);
 }
 .round-of-16-left::before {
@@ -112,6 +115,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .quarter-final-left .match::before,.quarter-final-right .match::before     /*quarter-left, quarter-right left side horizontal line*/ {
   width: 14.5%;
   right: 100%;
@@ -165,7 +169,7 @@ body {
 }
 
 .semi-final-right .match::before {
-  width: 27%;
+  width: 25%;
   background-color: greenyellow;
   left: 100%;
 }
@@ -177,7 +181,7 @@ body {
   height: 363px;
   width: 2px;
   background-color: brown;
-  right: 2%;
+  right: 1.6%;
   transform: translateX(60%) translateY(71px);
 }
 
@@ -188,29 +192,29 @@ body {
   width: 2px;
   background-color: rgb(90, 90, 11);
   transform: translateX(-50%) translateY(50px);
-  height: 122px;
-  top: 43px;
-  left: 110px;
+  height: 140%;
+  top: 49%;
+  left: 50%;
 }
 /* horizontal line above and below the semi final matches is drawn using third round and final */
 .third-place::after {
   content: "";
   position: absolute;
   height: 2px;
-  width: 282px;
-  top: 161px;
+  width: 23.5%;
+  top: 24%;
   background-color: purple;
-  right: 19.4%;
+  right: 19%;
   transform: translateX(15%) translateY(71px);
 }
 .final::after {
   content: "";
   position: absolute;
   height: 2px;
-  width: 282px;
-  top: 300px;
+  width: 23.5%;
+  top: 44%;
   background-color: purple;
-  right: 19.4%;
+  right: 19%;
   transform: translateX(15%) translateY(84px);
 }
 
@@ -221,13 +225,13 @@ body {
   width: 2px;
   background-color: rgb(90, 90, 11);
   transform: translateX(-50%) translateY(-50%);
-  height: 120px;
-  top: -60px;
+  height: 80.5%;
+  top: -40%;
   left: 50%;
 }
 
 .round-of-16-right .match::before       /*right il ulla round of 16 inte left il cheriya horizontal line*/ {
-  width: 14.5%;
+  width: 14%;
   right: 100%;
 }
 .round-of-16-right::before,
@@ -236,18 +240,18 @@ body {
   position: absolute;
   width: 2px;
   background-color: pink;
-  right: -21.25%;
+  right: -22.25%;
   transform: translateX(-50%);
 }
 .round-of-16-right::before {
   /*upper vertical line in right of round of 16-right */
-  height: 146px;
+  height: 21.5%;
   transform: translateY(56px);
 }
 
 .round-of-16-right::after {
   /*lower vertical line in right of round of 16-right */
-  height: 160px;
+  height: 23.7%;
   transform: translateY(418px);
 }
 
@@ -257,17 +261,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 0;
+  margin: 5% 0;
 }
 
 .ft {
   color: red;
-  margin-top: 15px;
+  margin-top: 12%;
 }
 
 .penalties {
   color: gray;
-  margin-top: 10px;
+  margin-top: 9%;
   font-size: 0.8rem;
 }
 
@@ -309,21 +313,21 @@ body {
 
 .round-of-16-left .match:nth-child(2),
 .round.round-of-16-right .match:nth-child(2) {
-  margin-bottom: 100px;
+  margin-bottom: 45%;
 }
 .quarter-final-left,
 .round.quarter-final-right {
-  margin-top: 70px;
+  margin-top: 6%;
 }
 .quarter-final-left .match:nth-child(1) {
-  margin-bottom: 275px;
+  margin-bottom: 124%;
 }
 .round.quarter-final-right .match:nth-child(1) {
-  margin-bottom: 230px;
+  margin-bottom: 104%;
 }
 .semi-finals {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 20%;
+  margin-bottom: 15%;
 }
 /*Ends here--- aligning the matches to match the original */
 
