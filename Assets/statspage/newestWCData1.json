@@ -1,0 +1,6080 @@
+{
+    "3857286": {
+        "Possession": {
+            "team1": 42,
+            "team2": 50
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 5,
+            "team2": 6
+        },
+        "Attempts On Target": {
+            "team1": 0,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 15,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 9,
+            "team2": 6
+        },
+        "Receptions b/w Lines": {
+            "team1": 5,
+            "team2": 8
+        },
+        "Line Breaks": {
+            "team1": 86,
+            "team2": 99
+        },
+        "Defensive Line Breaks": {
+            "team1": 4,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Fouls Against": {
+            "team1": 15,
+            "team2": 15
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 450,
+            "team2": 450
+        },
+        "Passes completed": {
+            "team1": 381,
+            "team2": 409
+        },
+        "Crosses": {
+            "team1": 9,
+            "team2": 14
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 9
+        },
+        "Corners": {
+            "team1": 1,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 19,
+            "team2": 17
+        },
+        "Goals Prevented": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Turnovers": {
+            "team1": 52,
+            "team2": 72
+        },
+        "Pressures": {
+            "team1": 256,
+            "team2": 279
+        }
+    },
+    "3857271": {
+        "Possession": {
+            "team1": 72,
+            "team2": 19
+        },
+        "Goals": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 13,
+            "team2": 8
+        },
+        "Attempts On Target": {
+            "team1": 7,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 11,
+            "team2": 3
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 0
+        },
+        "Receptions b/w Lines": {
+            "team1": 16,
+            "team2": 4
+        },
+        "Line Breaks": {
+            "team1": 178,
+            "team2": 45
+        },
+        "Defensive Line Breaks": {
+            "team1": 16,
+            "team2": 4
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 9,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 809,
+            "team2": 809
+        },
+        "Passes completed": {
+            "team1": 730,
+            "team2": 154
+        },
+        "Crosses": {
+            "team1": 23,
+            "team2": 8
+        },
+        "Crosses Completed": {
+            "team1": 7,
+            "team2": 1
+        },
+        "Swithes": {
+            "team1": 12,
+            "team2": 3
+        },
+        "Corners": {
+            "team1": 8,
+            "team2": 0
+        },
+        "Free Kicks": {
+            "team1": 16,
+            "team2": 10
+        },
+        "Goals Prevented": {
+            "team1": 8,
+            "team2": 13
+        },
+        "Turnovers": {
+            "team1": 63,
+            "team2": 72
+        },
+        "Pressures": {
+            "team1": 139,
+            "team2": 416
+        }
+    },
+    "3857285": {
+        "Possession": {
+            "team1": 44,
+            "team2": 45
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 9
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 12,
+            "team2": 11
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Right Channel": {
+            "team1": 13,
+            "team2": 20
+        },
+        "Receptions b/w Lines": {
+            "team1": 15,
+            "team2": 14
+        },
+        "Line Breaks": {
+            "team1": 89,
+            "team2": 96
+        },
+        "Defensive Line Breaks": {
+            "team1": 15,
+            "team2": 10
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 13,
+            "team2": 13
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 383,
+            "team2": 383
+        },
+        "Passes completed": {
+            "team1": 313,
+            "team2": 374
+        },
+        "Crosses": {
+            "team1": 19,
+            "team2": 25
+        },
+        "Crosses Completed": {
+            "team1": 7,
+            "team2": 8
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 6
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 7
+        },
+        "Free Kicks": {
+            "team1": 14,
+            "team2": 14
+        },
+        "Goals Prevented": {
+            "team1": 9,
+            "team2": 15
+        },
+        "Turnovers": {
+            "team1": 63,
+            "team2": 73
+        },
+        "Pressures": {
+            "team1": 263,
+            "team2": 251
+        }
+    },
+    "3857282": {
+        "Possession": {
+            "team1": 51,
+            "team2": 39
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 6,
+            "team2": 7
+        },
+        "Attempts On Target": {
+            "team1": 1,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 14,
+            "team2": 7
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 7
+        },
+        "Receptions b/w Lines": {
+            "team1": 12,
+            "team2": 9
+        },
+        "Line Breaks": {
+            "team1": 146,
+            "team2": 103
+        },
+        "Defensive Line Breaks": {
+            "team1": 15,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 4,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 15,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 569,
+            "team2": 569
+        },
+        "Passes completed": {
+            "team1": 509,
+            "team2": 321
+        },
+        "Crosses": {
+            "team1": 31,
+            "team2": 15
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 6
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 8
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 11,
+            "team2": 15
+        },
+        "Goals Prevented": {
+            "team1": 7,
+            "team2": 7
+        },
+        "Turnovers": {
+            "team1": 81,
+            "team2": 72
+        },
+        "Pressures": {
+            "team1": 242,
+            "team2": 292
+        }
+    },
+    "3857300": {
+        "Possession": {
+            "team1": 64,
+            "team2": 24
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 3
+        },
+        "Attempts On Target": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 12,
+            "team2": 3
+        },
+        "Central Channel": {
+            "team1": 5,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 18,
+            "team2": 8
+        },
+        "Receptions b/w Lines": {
+            "team1": 26,
+            "team2": 9
+        },
+        "Line Breaks": {
+            "team1": 127,
+            "team2": 68
+        },
+        "Defensive Line Breaks": {
+            "team1": 25,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 6
+        },
+
+        "Fouls Against": {
+            "team1": 7,
+            "team2": 21
+        },
+        "Offsides": {
+            "team1": 10,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 610,
+            "team2": 610
+        },
+        "Passes completed": {
+            "team1": 529,
+            "team2": 190
+        },
+        "Crosses": {
+            "team1": 29,
+            "team2": 9
+        },
+        "Crosses Completed": {
+            "team1": 12,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 7
+        },
+        "Corners": {
+            "team1": 9,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 22,
+            "team2": 16
+        },
+        "Goals Prevented": {
+            "team1": 4,
+            "team2": 14
+        },
+        "Turnovers": {
+            "team1": 65,
+            "team2": 80
+        },
+        "Pressures": {
+            "team1": 163,
+            "team2": 361
+        }
+    },
+    "3857254": {
+        "Possession": {
+            "team1": 55,
+            "team2": 33
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 11,
+            "team2": 11
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 17,
+            "team2": 9
+        },
+        "Central Channel": {
+            "team1": 7,
+            "team2": 2
+        },
+        "Right Channel": {
+            "team1": 18,
+            "team2": 6
+        },
+        "Receptions b/w Lines": {
+            "team1": 14,
+            "team2": 7
+        },
+        "Line Breaks": {
+            "team1": 136,
+            "team2": 85
+        },
+        "Defensive Line Breaks": {
+            "team1": 12,
+            "team2": 6
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 9,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 594,
+            "team2": 594
+        },
+        "Passes completed": {
+            "team1": 523,
+            "team2": 302
+        },
+        "Crosses": {
+            "team1": 27,
+            "team2": 13
+        },
+        "Crosses Completed": {
+            "team1": 10,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 11,
+            "team2": 1
+        },
+        "Corners": {
+            "team1": 11,
+            "team2": 9
+        },
+        "Free Kicks": {
+            "team1": 11,
+            "team2": 10
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 11
+        },
+        "Turnovers": {
+            "team1": 76,
+            "team2": 73
+        },
+        "Pressures": {
+            "team1": 226,
+            "team2": 287
+        }
+    },
+    "3857265": {
+        "Possession": {
+            "team1": 54,
+            "team2": 31
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 13,
+            "team2": 8
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 20,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 1,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 27,
+            "team2": 13
+        },
+        "Receptions b/w Lines": {
+            "team1": 20,
+            "team2": 3
+        },
+        "Line Breaks": {
+            "team1": 117,
+            "team2": 82
+        },
+        "Defensive Line Breaks": {
+            "team1": 19,
+            "team2": 2
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 14,
+            "team2": 16
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 485,
+            "team2": 485
+        },
+        "Passes completed": {
+            "team1": 422,
+            "team2": 241
+        },
+        "Crosses": {
+            "team1": 33,
+            "team2": 10
+        },
+        "Crosses Completed": {
+            "team1": 8,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 1
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 16,
+            "team2": 16
+        },
+        "Goals Prevented": {
+            "team1": 8,
+            "team2": 15
+        },
+        "Turnovers": {
+            "team1": 61,
+            "team2": 70
+        },
+        "Pressures": {
+            "team1": 193,
+            "team2": 290
+        }
+    },
+    "3857279": {
+        "Possession": {
+            "team1": 56,
+            "team2": 35
+        },
+        "Goals": {
+            "team1": 4,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 22,
+            "team2": 4
+        },
+        "Attempts On Target": {
+            "team1": 7,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 30,
+            "team2": 11
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 5
+        },
+        "Right Channel": {
+            "team1": 19,
+            "team2": 9
+        },
+        "Receptions b/w Lines": {
+            "team1": 26,
+            "team2": 7
+        },
+        "Line Breaks": {
+            "team1": 135,
+            "team2": 84
+        },
+        "Defensive Line Breaks": {
+            "team1": 27,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 5,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 734,
+            "team2": 734
+        },
+        "Passes completed": {
+            "team1": 672,
+            "team2": 399
+        },
+        "Crosses": {
+            "team1": 34,
+            "team2": 9
+        },
+        "Crosses Completed": {
+            "team1": 17,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Corners": {
+            "team1": 8,
+            "team2": 1
+        },
+        "Free Kicks": {
+            "team1": 11,
+            "team2": 5
+        },
+        "Goals Prevented": {
+            "team1": 4,
+            "team2": 22
+        },
+        "Turnovers": {
+            "team1": 64,
+            "team2": 56
+        },
+        "Pressures": {
+            "team1": 250,
+            "team2": 316
+        }
+    },
+    "3857277": {
+        "Possession": {
+            "team1": 32,
+            "team2": 57
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 6
+        },
+        "Attempts On Target": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 8,
+            "team2": 12
+        },
+        "Central Channel": {
+            "team1": 6,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 7
+        },
+        "Receptions b/w Lines": {
+            "team1": 4,
+            "team2": 9
+        },
+        "Line Breaks": {
+            "team1": 81,
+            "team2": 116
+        },
+        "Defensive Line Breaks": {
+            "team1": 4,
+            "team2": 9
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 17,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 360,
+            "team2": 360
+        },
+        "Passes completed": {
+            "team1": 290,
+            "team2": 592
+        },
+        "Crosses": {
+            "team1": 10,
+            "team2": 19
+        },
+        "Crosses Completed": {
+            "team1": 1,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 7
+        },
+        "Corners": {
+            "team1": 0,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 12,
+            "team2": 17
+        },
+        "Goals Prevented": {
+            "team1": 7,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 87,
+            "team2": 58
+        },
+        "Pressures": {
+            "team1": 391,
+            "team2": 217
+        }
+    },
+    "3857284": {
+        "Possession": {
+            "team1": 65,
+            "team2": 22
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 25,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 9,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 24,
+            "team2": 5
+        },
+        "Central Channel": {
+            "team1": 14,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 21,
+            "team2": 11
+        },
+        "Receptions b/w Lines": {
+            "team1": 19,
+            "team2": 10
+        },
+        "Line Breaks": {
+            "team1": 185,
+            "team2": 70
+        },
+        "Defensive Line Breaks": {
+            "team1": 20,
+            "team2": 11
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 6,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 820,
+            "team2": 820
+        },
+        "Passes completed": {
+            "team1": 743,
+            "team2": 207
+        },
+        "Crosses": {
+            "team1": 28,
+            "team2": 16
+        },
+        "Crosses Completed": {
+            "team1": 9,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 6
+        },
+        "Free Kicks": {
+            "team1": 17,
+            "team2": 10
+        },
+        "Goals Prevented": {
+            "team1": 12,
+            "team2": 26
+        },
+        "Turnovers": {
+            "team1": 55,
+            "team2": 87
+        },
+        "Pressures": {
+            "team1": 164,
+            "team2": 487
+        }
+    },
+    "3857291": {
+        "Possession": {
+            "team1": 74,
+            "team2": 17
+        },
+        "Goals": {
+            "team1": 7,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 17,
+            "team2": 0
+        },
+        "Attempts On Target": {
+            "team1": 7,
+            "team2": 0
+        },
+        "Left Channel": {
+            "team1": 30,
+            "team2": 5
+        },
+        "Central Channel": {
+            "team1": 8,
+            "team2": 1
+        },
+        "Right Channel": {
+            "team1": 12,
+            "team2": 1
+        },
+        "Receptions b/w Lines": {
+            "team1": 23,
+            "team2": 1
+        },
+        "Line Breaks": {
+            "team1": 233,
+            "team2": 58
+        },
+        "Defensive Line Breaks": {
+            "team1": 22,
+            "team2": 1
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 8,
+            "team2": 12
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 7
+        },
+        "Passes": {
+            "team1": 1061,
+            "team2": 1061
+        },
+        "Passes completed": {
+            "team1": 1003,
+            "team2": 170
+        },
+        "Crosses": {
+            "team1": 17,
+            "team2": 5
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Swithes": {
+            "team1": 8,
+            "team2": 1
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 0
+        },
+        "Free Kicks": {
+            "team1": 18,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 0,
+            "team2": 17
+        },
+        "Turnovers": {
+            "team1": 46,
+            "team2": 76
+        },
+        "Pressures": {
+            "team1": 185,
+            "team2": 585
+        }
+    },
+    "3857268": {
+        "Possession": {
+            "team1": 46,
+            "team2": 43
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 9,
+            "team2": 21
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 6,
+            "team2": 17
+        },
+        "Central Channel": {
+            "team1": 5,
+            "team2": 8
+        },
+        "Right Channel": {
+            "team1": 6,
+            "team2": 20
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 15
+        },
+        "Line Breaks": {
+            "team1": 118,
+            "team2": 123
+        },
+        "Defensive Line Breaks": {
+            "team1": 6,
+            "team2": 13
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 11,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 512,
+            "team2": 512
+        },
+        "Passes completed": {
+            "team1": 439,
+            "team2": 382
+        },
+        "Crosses": {
+            "team1": 8,
+            "team2": 19
+        },
+        "Crosses Completed": {
+            "team1": 5,
+            "team2": 6
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 6
+        },
+        "Corners": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 10
+        },
+        "Goals Prevented": {
+            "team1": 21,
+            "team2": 9
+        },
+        "Turnovers": {
+            "team1": 74,
+            "team2": 47
+        },
+        "Pressures": {
+            "team1": 284,
+            "team2": 320
+        }
+    },
+    "3857290": {
+        "Possession": {
+            "team1": 43,
+            "team2": 46
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 7
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 19,
+            "team2": 9
+        },
+        "Central Channel": {
+            "team1": 11,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 16,
+            "team2": 18
+        },
+        "Receptions b/w Lines": {
+            "team1": 13,
+            "team2": 5
+        },
+        "Line Breaks": {
+            "team1": 123,
+            "team2": 103
+        },
+        "Defensive Line Breaks": {
+            "team1": 13,
+            "team2": 4
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 12,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 497,
+            "team2": 497
+        },
+        "Passes completed": {
+            "team1": 437,
+            "team2": 424
+        },
+        "Crosses": {
+            "team1": 28,
+            "team2": 20
+        },
+        "Crosses Completed": {
+            "team1": 6,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 8
+        },
+        "Corners": {
+            "team1": 11,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 11,
+            "team2": 14
+        },
+        "Goals Prevented": {
+            "team1": 7,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 64,
+            "team2": 79
+        },
+        "Pressures": {
+            "team1": 313,
+            "team2": 316
+        }
+    },
+    "3857287": {
+        "Possession": {
+            "team1": 49,
+            "team2": 38
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 10,
+            "team2": 6
+        },
+        "Attempts On Target": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Left Channel": {
+            "team1": 13,
+            "team2": 15
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 14,
+            "team2": 19
+        },
+        "Receptions b/w Lines": {
+            "team1": 4,
+            "team2": 8
+        },
+        "Line Breaks": {
+            "team1": 88,
+            "team2": 96
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 7,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 528,
+            "team2": 528
+        },
+        "Passes completed": {
+            "team1": 459,
+            "team2": 340
+        },
+        "Crosses": {
+            "team1": 16,
+            "team2": 19
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 10,
+            "team2": 9
+        },
+        "Corners": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 10,
+            "team2": 8
+        },
+        "Goals Prevented": {
+            "team1": 6,
+            "team2": 10
+        },
+        "Turnovers": {
+            "team1": 65,
+            "team2": 54
+        },
+        "Pressures": {
+            "team1": 240,
+            "team2": 231
+        }
+    },
+    "3857298": {
+        "Possession": {
+            "team1": 55,
+            "team2": 35
+        },
+        "Goals": {
+            "team1": 3,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 11,
+            "team2": 8
+        },
+        "Attempts On Target": {
+            "team1": 5,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 24,
+            "team2": 7
+        },
+        "Central Channel": {
+            "team1": 7,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 10,
+            "team2": 3
+        },
+        "Receptions b/w Lines": {
+            "team1": 20,
+            "team2": 5
+        },
+        "Line Breaks": {
+            "team1": 149,
+            "team2": 88
+        },
+        "Defensive Line Breaks": {
+            "team1": 18,
+            "team2": 4
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 4
+        },
+
+        "Fouls Against": {
+            "team1": 14,
+            "team2": 19
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 636,
+            "team2": 636
+        },
+        "Passes completed": {
+            "team1": 573,
+            "team2": 326
+        },
+        "Crosses": {
+            "team1": 17,
+            "team2": 12
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 13,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 19,
+            "team2": 15
+        },
+        "Goals Prevented": {
+            "team1": 8,
+            "team2": 11
+        },
+        "Turnovers": {
+            "team1": 70,
+            "team2": 82
+        },
+        "Pressures": {
+            "team1": 286,
+            "team2": 326
+        }
+    },
+    "3857258": {
+        "Possession": {
+            "team1": 53,
+            "team2": 34
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 24,
+            "team2": 4
+        },
+        "Attempts On Target": {
+            "team1": 10,
+            "team2": 0
+        },
+        "Left Channel": {
+            "team1": 14,
+            "team2": 10
+        },
+        "Central Channel": {
+            "team1": 10,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 20,
+            "team2": 7
+        },
+        "Receptions b/w Lines": {
+            "team1": 11,
+            "team2": 4
+        },
+        "Line Breaks": {
+            "team1": 134,
+            "team2": 91
+        },
+        "Defensive Line Breaks": {
+            "team1": 10,
+            "team2": 6
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 7,
+            "team2": 12
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 585,
+            "team2": 585
+        },
+        "Passes completed": {
+            "team1": 526,
+            "team2": 341
+        },
+        "Crosses": {
+            "team1": 19,
+            "team2": 13
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 6
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 4
+        },
+        "Free Kicks": {
+            "team1": 12,
+            "team2": 8
+        },
+        "Goals Prevented": {
+            "team1": 4,
+            "team2": 24
+        },
+        "Turnovers": {
+            "team1": 72,
+            "team2": 71
+        },
+        "Pressures": {
+            "team1": 236,
+            "team2": 338
+        }
+    },
+    "3857273": {
+        "Possession": {
+            "team1": 51,
+            "team2": 33
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 10,
+            "team2": 21
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 6
+        },
+        "Left Channel": {
+            "team1": 18,
+            "team2": 7
+        },
+        "Central Channel": {
+            "team1": 8,
+            "team2": 7
+        },
+        "Right Channel": {
+            "team1": 13,
+            "team2": 7
+        },
+        "Receptions b/w Lines": {
+            "team1": 13,
+            "team2": 9
+        },
+        "Line Breaks": {
+            "team1": 129,
+            "team2": 92
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 10
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Fouls Against": {
+            "team1": 9,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 508,
+            "team2": 508
+        },
+        "Passes completed": {
+            "team1": 413,
+            "team2": 202
+        },
+        "Crosses": {
+            "team1": 20,
+            "team2": 26
+        },
+        "Crosses Completed": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 13,
+            "team2": 5
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 7
+        },
+        "Free Kicks": {
+            "team1": 12,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 21,
+            "team2": 9
+        },
+        "Turnovers": {
+            "team1": 89,
+            "team2": 84
+        },
+        "Pressures": {
+            "team1": 161,
+            "team2": 276
+        }
+    },
+    "3857301": {
+        "Possession": {
+            "team1": 42,
+            "team2": 48
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 3
+        },
+        "Total Attempts": {
+            "team1": 10,
+            "team2": 12
+        },
+        "Attempts On Target": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 7,
+            "team2": 26
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 18
+        },
+        "Receptions b/w Lines": {
+            "team1": 9,
+            "team2": 12
+        },
+        "Line Breaks": {
+            "team1": 117,
+            "team2": 113
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 9
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 7,
+            "team2": 12
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 424,
+            "team2": 424
+        },
+        "Passes completed": {
+            "team1": 353,
+            "team2": 445
+        },
+        "Crosses": {
+            "team1": 18,
+            "team2": 20
+        },
+        "Crosses Completed": {
+            "team1": 5,
+            "team2": 6
+        },
+        "Swithes": {
+            "team1": 12,
+            "team2": 9
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 7
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 12,
+            "team2": 11
+        },
+        "Turnovers": {
+            "team1": 67,
+            "team2": 67
+        },
+        "Pressures": {
+            "team1": 308,
+            "team2": 232
+        }
+    },
+    "3857274": {
+        "Possession": {
+            "team1": 48,
+            "team2": 39
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 2,
+            "team2": 13
+        },
+        "Attempts On Target": {
+            "team1": 1,
+            "team2": 5
+        },
+        "Left Channel": {
+            "team1": 8,
+            "team2": 10
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 4
+        },
+        "Receptions b/w Lines": {
+            "team1": 4,
+            "team2": 12
+        },
+        "Line Breaks": {
+            "team1": 115,
+            "team2": 84
+        },
+        "Defensive Line Breaks": {
+            "team1": 4,
+            "team2": 10
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 15,
+            "team2": 12
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 524,
+            "team2": 524
+        },
+        "Passes completed": {
+            "team1": 451,
+            "team2": 345
+        },
+        "Crosses": {
+            "team1": 8,
+            "team2": 22
+        },
+        "Crosses Completed": {
+            "team1": 0,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 16,
+            "team2": 16
+        },
+        "Goals Prevented": {
+            "team1": 14,
+            "team2": 2
+        },
+        "Turnovers": {
+            "team1": 85,
+            "team2": 52
+        },
+        "Pressures": {
+            "team1": 254,
+            "team2": 279
+        }
+    },
+    "3857272": {
+        "Possession": {
+            "team1": 51,
+            "team2": 40
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 11,
+            "team2": 12
+        },
+        "Central Channel": {
+            "team1": 7,
+            "team2": 1
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 8
+        },
+        "Receptions b/w Lines": {
+            "team1": 10,
+            "team2": 6
+        },
+        "Line Breaks": {
+            "team1": 147,
+            "team2": 88
+        },
+        "Defensive Line Breaks": {
+            "team1": 10,
+            "team2": 5
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 9,
+            "team2": 15
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 550,
+            "team2": 550
+        },
+        "Passes completed": {
+            "team1": 488,
+            "team2": 368
+        },
+        "Crosses": {
+            "team1": 13,
+            "team2": 16
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 3,
+            "team2": 7
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 10
+        },
+        "Goals Prevented": {
+            "team1": 10,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 52,
+            "team2": 61
+        },
+        "Pressures": {
+            "team1": 266,
+            "team2": 350
+        }
+    },
+    "3857288": {
+        "Possession": {
+            "team1": 50,
+            "team2": 31
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 13,
+            "team2": 8
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 12,
+            "team2": 11
+        },
+        "Central Channel": {
+            "team1": 7,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 19
+        },
+        "Receptions b/w Lines": {
+            "team1": 13,
+            "team2": 8
+        },
+        "Line Breaks": {
+            "team1": 109,
+            "team2": 91
+        },
+        "Defensive Line Breaks": {
+            "team1": 11,
+            "team2": 10
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 16,
+            "team2": 15
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 501,
+            "team2": 501
+        },
+        "Passes completed": {
+            "team1": 396,
+            "team2": 239
+        },
+        "Crosses": {
+            "team1": 23,
+            "team2": 23
+        },
+        "Crosses Completed": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 19
+        },
+        "Goals Prevented": {
+            "team1": 9,
+            "team2": 13
+        },
+        "Turnovers": {
+            "team1": 81,
+            "team2": 88
+        },
+        "Pressures": {
+            "team1": 217,
+            "team2": 273
+        }
+    },
+    "3857297": {
+        "Possession": {
+            "team1": 30,
+            "team2": 57
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 16
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 5
+        },
+        "Left Channel": {
+            "team1": 7,
+            "team2": 21
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Right Channel": {
+            "team1": 13,
+            "team2": 15
+        },
+        "Receptions b/w Lines": {
+            "team1": 14,
+            "team2": 22
+        },
+        "Line Breaks": {
+            "team1": 84,
+            "team2": 153
+        },
+        "Defensive Line Breaks": {
+            "team1": 12,
+            "team2": 19
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 18,
+            "team2": 15
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 303,
+            "team2": 303
+        },
+        "Passes completed": {
+            "team1": 236,
+            "team2": 494
+        },
+        "Crosses": {
+            "team1": 19,
+            "team2": 24
+        },
+        "Crosses Completed": {
+            "team1": 8,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 13
+        },
+        "Corners": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 17
+        },
+        "Goals Prevented": {
+            "team1": 16,
+            "team2": 9
+        },
+        "Turnovers": {
+            "team1": 69,
+            "team2": 53
+        },
+        "Pressures": {
+            "team1": 329,
+            "team2": 173
+        }
+    },
+    "3857266": {
+        "Possession": {
+            "team1": 44,
+            "team2": 44
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 21,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 15,
+            "team2": 13
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 13,
+            "team2": 25
+        },
+        "Receptions b/w Lines": {
+            "team1": 11,
+            "team2": 17
+        },
+        "Line Breaks": {
+            "team1": 105,
+            "team2": 132
+        },
+        "Defensive Line Breaks": {
+            "team1": 12,
+            "team2": 15
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 4,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 503,
+            "team2": 503
+        },
+        "Passes completed": {
+            "team1": 437,
+            "team2": 473
+        },
+        "Crosses": {
+            "team1": 23,
+            "team2": 18
+        },
+        "Crosses Completed": {
+            "team1": 12,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 7,
+            "team2": 14
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 4
+        },
+        "Free Kicks": {
+            "team1": 10,
+            "team2": 5
+        },
+        "Goals Prevented": {
+            "team1": 10,
+            "team2": 21
+        },
+        "Turnovers": {
+            "team1": 79,
+            "team2": 61
+        },
+        "Pressures": {
+            "team1": 269,
+            "team2": 282
+        }
+    },
+    "3857289": {
+        "Possession": {
+            "team1": 50,
+            "team2": 36
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Attempts On Target": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 10,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Right Channel": {
+            "team1": 12,
+            "team2": 11
+        },
+        "Receptions b/w Lines": {
+            "team1": 2,
+            "team2": 5
+        },
+        "Line Breaks": {
+            "team1": 100,
+            "team2": 66
+        },
+        "Defensive Line Breaks": {
+            "team1": 5,
+            "team2": 5
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 4
+        },
+
+        "Fouls Against": {
+            "team1": 15,
+            "team2": 19
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 533,
+            "team2": 533
+        },
+        "Passes completed": {
+            "team1": 464,
+            "team2": 287
+        },
+        "Crosses": {
+            "team1": 14,
+            "team2": 17
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 3,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 23,
+            "team2": 17
+        },
+        "Goals Prevented": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Turnovers": {
+            "team1": 63,
+            "team2": 79
+        },
+        "Pressures": {
+            "team1": 220,
+            "team2": 327
+        }
+    },
+    "3857295": {
+        "Possession": {
+            "team1": 48,
+            "team2": 39
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 4
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 28,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 9,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 10,
+            "team2": 4
+        },
+        "Receptions b/w Lines": {
+            "team1": 5,
+            "team2": 1
+        },
+        "Line Breaks": {
+            "team1": 95,
+            "team2": 85
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 0
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 22,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 575,
+            "team2": 575
+        },
+        "Passes completed": {
+            "team1": 510,
+            "team2": 371
+        },
+        "Crosses": {
+            "team1": 17,
+            "team2": 5
+        },
+        "Crosses Completed": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Swithes": {
+            "team1": 2,
+            "team2": 7
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 0
+        },
+        "Free Kicks": {
+            "team1": 11,
+            "team2": 22
+        },
+        "Goals Prevented": {
+            "team1": 4,
+            "team2": 14
+        },
+        "Turnovers": {
+            "team1": 47,
+            "team2": 66
+        },
+        "Pressures": {
+            "team1": 300,
+            "team2": 294
+        }
+    },
+    "3857283": {
+        "Possession": {
+            "team1": 56,
+            "team2": 32
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 10,
+            "team2": 11
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 12,
+            "team2": 10
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 2
+        },
+        "Right Channel": {
+            "team1": 9,
+            "team2": 11
+        },
+        "Receptions b/w Lines": {
+            "team1": 4,
+            "team2": 7
+        },
+        "Line Breaks": {
+            "team1": 104,
+            "team2": 89
+        },
+        "Defensive Line Breaks": {
+            "team1": 3,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 10,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 671,
+            "team2": 671
+        },
+        "Passes completed": {
+            "team1": 598,
+            "team2": 275
+        },
+        "Crosses": {
+            "team1": 19,
+            "team2": 9
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 10
+        },
+        "Corners": {
+            "team1": 9,
+            "team2": 1
+        },
+        "Free Kicks": {
+            "team1": 17,
+            "team2": 13
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 10
+        },
+        "Turnovers": {
+            "team1": 38,
+            "team2": 78
+        },
+        "Pressures": {
+            "team1": 194,
+            "team2": 360
+        }
+    },
+    "3857281": {
+        "Possession": {
+            "team1": 41,
+            "team2": 46
+        },
+        "Goals": {
+            "team1": 4,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 13,
+            "team2": 9
+        },
+        "Attempts On Target": {
+            "team1": 10,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 7,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 3,
+            "team2": 13
+        },
+        "Receptions b/w Lines": {
+            "team1": 15,
+            "team2": 6
+        },
+        "Line Breaks": {
+            "team1": 124,
+            "team2": 134
+        },
+        "Defensive Line Breaks": {
+            "team1": 10,
+            "team2": 6
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 13,
+            "team2": 5
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 462,
+            "team2": 462
+        },
+        "Passes completed": {
+            "team1": 391,
+            "team2": 434
+        },
+        "Crosses": {
+            "team1": 22,
+            "team2": 15
+        },
+        "Crosses Completed": {
+            "team1": 5,
+            "team2": 5
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 7
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 8,
+            "team2": 14
+        },
+        "Goals Prevented": {
+            "team1": 9,
+            "team2": 13
+        },
+        "Turnovers": {
+            "team1": 87,
+            "team2": 72
+        },
+        "Pressures": {
+            "team1": 347,
+            "team2": 316
+        }
+    },
+    "3857263": {
+        "Possession": {
+            "team1": 56,
+            "team2": 33
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 7,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 12,
+            "team2": 3
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 5,
+            "team2": 8
+        },
+        "Receptions b/w Lines": {
+            "team1": 16,
+            "team2": 9
+        },
+        "Line Breaks": {
+            "team1": 146,
+            "team2": 83
+        },
+        "Defensive Line Breaks": {
+            "team1": 13,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 13,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 5
+        },
+        "Passes": {
+            "team1": 647,
+            "team2": 647
+        },
+        "Passes completed": {
+            "team1": 565,
+            "team2": 281
+        },
+        "Crosses": {
+            "team1": 9,
+            "team2": 13
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 16,
+            "team2": 15
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 7
+        },
+        "Turnovers": {
+            "team1": 79,
+            "team2": 101
+        },
+        "Pressures": {
+            "team1": 275,
+            "team2": 387
+        }
+    },
+    "3857259": {
+        "Possession": {
+            "team1": 38,
+            "team2": 49
+        },
+        "Goals": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Total Attempts": {
+            "team1": 13,
+            "team2": 16
+        },
+        "Attempts On Target": {
+            "team1": 8,
+            "team2": 6
+        },
+        "Left Channel": {
+            "team1": 5,
+            "team2": 20
+        },
+        "Central Channel": {
+            "team1": 5,
+            "team2": 16
+        },
+        "Right Channel": {
+            "team1": 15,
+            "team2": 12
+        },
+        "Receptions b/w Lines": {
+            "team1": 15,
+            "team2": 11
+        },
+        "Line Breaks": {
+            "team1": 78,
+            "team2": 122
+        },
+        "Defensive Line Breaks": {
+            "team1": 12,
+            "team2": 12
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 8,
+            "team2": 13
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 364,
+            "team2": 364
+        },
+        "Passes completed": {
+            "team1": 271,
+            "team2": 433
+        },
+        "Crosses": {
+            "team1": 20,
+            "team2": 23
+        },
+        "Crosses Completed": {
+            "team1": 1,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 5
+        },
+        "Corners": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 17,
+            "team2": 8
+        },
+        "Goals Prevented": {
+            "team1": 16,
+            "team2": 13
+        },
+        "Turnovers": {
+            "team1": 83,
+            "team2": 81
+        },
+        "Pressures": {
+            "team1": 285,
+            "team2": 234
+        }
+    },
+    "3857299": {
+        "Possession": {
+            "team1": 53,
+            "team2": 32
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 3
+        },
+        "Total Attempts": {
+            "team1": 21,
+            "team2": 8
+        },
+        "Attempts On Target": {
+            "team1": 6,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 22,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 6,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 27,
+            "team2": 7
+        },
+        "Receptions b/w Lines": {
+            "team1": 19,
+            "team2": 5
+        },
+        "Line Breaks": {
+            "team1": 148,
+            "team2": 66
+        },
+        "Defensive Line Breaks": {
+            "team1": 19,
+            "team2": 5
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 13,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 540,
+            "team2": 540
+        },
+        "Passes completed": {
+            "team1": 477,
+            "team2": 260
+        },
+        "Crosses": {
+            "team1": 46,
+            "team2": 13
+        },
+        "Crosses Completed": {
+            "team1": 16,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 16,
+            "team2": 3
+        },
+        "Corners": {
+            "team1": 12,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 10,
+            "team2": 14
+        },
+        "Goals Prevented": {
+            "team1": 8,
+            "team2": 21
+        },
+        "Turnovers": {
+            "team1": 53,
+            "team2": 75
+        },
+        "Pressures": {
+            "team1": 220,
+            "team2": 324
+        }
+    },
+    "3857269": {
+        "Possession": {
+            "team1": 51,
+            "team2": 40
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 9,
+            "team2": 4
+        },
+        "Attempts On Target": {
+            "team1": 5,
+            "team2": 0
+        },
+        "Left Channel": {
+            "team1": 19,
+            "team2": 7
+        },
+        "Central Channel": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 10
+        },
+        "Receptions b/w Lines": {
+            "team1": 16,
+            "team2": 4
+        },
+        "Line Breaks": {
+            "team1": 114,
+            "team2": 100
+        },
+        "Defensive Line Breaks": {
+            "team1": 11,
+            "team2": 4
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 10,
+            "team2": 17
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 565,
+            "team2": 565
+        },
+        "Passes completed": {
+            "team1": 498,
+            "team2": 415
+        },
+        "Crosses": {
+            "team1": 26,
+            "team2": 11
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 8,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 18,
+            "team2": 13
+        },
+        "Goals Prevented": {
+            "team1": 4,
+            "team2": 9
+        },
+        "Turnovers": {
+            "team1": 85,
+            "team2": 80
+        },
+        "Pressures": {
+            "team1": 282,
+            "team2": 344
+        }
+    },
+    "3857270": {
+        "Possession": {
+            "team1": 53,
+            "team2": 35
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 17,
+            "team2": 13
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 9
+        },
+        "Receptions b/w Lines": {
+            "team1": 11,
+            "team2": 6
+        },
+        "Line Breaks": {
+            "team1": 112,
+            "team2": 86
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 11
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 10,
+            "team2": 16
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 596,
+            "team2": 596
+        },
+        "Passes completed": {
+            "team1": 517,
+            "team2": 306
+        },
+        "Crosses": {
+            "team1": 16,
+            "team2": 18
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 13
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 14
+        },
+        "Turnovers": {
+            "team1": 68,
+            "team2": 81
+        },
+        "Pressures": {
+            "team1": 226,
+            "team2": 362
+        }
+    },
+    "3857294": {
+        "Possession": {
+            "team1": 54,
+            "team2": 38
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 13,
+            "team2": 6
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 25,
+            "team2": 10
+        },
+        "Central Channel": {
+            "team1": 8,
+            "team2": 5
+        },
+        "Right Channel": {
+            "team1": 21,
+            "team2": 6
+        },
+        "Receptions b/w Lines": {
+            "team1": 16,
+            "team2": 11
+        },
+        "Line Breaks": {
+            "team1": 165,
+            "team2": 107
+        },
+        "Defensive Line Breaks": {
+            "team1": 10,
+            "team2": 10
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 19,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 795,
+            "team2": 795
+        },
+        "Passes completed": {
+            "team1": 740,
+            "team2": 394
+        },
+        "Crosses": {
+            "team1": 11,
+            "team2": 16
+        },
+        "Crosses Completed": {
+            "team1": 1,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 1,
+            "team2": 10
+        },
+        "Corners": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 9,
+            "team2": 24
+        },
+        "Goals Prevented": {
+            "team1": 5,
+            "team2": 14
+        },
+        "Turnovers": {
+            "team1": 62,
+            "team2": 52
+        },
+        "Pressures": {
+            "team1": 319,
+            "team2": 322
+        }
+    },
+    "3857267": {
+        "Possession": {
+            "team1": 51,
+            "team2": 32
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 15
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Left Channel": {
+            "team1": 13,
+            "team2": 14
+        },
+        "Central Channel": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Right Channel": {
+            "team1": 6,
+            "team2": 10
+        },
+        "Receptions b/w Lines": {
+            "team1": 2,
+            "team2": 12
+        },
+        "Line Breaks": {
+            "team1": 77,
+            "team2": 84
+        },
+        "Defensive Line Breaks": {
+            "team1": 2,
+            "team2": 12
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 23,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 432,
+            "team2": 432
+        },
+        "Passes completed": {
+            "team1": 353,
+            "team2": 198
+        },
+        "Crosses": {
+            "team1": 19,
+            "team2": 20
+        },
+        "Crosses Completed": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Swithes": {
+            "team1": 1,
+            "team2": 6
+        },
+        "Corners": {
+            "team1": 3,
+            "team2": 6
+        },
+        "Free Kicks": {
+            "team1": 14,
+            "team2": 22
+        },
+        "Goals Prevented": {
+            "team1": 15,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 59,
+            "team2": 62
+        },
+        "Pressures": {
+            "team1": 190,
+            "team2": 243
+        }
+    },
+    "3857261": {
+        "Possession": {
+            "team1": 33,
+            "team2": 58
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 3
+        },
+        "Total Attempts": {
+            "team1": 7,
+            "team2": 17
+        },
+        "Attempts On Target": {
+            "team1": 1,
+            "team2": 7
+        },
+        "Left Channel": {
+            "team1": 7,
+            "team2": 10
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 7
+        },
+        "Right Channel": {
+            "team1": 4,
+            "team2": 9
+        },
+        "Receptions b/w Lines": {
+            "team1": 1,
+            "team2": 9
+        },
+        "Line Breaks": {
+            "team1": 55,
+            "team2": 131
+        },
+        "Defensive Line Breaks": {
+            "team1": 1,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 16,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 325,
+            "team2": 325
+        },
+        "Passes completed": {
+            "team1": 261,
+            "team2": 529
+        },
+        "Crosses": {
+            "team1": 4,
+            "team2": 17
+        },
+        "Crosses Completed": {
+            "team1": 1,
+            "team2": 7
+        },
+        "Swithes": {
+            "team1": 1,
+            "team2": 6
+        },
+        "Corners": {
+            "team1": 1,
+            "team2": 6
+        },
+        "Free Kicks": {
+            "team1": 10,
+            "team2": 17
+        },
+        "Goals Prevented": {
+            "team1": 17,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 49,
+            "team2": 56
+        },
+        "Pressures": {
+            "team1": 328,
+            "team2": 167
+        }
+    },
+    "3857278": {
+        "Possession": {
+            "team1": 42,
+            "team2": 45
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 6,
+            "team2": 12
+        },
+        "Attempts On Target": {
+            "team1": 2,
+            "team2": 5
+        },
+        "Left Channel": {
+            "team1": 12,
+            "team2": 11
+        },
+        "Central Channel": {
+            "team1": 5,
+            "team2": 7
+        },
+        "Right Channel": {
+            "team1": 4,
+            "team2": 17
+        },
+        "Receptions b/w Lines": {
+            "team1": 9,
+            "team2": 17
+        },
+        "Line Breaks": {
+            "team1": 102,
+            "team2": 133
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 16
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 13,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 463,
+            "team2": 463
+        },
+        "Passes completed": {
+            "team1": 379,
+            "team2": 413
+        },
+        "Crosses": {
+            "team1": 18,
+            "team2": 22
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 11,
+            "team2": 8
+        },
+        "Corners": {
+            "team1": 1,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 11,
+            "team2": 15
+        },
+        "Goals Prevented": {
+            "team1": 13,
+            "team2": 6
+        },
+        "Turnovers": {
+            "team1": 63,
+            "team2": 74
+        },
+        "Pressures": {
+            "team1": 295,
+            "team2": 302
+        }
+    },
+    "3857257": {
+        "Possession": {
+            "team1": 24,
+            "team2": 60
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 14
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 9,
+            "team2": 27
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 19
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 17
+        },
+        "Line Breaks": {
+            "team1": 81,
+            "team2": 172
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 17
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 11,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 286,
+            "team2": 286
+        },
+        "Passes completed": {
+            "team1": 187,
+            "team2": 567
+        },
+        "Crosses": {
+            "team1": 11,
+            "team2": 32
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 5
+        },
+        "Swithes": {
+            "team1": 1,
+            "team2": 9
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 6
+        },
+        "Free Kicks": {
+            "team1": 13,
+            "team2": 12
+        },
+        "Goals Prevented": {
+            "team1": 14,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 90,
+            "team2": 74
+        },
+        "Pressures": {
+            "team1": 341,
+            "team2": 161
+        }
+    },
+    "3857275": {
+        "Possession": {
+            "team1": 30,
+            "team2": 56
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 5,
+            "team2": 9
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 11,
+            "team2": 14
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Right Channel": {
+            "team1": 10,
+            "team2": 21
+        },
+        "Receptions b/w Lines": {
+            "team1": 9,
+            "team2": 11
+        },
+        "Line Breaks": {
+            "team1": 96,
+            "team2": 99
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 4
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 14,
+            "team2": 6
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 328,
+            "team2": 328
+        },
+        "Passes completed": {
+            "team1": 266,
+            "team2": 566
+        },
+        "Crosses": {
+            "team1": 27,
+            "team2": 20
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Corners": {
+            "team1": 7,
+            "team2": 8
+        },
+        "Free Kicks": {
+            "team1": 8,
+            "team2": 17
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 6
+        },
+        "Turnovers": {
+            "team1": 68,
+            "team2": 80
+        },
+        "Pressures": {
+            "team1": 400,
+            "team2": 202
+        }
+    },
+    "3857264": {
+        "Possession": {
+            "team1": 24,
+            "team2": 67
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 4,
+            "team2": 25
+        },
+        "Attempts On Target": {
+            "team1": 0,
+            "team2": 13
+        },
+        "Left Channel": {
+            "team1": 6,
+            "team2": 25
+        },
+        "Central Channel": {
+            "team1": 1,
+            "team2": 7
+        },
+        "Right Channel": {
+            "team1": 3,
+            "team2": 26
+        },
+        "Receptions b/w Lines": {
+            "team1": 2,
+            "team2": 21
+        },
+        "Line Breaks": {
+            "team1": 66,
+            "team2": 188
+        },
+        "Defensive Line Breaks": {
+            "team1": 1,
+            "team2": 19
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 6,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 321,
+            "team2": 321
+        },
+        "Passes completed": {
+            "team1": 261,
+            "team2": 814
+        },
+        "Crosses": {
+            "team1": 5,
+            "team2": 22
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 5
+        },
+        "Swithes": {
+            "team1": 8,
+            "team2": 11
+        },
+        "Corners": {
+            "team1": 1,
+            "team2": 9
+        },
+        "Free Kicks": {
+            "team1": 12,
+            "team2": 5
+        },
+        "Goals Prevented": {
+            "team1": 25,
+            "team2": 4
+        },
+        "Turnovers": {
+            "team1": 67,
+            "team2": 48
+        },
+        "Pressures": {
+            "team1": 438,
+            "team2": 141
+        }
+    },
+    "3857260": {
+        "Possession": {
+            "team1": 29,
+            "team2": 55
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 10,
+            "team2": 25
+        },
+        "Attempts On Target": {
+            "team1": 2,
+            "team2": 10
+        },
+        "Left Channel": {
+            "team1": 5,
+            "team2": 16
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 16
+        },
+        "Receptions b/w Lines": {
+            "team1": 6,
+            "team2": 17
+        },
+        "Line Breaks": {
+            "team1": 86,
+            "team2": 121
+        },
+        "Defensive Line Breaks": {
+            "team1": 5,
+            "team2": 16
+        },
+        "Yellow Cards": {
+            "team1": 6,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 20,
+            "team2": 18
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 6
+        },
+        "Passes": {
+            "team1": 297,
+            "team2": 297
+        },
+        "Passes completed": {
+            "team1": 197,
+            "team2": 336
+        },
+        "Crosses": {
+            "team1": 9,
+            "team2": 34
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 6
+        },
+        "Swithes": {
+            "team1": 1,
+            "team2": 4
+        },
+        "Corners": {
+            "team1": 1,
+            "team2": 8
+        },
+        "Free Kicks": {
+            "team1": 23,
+            "team2": 22
+        },
+        "Goals Prevented": {
+            "team1": 26,
+            "team2": 10
+        },
+        "Turnovers": {
+            "team1": 82,
+            "team2": 76
+        },
+        "Pressures": {
+            "team1": 269,
+            "team2": 229
+        }
+    },
+    "3857296": {
+        "Possession": {
+            "team1": 43,
+            "team2": 47
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 11,
+            "team2": 15
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 23,
+            "team2": 18
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 7
+        },
+        "Right Channel": {
+            "team1": 12,
+            "team2": 9
+        },
+        "Receptions b/w Lines": {
+            "team1": 17,
+            "team2": 12
+        },
+        "Line Breaks": {
+            "team1": 159,
+            "team2": 115
+        },
+        "Defensive Line Breaks": {
+            "team1": 17,
+            "team2": 14
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 7,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 578,
+            "team2": 578
+        },
+        "Passes completed": {
+            "team1": 504,
+            "team2": 531
+        },
+        "Crosses": {
+            "team1": 24,
+            "team2": 24
+        },
+        "Crosses Completed": {
+            "team1": 6,
+            "team2": 8
+        },
+        "Swithes": {
+            "team1": 18,
+            "team2": 4
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Free Kicks": {
+            "team1": 9,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 16,
+            "team2": 11
+        },
+        "Turnovers": {
+            "team1": 70,
+            "team2": 68
+        },
+        "Pressures": {
+            "team1": 328,
+            "team2": 346
+        }
+    },
+    "3857276": {
+        "Possession": {
+            "team1": 52,
+            "team2": 36
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 5,
+            "team2": 7
+        },
+        "Attempts On Target": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 22,
+            "team2": 6
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 11,
+            "team2": 5
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 8
+        },
+        "Line Breaks": {
+            "team1": 91,
+            "team2": 85
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 4,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 14,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 539,
+            "team2": 539
+        },
+        "Passes completed": {
+            "team1": 472,
+            "team2": 308
+        },
+        "Crosses": {
+            "team1": 20,
+            "team2": 7
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 1
+        },
+        "Swithes": {
+            "team1": 3,
+            "team2": 14
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 18,
+            "team2": 18
+        },
+        "Goals Prevented": {
+            "team1": 7,
+            "team2": 7
+        },
+        "Turnovers": {
+            "team1": 66,
+            "team2": 72
+        },
+        "Pressures": {
+            "team1": 224,
+            "team2": 324
+        }
+    },
+    "3857255": {
+        "Possession": {
+            "team1": 14,
+            "team2": 78
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 6,
+            "team2": 14
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 5
+        },
+        "Left Channel": {
+            "team1": 2,
+            "team2": 30
+        },
+        "Central Channel": {
+            "team1": 1,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 5,
+            "team2": 22
+        },
+        "Receptions b/w Lines": {
+            "team1": 10,
+            "team2": 17
+        },
+        "Line Breaks": {
+            "team1": 57,
+            "team2": 140
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 15
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 9,
+            "team2": 6
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 225,
+            "team2": 225
+        },
+        "Passes completed": {
+            "team1": 167,
+            "team2": 992
+        },
+        "Crosses": {
+            "team1": 6,
+            "team2": 20
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 2,
+            "team2": 9
+        },
+        "Corners": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 8,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 14,
+            "team2": 6
+        },
+        "Turnovers": {
+            "team1": 85,
+            "team2": 49
+        },
+        "Pressures": {
+            "team1": 637,
+            "team2": 150
+        }
+    },
+    "3857292": {
+        "Possession": {
+            "team1": 27,
+            "team2": 60
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 32
+        },
+        "Attempts On Target": {
+            "team1": 6,
+            "team2": 11
+        },
+        "Left Channel": {
+            "team1": 7,
+            "team2": 29
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 13
+        },
+        "Right Channel": {
+            "team1": 1,
+            "team2": 15
+        },
+        "Receptions b/w Lines": {
+            "team1": 10,
+            "team2": 28
+        },
+        "Line Breaks": {
+            "team1": 103,
+            "team2": 159
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 25
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 3,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 347,
+            "team2": 347
+        },
+        "Passes completed": {
+            "team1": 269,
+            "team2": 661
+        },
+        "Crosses": {
+            "team1": 12,
+            "team2": 38
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 12
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Corners": {
+            "team1": 1,
+            "team2": 14
+        },
+        "Free Kicks": {
+            "team1": 12,
+            "team2": 7
+        },
+        "Goals Prevented": {
+            "team1": 32,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 79,
+            "team2": 77
+        },
+        "Pressures": {
+            "team1": 378,
+            "team2": 230
+        }
+    },
+    "3857293": {
+        "Possession": {
+            "team1": 46,
+            "team2": 39
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 9,
+            "team2": 12
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 7
+        },
+        "Left Channel": {
+            "team1": 12,
+            "team2": 7
+        },
+        "Central Channel": {
+            "team1": 8,
+            "team2": 13
+        },
+        "Right Channel": {
+            "team1": 12,
+            "team2": 17
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 14
+        },
+        "Line Breaks": {
+            "team1": 111,
+            "team2": 124
+        },
+        "Defensive Line Breaks": {
+            "team1": 5,
+            "team2": 14
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 5
+        },
+
+        "Fouls Against": {
+            "team1": 18,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 460,
+            "team2": 460
+        },
+        "Passes completed": {
+            "team1": 377,
+            "team2": 361
+        },
+        "Crosses": {
+            "team1": 20,
+            "team2": 15
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 3,
+            "team2": 6
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 12,
+            "team2": 20
+        },
+        "Goals Prevented": {
+            "team1": 12,
+            "team2": 9
+        },
+        "Turnovers": {
+            "team1": 92,
+            "team2": 84
+        },
+        "Pressures": {
+            "team1": 248,
+            "team2": 293
+        }
+    },
+    "3857262": {
+        "Possession": {
+            "team1": 34,
+            "team2": 55
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 12,
+            "team2": 12
+        },
+        "Attempts On Target": {
+            "team1": 6,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 9,
+            "team2": 23
+        },
+        "Central Channel": {
+            "team1": 5,
+            "team2": 5
+        },
+        "Right Channel": {
+            "team1": 7,
+            "team2": 12
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 12
+        },
+        "Line Breaks": {
+            "team1": 87,
+            "team2": 123
+        },
+        "Defensive Line Breaks": {
+            "team1": 6,
+            "team2": 12
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 9,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 5
+        },
+        "Passes": {
+            "team1": 359,
+            "team2": 359
+        },
+        "Passes completed": {
+            "team1": 304,
+            "team2": 541
+        },
+        "Crosses": {
+            "team1": 13,
+            "team2": 22
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 6
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 11
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 10
+        },
+        "Goals Prevented": {
+            "team1": 14,
+            "team2": 12
+        },
+        "Turnovers": {
+            "team1": 54,
+            "team2": 50
+        },
+        "Pressures": {
+            "team1": 359,
+            "team2": 233
+        }
+    },
+    "3857256": {
+        "Possession": {
+            "team1": 45,
+            "team2": 41
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 3
+        },
+        "Total Attempts": {
+            "team1": 11,
+            "team2": 14
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 7
+        },
+        "Left Channel": {
+            "team1": 17,
+            "team2": 14
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 10,
+            "team2": 12
+        },
+        "Receptions b/w Lines": {
+            "team1": 7,
+            "team2": 10
+        },
+        "Line Breaks": {
+            "team1": 95,
+            "team2": 95
+        },
+        "Defensive Line Breaks": {
+            "team1": 5,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 7,
+            "team2": 4
+        },
+
+        "Fouls Against": {
+            "team1": 18,
+            "team2": 13
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 476,
+            "team2": 476
+        },
+        "Passes completed": {
+            "team1": 390,
+            "team2": 325
+        },
+        "Crosses": {
+            "team1": 23,
+            "team2": 13
+        },
+        "Crosses Completed": {
+            "team1": 6,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 7,
+            "team2": 9
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Free Kicks": {
+            "team1": 14,
+            "team2": 18
+        },
+        "Goals Prevented": {
+            "team1": 14,
+            "team2": 10
+        },
+        "Turnovers": {
+            "team1": 74,
+            "team2": 82
+        },
+        "Pressures": {
+            "team1": 276,
+            "team2": 253
+        }
+    },
+    "3857280": {
+        "Possession": {
+            "team1": 31,
+            "team2": 56
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 7,
+            "team2": 19
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 6
+        },
+        "Left Channel": {
+            "team1": 8,
+            "team2": 20
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 9,
+            "team2": 13
+        },
+        "Receptions b/w Lines": {
+            "team1": 9,
+            "team2": 9
+        },
+        "Line Breaks": {
+            "team1": 92,
+            "team2": 145
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 9
+        },
+        "Yellow Cards": {
+            "team1": 5,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 14,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 295,
+            "team2": 295
+        },
+        "Passes completed": {
+            "team1": 239,
+            "team2": 491
+        },
+        "Crosses": {
+            "team1": 12,
+            "team2": 28
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 8
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Corners": {
+            "team1": 3,
+            "team2": 11
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 14
+        },
+        "Goals Prevented": {
+            "team1": 20,
+            "team2": 7
+        },
+        "Turnovers": {
+            "team1": 78,
+            "team2": 54
+        },
+        "Pressures": {
+            "team1": 321,
+            "team2": 226
+        }
+    },
+    "3869117": {
+        "Possession": {
+            "team1": 33,
+            "team2": 54
+        },
+        "Goals": {
+            "team1": 3,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 11,
+            "team2": 18
+        },
+        "Attempts On Target": {
+            "team1": 6,
+            "team2": 7
+        },
+        "Left Channel": {
+            "team1": 4,
+            "team2": 13
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Right Channel": {
+            "team1": 10,
+            "team2": 15
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 17
+        },
+        "Line Breaks": {
+            "team1": 95,
+            "team2": 126
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 17
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 0
+        },
+
+        "Fouls Against": {
+            "team1": 10,
+            "team2": 5
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 396,
+            "team2": 396
+        },
+        "Passes completed": {
+            "team1": 320,
+            "team2": 487
+        },
+        "Crosses": {
+            "team1": 13,
+            "team2": 27
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Corners": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 8,
+            "team2": 10
+        },
+        "Goals Prevented": {
+            "team1": 18,
+            "team2": 13
+        },
+        "Turnovers": {
+            "team1": 101,
+            "team2": 77
+        },
+        "Pressures": {
+            "team1": 325,
+            "team2": 256
+        }
+    },
+    "3869151": {
+        "Possession": {
+            "team1": 53,
+            "team2": 35
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 5
+        },
+        "Attempts On Target": {
+            "team1": 5,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 15,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 11,
+            "team2": 2
+        },
+        "Right Channel": {
+            "team1": 17,
+            "team2": 9
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 8
+        },
+        "Line Breaks": {
+            "team1": 135,
+            "team2": 92
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 8,
+            "team2": 15
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 711,
+            "team2": 711
+        },
+        "Passes completed": {
+            "team1": 635,
+            "team2": 381
+        },
+        "Crosses": {
+            "team1": 6,
+            "team2": 15
+        },
+        "Crosses Completed": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 8
+        },
+        "Corners": {
+            "team1": 1,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 15,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 5,
+            "team2": 14
+        },
+        "Turnovers": {
+            "team1": 67,
+            "team2": 73
+        },
+        "Pressures": {
+            "team1": 240,
+            "team2": 453
+        }
+    },
+    "3869152": {
+        "Possession": {
+            "team1": 48,
+            "team2": 42
+        },
+        "Goals": {
+            "team1": 3,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 16,
+            "team2": 11
+        },
+        "Attempts On Target": {
+            "team1": 7,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 15,
+            "team2": 15
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Right Channel": {
+            "team1": 19,
+            "team2": 10
+        },
+        "Receptions b/w Lines": {
+            "team1": 14,
+            "team2": 11
+        },
+        "Line Breaks": {
+            "team1": 111,
+            "team2": 97
+        },
+        "Defensive Line Breaks": {
+            "team1": 14,
+            "team2": 12
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 10,
+            "team2": 8
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 1
+        },
+        "Passes": {
+            "team1": 540,
+            "team2": 540
+        },
+        "Passes completed": {
+            "team1": 481,
+            "team2": 391
+        },
+        "Crosses": {
+            "team1": 27,
+            "team2": 18
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 7
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 5
+        },
+        "Corners": {
+            "team1": 7,
+            "team2": 1
+        },
+        "Free Kicks": {
+            "team1": 8,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 16
+        },
+        "Turnovers": {
+            "team1": 71,
+            "team2": 64
+        },
+        "Pressures": {
+            "team1": 220,
+            "team2": 297
+        }
+    },
+    "3869118": {
+        "Possession": {
+            "team1": 54,
+            "team2": 35
+        },
+        "Goals": {
+            "team1": 3,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 8,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 17,
+            "team2": 8
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Right Channel": {
+            "team1": 13,
+            "team2": 9
+        },
+        "Receptions b/w Lines": {
+            "team1": 11,
+            "team2": 7
+        },
+        "Line Breaks": {
+            "team1": 129,
+            "team2": 86
+        },
+        "Defensive Line Breaks": {
+            "team1": 12,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 16,
+            "team2": 12
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 597,
+            "team2": 597
+        },
+        "Passes completed": {
+            "team1": 523,
+            "team2": 320
+        },
+        "Crosses": {
+            "team1": 19,
+            "team2": 13
+        },
+        "Crosses Completed": {
+            "team1": 7,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 11,
+            "team2": 7
+        },
+        "Corners": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 12,
+            "team2": 16
+        },
+        "Goals Prevented": {
+            "team1": 10,
+            "team2": 8
+        },
+        "Turnovers": {
+            "team1": 60,
+            "team2": 74
+        },
+        "Pressures": {
+            "team1": 230,
+            "team2": 339
+        }
+    },
+    "3869219": {
+        "Possession": {
+            "team1": 35,
+            "team2": 51
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 12,
+            "team2": 16
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Left Channel": {
+            "team1": 14,
+            "team2": 18
+        },
+        "Central Channel": {
+            "team1": 6,
+            "team2": 9
+        },
+        "Right Channel": {
+            "team1": 18,
+            "team2": 28
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 14
+        },
+        "Line Breaks": {
+            "team1": 116,
+            "team2": 132
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 11
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 13,
+            "team2": 16
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 532,
+            "team2": 532
+        },
+        "Passes completed": {
+            "team1": 414,
+            "team2": 624
+        },
+        "Crosses": {
+            "team1": 28,
+            "team2": 35
+        },
+        "Crosses Completed": {
+            "team1": 6,
+            "team2": 9
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 7
+        },
+        "Corners": {
+            "team1": 8,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 16,
+            "team2": 16
+        },
+        "Goals Prevented": {
+            "team1": 18,
+            "team2": 11
+        },
+        "Turnovers": {
+            "team1": 100,
+            "team2": 100
+        },
+        "Pressures": {
+            "team1": 405,
+            "team2": 308
+        }
+    },
+    "3869253": {
+        "Possession": {
+            "team1": 47,
+            "team2": 44
+        },
+        "Goals": {
+            "team1": 4,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 18,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 9,
+            "team2": 6
+        },
+        "Left Channel": {
+            "team1": 20,
+            "team2": 19
+        },
+        "Central Channel": {
+            "team1": 5,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 15,
+            "team2": 21
+        },
+        "Receptions b/w Lines": {
+            "team1": 17,
+            "team2": 15
+        },
+        "Line Breaks": {
+            "team1": 145,
+            "team2": 137
+        },
+        "Defensive Line Breaks": {
+            "team1": 17,
+            "team2": 14
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 8,
+            "team2": 13
+        },
+        "Offsides": {
+            "team1": 0,
+            "team2": 5
+        },
+        "Passes": {
+            "team1": 616,
+            "team2": 616
+        },
+        "Passes completed": {
+            "team1": 556,
+            "team2": 486
+        },
+        "Crosses": {
+            "team1": 18,
+            "team2": 14
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 1
+        },
+        "Swithes": {
+            "team1": 9,
+            "team2": 13
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Free Kicks": {
+            "team1": 16,
+            "team2": 8
+        },
+        "Goals Prevented": {
+            "team1": 10,
+            "team2": 18
+        },
+        "Turnovers": {
+            "team1": 73,
+            "team2": 81
+        },
+        "Pressures": {
+            "team1": 310,
+            "team2": 329
+        }
+    },
+    "3869220": {
+        "Possession": {
+            "team1": 22,
+            "team2": 68
+        },
+        "Goals": {
+            "team1": 0,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 6,
+            "team2": 13
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 11,
+            "team2": 36
+        },
+        "Central Channel": {
+            "team1": 0,
+            "team2": 8
+        },
+        "Right Channel": {
+            "team1": 8,
+            "team2": 29
+        },
+        "Receptions b/w Lines": {
+            "team1": 10,
+            "team2": 27
+        },
+        "Line Breaks": {
+            "team1": 86,
+            "team2": 158
+        },
+        "Defensive Line Breaks": {
+            "team1": 9,
+            "team2": 25
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 15,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 323,
+            "team2": 323
+        },
+        "Passes completed": {
+            "team1": 229,
+            "team2": 967
+        },
+        "Crosses": {
+            "team1": 10,
+            "team2": 27
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 8
+        },
+        "Corners": {
+            "team1": 0,
+            "team2": 8
+        },
+        "Free Kicks": {
+            "team1": 18,
+            "team2": 20
+        },
+        "Goals Prevented": {
+            "team1": 14,
+            "team2": 6
+        },
+        "Turnovers": {
+            "team1": 100,
+            "team2": 66
+        },
+        "Pressures": {
+            "team1": 573,
+            "team2": 217
+        }
+    },
+    "3869254": {
+        "Possession": {
+            "team1": 43,
+            "team2": 48
+        },
+        "Goals": {
+            "team1": 6,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 9,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 8,
+            "team2": 18
+        },
+        "Central Channel": {
+            "team1": 6,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 8,
+            "team2": 8
+        },
+        "Receptions b/w Lines": {
+            "team1": 9,
+            "team2": 8
+        },
+        "Line Breaks": {
+            "team1": 98,
+            "team2": 107
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 7
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 12,
+            "team2": 10
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 461,
+            "team2": 461
+        },
+        "Passes completed": {
+            "team1": 392,
+            "team2": 436
+        },
+        "Crosses": {
+            "team1": 14,
+            "team2": 15
+        },
+        "Crosses Completed": {
+            "team1": 6,
+            "team2": 1
+        },
+        "Swithes": {
+            "team1": 7,
+            "team2": 3
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 6
+        },
+        "Free Kicks": {
+            "team1": 13,
+            "team2": 15
+        },
+        "Goals Prevented": {
+            "team1": 10,
+            "team2": 15
+        },
+        "Turnovers": {
+            "team1": 71,
+            "team2": 54
+        },
+        "Pressures": {
+            "team1": 357,
+            "team2": 240
+        }
+    },
+    "3869420": {
+        "Possession": {
+            "team1": 45,
+            "team2": 45
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 9,
+            "team2": 20
+        },
+        "Attempts On Target": {
+            "team1": 1,
+            "team2": 11
+        },
+        "Left Channel": {
+            "team1": 19,
+            "team2": 25
+        },
+        "Central Channel": {
+            "team1": 2,
+            "team2": 15
+        },
+        "Right Channel": {
+            "team1": 27,
+            "team2": 20
+        },
+        "Receptions b/w Lines": {
+            "team1": 10,
+            "team2": 11
+        },
+        "Line Breaks": {
+            "team1": 180,
+            "team2": 121
+        },
+        "Defensive Line Breaks": {
+            "team1": 10,
+            "team2": 10
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 22,
+            "team2": 24
+        },
+        "Offsides": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 715,
+            "team2": 715
+        },
+        "Passes completed": {
+            "team1": 632,
+            "team2": 625
+        },
+        "Crosses": {
+            "team1": 22,
+            "team2": 25
+        },
+        "Crosses Completed": {
+            "team1": 5,
+            "team2": 6
+        },
+        "Swithes": {
+            "team1": 13,
+            "team2": 4
+        },
+        "Corners": {
+            "team1": 3,
+            "team2": 7
+        },
+        "Free Kicks": {
+            "team1": 27,
+            "team2": 25
+        },
+        "Goals Prevented": {
+            "team1": 21,
+            "team2": 9
+        },
+        "Turnovers": {
+            "team1": 95,
+            "team2": 77
+        },
+        "Pressures": {
+            "team1": 365,
+            "team2": 423
+        }
+    },
+    "3869321": {
+        "Possession": {
+            "team1": 45,
+            "team2": 44
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 5,
+            "team2": 15
+        },
+        "Attempts On Target": {
+            "team1": 2,
+            "team2": 6
+        },
+        "Left Channel": {
+            "team1": 11,
+            "team2": 7
+        },
+        "Central Channel": {
+            "team1": 9,
+            "team2": 13
+        },
+        "Right Channel": {
+            "team1": 15,
+            "team2": 17
+        },
+        "Receptions b/w Lines": {
+            "team1": 5,
+            "team2": 7
+        },
+        "Line Breaks": {
+            "team1": 130,
+            "team2": 122
+        },
+        "Defensive Line Breaks": {
+            "team1": 6,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 8,
+            "team2": 8
+        },
+
+        "Fouls Against": {
+            "team1": 30,
+            "team2": 18
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 651,
+            "team2": 651
+        },
+        "Passes completed": {
+            "team1": 557,
+            "team2": 511
+        },
+        "Crosses": {
+            "team1": 22,
+            "team2": 16
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 4
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 8
+        },
+        "Free Kicks": {
+            "team1": 20,
+            "team2": 30
+        },
+        "Goals Prevented": {
+            "team1": 15,
+            "team2": 5
+        },
+        "Turnovers": {
+            "team1": 91,
+            "team2": 79
+        },
+        "Pressures": {
+            "team1": 401,
+            "team2": 323
+        }
+    },
+    "3869486": {
+        "Possession": {
+            "team1": 22,
+            "team2": 65
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 9,
+            "team2": 11
+        },
+        "Attempts On Target": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 4,
+            "team2": 27
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 8
+        },
+        "Right Channel": {
+            "team1": 3,
+            "team2": 20
+        },
+        "Receptions b/w Lines": {
+            "team1": 6,
+            "team2": 19
+        },
+        "Line Breaks": {
+            "team1": 63,
+            "team2": 118
+        },
+        "Defensive Line Breaks": {
+            "team1": 3,
+            "team2": 18
+        },
+        "Yellow Cards": {
+            "team1": 3,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 15,
+            "team2": 9
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 229,
+            "team2": 229
+        },
+        "Passes completed": {
+            "team1": 171,
+            "team2": 592
+        },
+        "Crosses": {
+            "team1": 8,
+            "team2": 33
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 7
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 9
+        },
+        "Corners": {
+            "team1": 3,
+            "team2": 9
+        },
+        "Free Kicks": {
+            "team1": 11,
+            "team2": 17
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 10
+        },
+        "Turnovers": {
+            "team1": 88,
+            "team2": 44
+        },
+        "Pressures": {
+            "team1": 373,
+            "team2": 165
+        }
+    },
+    "3869354": {
+        "Possession": {
+            "team1": 54,
+            "team2": 36
+        },
+        "Goals": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 9
+        },
+        "Attempts On Target": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Left Channel": {
+            "team1": 17,
+            "team2": 15
+        },
+        "Central Channel": {
+            "team1": 4,
+            "team2": 7
+        },
+        "Right Channel": {
+            "team1": 10,
+            "team2": 13
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 7
+        },
+        "Line Breaks": {
+            "team1": 108,
+            "team2": 87
+        },
+        "Defensive Line Breaks": {
+            "team1": 10,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 1,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 10,
+            "team2": 14
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 508,
+            "team2": 508
+        },
+        "Passes completed": {
+            "team1": 453,
+            "team2": 310
+        },
+        "Crosses": {
+            "team1": 22,
+            "team2": 13
+        },
+        "Crosses Completed": {
+            "team1": 5,
+            "team2": 6
+        },
+        "Swithes": {
+            "team1": 5,
+            "team2": 2
+        },
+        "Corners": {
+            "team1": 5,
+            "team2": 2
+        },
+        "Free Kicks": {
+            "team1": 14,
+            "team2": 11
+        },
+        "Goals Prevented": {
+            "team1": 9,
+            "team2": 15
+        },
+        "Turnovers": {
+            "team1": 49,
+            "team2": 54
+        },
+        "Pressures": {
+            "team1": 193,
+            "team2": 308
+        }
+    },
+    "3869519": {
+        "Possession": {
+            "team1": 34,
+            "team2": 54
+        },
+        "Goals": {
+            "team1": 3,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 10,
+            "team2": 12
+        },
+        "Attempts On Target": {
+            "team1": 7,
+            "team2": 3
+        },
+        "Left Channel": {
+            "team1": 8,
+            "team2": 18
+        },
+        "Central Channel": {
+            "team1": 7,
+            "team2": 7
+        },
+        "Right Channel": {
+            "team1": 2,
+            "team2": 8
+        },
+        "Receptions b/w Lines": {
+            "team1": 7,
+            "team2": 3
+        },
+        "Line Breaks": {
+            "team1": 91,
+            "team2": 129
+        },
+        "Defensive Line Breaks": {
+            "team1": 7,
+            "team2": 1
+        },
+        "Yellow Cards": {
+            "team1": 2,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 15,
+            "team2": 8
+        },
+        "Offsides": {
+            "team1": 1,
+            "team2": 0
+        },
+        "Passes": {
+            "team1": 408,
+            "team2": 408
+        },
+        "Passes completed": {
+            "team1": 344,
+            "team2": 551
+        },
+        "Crosses": {
+            "team1": 8,
+            "team2": 20
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Swithes": {
+            "team1": 4,
+            "team2": 8
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 4
+        },
+        "Free Kicks": {
+            "team1": 6,
+            "team2": 16
+        },
+        "Goals Prevented": {
+            "team1": 12,
+            "team2": 10
+        },
+        "Turnovers": {
+            "team1": 85,
+            "team2": 63
+        },
+        "Pressures": {
+            "team1": 321,
+            "team2": 260
+        }
+    },
+    "3869552": {
+        "Possession": {
+            "team1": 34,
+            "team2": 55
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 0
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 13
+        },
+        "Attempts On Target": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Left Channel": {
+            "team1": 9,
+            "team2": 10
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 6
+        },
+        "Right Channel": {
+            "team1": 6,
+            "team2": 19
+        },
+        "Receptions b/w Lines": {
+            "team1": 8,
+            "team2": 15
+        },
+        "Line Breaks": {
+            "team1": 85,
+            "team2": 95
+        },
+        "Defensive Line Breaks": {
+            "team1": 8,
+            "team2": 11
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 1
+        },
+
+        "Fouls Against": {
+            "team1": 11,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Passes": {
+            "team1": 358,
+            "team2": 358
+        },
+        "Passes completed": {
+            "team1": 307,
+            "team2": 518
+        },
+        "Crosses": {
+            "team1": 5,
+            "team2": 22
+        },
+        "Crosses Completed": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Swithes": {
+            "team1": 1,
+            "team2": 8
+        },
+        "Corners": {
+            "team1": 2,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 13,
+            "team2": 15
+        },
+        "Goals Prevented": {
+            "team1": 13,
+            "team2": 14
+        },
+        "Turnovers": {
+            "team1": 72,
+            "team2": 47
+        },
+        "Pressures": {
+            "team1": 328,
+            "team2": 218
+        }
+    },
+    "3869684": {
+        "Possession": {
+            "team1": 45,
+            "team2": 45
+        },
+        "Goals": {
+            "team1": 2,
+            "team2": 1
+        },
+        "Total Attempts": {
+            "team1": 14,
+            "team2": 7
+        },
+        "Attempts On Target": {
+            "team1": 4,
+            "team2": 2
+        },
+        "Left Channel": {
+            "team1": 20,
+            "team2": 13
+        },
+        "Central Channel": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Right Channel": {
+            "team1": 7,
+            "team2": 16
+        },
+        "Receptions b/w Lines": {
+            "team1": 15,
+            "team2": 10
+        },
+        "Line Breaks": {
+            "team1": 114,
+            "team2": 97
+        },
+        "Defensive Line Breaks": {
+            "team1": 12,
+            "team2": 8
+        },
+        "Yellow Cards": {
+            "team1": 0,
+            "team2": 2
+        },
+
+        "Fouls Against": {
+            "team1": 13,
+            "team2": 11
+        },
+        "Offsides": {
+            "team1": 2,
+            "team2": 2
+        },
+        "Passes": {
+            "team1": 491,
+            "team2": 491
+        },
+        "Passes completed": {
+            "team1": 430,
+            "team2": 428
+        },
+        "Crosses": {
+            "team1": 21,
+            "team2": 20
+        },
+        "Crosses Completed": {
+            "team1": 3,
+            "team2": 5
+        },
+        "Swithes": {
+            "team1": 7,
+            "team2": 12
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 3
+        },
+        "Free Kicks": {
+            "team1": 13,
+            "team2": 15
+        },
+        "Goals Prevented": {
+            "team1": 7,
+            "team2": 14
+        },
+        "Turnovers": {
+            "team1": 75,
+            "team2": 72
+        },
+        "Pressures": {
+            "team1": 288,
+            "team2": 277
+        }
+    },
+    "3869685": {
+        "Possession": {
+            "team1": 46,
+            "team2": 40
+        },
+        "Goals": {
+            "team1": 3,
+            "team2": 3
+        },
+        "Total Attempts": {
+            "team1": 21,
+            "team2": 10
+        },
+        "Attempts On Target": {
+            "team1": 9,
+            "team2": 5
+        },
+        "Left Channel": {
+            "team1": 13,
+            "team2": 15
+        },
+        "Central Channel": {
+            "team1": 8,
+            "team2": 5
+        },
+        "Right Channel": {
+            "team1": 9,
+            "team2": 12
+        },
+        "Receptions b/w Lines": {
+            "team1": 43,
+            "team2": 10
+        },
+        "Line Breaks": {
+            "team1": 151,
+            "team2": 99
+        },
+        "Defensive Line Breaks": {
+            "team1": 23,
+            "team2": 9
+        },
+        "Yellow Cards": {
+            "team1": 4,
+            "team2": 3
+        },
+
+        "Fouls Against": {
+            "team1": 26,
+            "team2": 19
+        },
+        "Offsides": {
+            "team1": 4,
+            "team2": 4
+        },
+        "Passes": {
+            "team1": 648,
+            "team2": 648
+        },
+        "Passes completed": {
+            "team1": 544,
+            "team2": 419
+        },
+        "Crosses": {
+            "team1": 20,
+            "team2": 24
+        },
+        "Crosses Completed": {
+            "team1": 4,
+            "team2": 3
+        },
+        "Swithes": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Corners": {
+            "team1": 6,
+            "team2": 5
+        },
+        "Free Kicks": {
+            "team1": 22,
+            "team2": 28
+        },
+        "Goals Prevented": {
+            "team1": 11,
+            "team2": 21
+        },
+        "Turnovers": {
+            "team1": 87,
+            "team2": 104
+        },
+        "Pressures": {
+            "team1": 280,
+            "team2": 409
+        }
+    }
+}

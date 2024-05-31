@@ -5,7 +5,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase
 import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
 
 export function showTVProviders() {
-  console.log("Function called"); // Check if the function is being called
 
   // Clear existing images
   const imageContainer = document.getElementById('imageContainer');
@@ -14,6 +13,7 @@ export function showTVProviders() {
   // Get the selected country from the dropdown
   const countrySelect = document.getElementById('countrySelect');
   const selectedCountry = countrySelect.value;
+  localStorage.setItem('tvProviderNation', selectedCountry)
 
   console.log("Selected country:", selectedCountry); // Check the selected country
 
@@ -49,64 +49,79 @@ document.addEventListener('DOMContentLoaded', () => {
   const countrySelect = document.getElementById('countrySelect');
   countrySelect.addEventListener('change', showTVProviders);
 
-  
+
 });
 // Function to fetch and display images based on the selected country
 
 let data = [];
+let groupBy = 'group'; // Initial grouping method
+
 const app = initializeApp(firebaseConfig);
-const db = getDatabase();
+const db = getDatabase(app);
 
 const fetchData = async () => {
-  const starCountRef = ref(db, 'WorldCupGamesData/matches');
-  onValue(starCountRef, (snapshot) => {
+  const wcMatchData = ref(db, 'WorldCupGamesData/matches');
+  onValue(wcMatchData, (snapshot) => {
     data = snapshot.val();
     console.log(data);
-    let cardSpace = document.getElementById('cardelement');
-    cardSpace.innerHTML = ''; // Clear the existing content
-
-    // Group the games by their 'group' attribute
-    const groupedGames = groupByGroup(data);
-
-    // Iterate over each group
-    for (const [groupName, games] of Object.entries(groupedGames)) {
-      // Create a group header
-      const groupHeader = document.createElement('p');
-      groupHeader.classList.add('group-header');
-      groupHeader.textContent = `${groupName}`;
-      cardSpace.appendChild(groupHeader);
-
-      // Create a container for the grid
-      const gridContainer = document.createElement('div');
-      gridContainer.classList.add('grid-container');
-
-      // Split the games into chunks of 6 (assuming 6 games per group)
-      const gamesChunks = chunk(games, 6);
-
-      // Create the grid rows
-      for (const gamesChunk of gamesChunks) {
-        const gridRow = document.createElement('div');
-        gridRow.classList.add('grid-row');
-
-        // Create the cards for each game in the chunk
-        for (const game of gamesChunk) {
-          const scoreCard = createScoreCard(game);
-          gridRow.appendChild(scoreCard);
-        }
-
-        gridContainer.appendChild(gridRow);
-      }
-
-      cardSpace.appendChild(gridContainer);
-
-      // Add an image after the grid
-      const imageElement = document.createElement('img');
-      imageElement.src = '../Assets/scoreandfixrures/adidas-schedule-banner-kvg-1160x68.webp'; // Replace with the actual image URL
-      imageElement.classList.add('group-image');
-      cardSpace.appendChild(imageElement);
-    }
+    renderCards(); // Call renderCards instead of repeating the rendering logic
   });
 };
+
+// Function to render cards based on the current grouping method
+const renderCards = () => {
+  let cardSpace = document.getElementById('cardelement');
+  cardSpace.innerHTML = ''; // Clear the existing content
+
+  const groupedGames = groupBy === 'group' ? groupByGroup(data) : groupByDate(data);
+
+  // Iterate over each group or date
+  for (const [key, games] of Object.entries(groupedGames)) {
+    // Create a group/date header
+    const header = document.createElement('p');
+    header.classList.add('group-header');
+    header.textContent = `${key}`;
+    cardSpace.appendChild(header);
+
+    // Create a container for the grid
+    const gridContainer = document.createElement('div');
+    gridContainer.classList.add('grid-container');
+
+    // Split the games into chunks of 6 (assuming 6 games per group)
+    const gamesChunks = chunk(games, 6);
+
+    // Create the grid rows
+    for (const gamesChunk of gamesChunks) {
+      const gridRow = document.createElement('div');
+      gridRow.classList.add('grid-row');
+
+      // Create the cards for each game in the chunk
+      for (const game of gamesChunk) {
+        const scoreCard = createScoreCard(game);
+        gridRow.appendChild(scoreCard);
+      }
+
+      gridContainer.appendChild(gridRow);
+    }
+
+    cardSpace.appendChild(gridContainer);
+
+    // Add an image after the grid
+    const imageElement = document.createElement('img');
+    imageElement.src = '../Assets/scoreandfixrures/adidas-schedule-banner-kvg-1160x68.webp'; // Replace with the actual image URL
+    imageElement.classList.add('group-image');
+    cardSpace.appendChild(imageElement);
+  }
+};
+
+// Event listener to toggle the grouping method
+document.getElementById('sort-button').addEventListener('click', () => {
+  groupBy = groupBy === 'group' ? 'date' : 'group';
+  renderCards();
+});
+
+// Call fetchData initially to load the data and render the cards
+fetchData();
 
 // Helper function to group the games by their 'group' attribute
 function groupByGroup(games) {
@@ -121,41 +136,54 @@ function groupByGroup(games) {
   return groupedGames;
 }
 
+// Helper function to group the games by their 'date' attribute
+function groupByDate(games) {
+  const groupedGames = {};
+  for (const game of games) {
+    const date = game.date;
+    if (!groupedGames[date]) {
+      groupedGames[date] = [];
+    }
+    groupedGames[date].push(game);
+  }
+  return groupedGames;
+}
+
 // Helper function to create a score card element
 function createScoreCard(game) {
-
-  const team1 = game.team1
-  const newTeam1 = team1.replace(/(\w+)\s+(\w+)/g, "$1-$2")
-
-  const team2 = game.team2
-  const newTeam2 = team2.replace(/(\w+)\s+(\w+)/g, "$1-$2")
-
-
   const scoreCard = document.createElement('div');
   scoreCard.className = "card product-card";
   scoreCard.innerHTML = `
-    <div class="card">
-      <div class="card-body d-flex flex-column">
-        <div class="d-flex justify-content-between game-date">
-          <span class="">${game.date}</span>
-          <span>21:30</span>
+        <div class="card">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between game-date">
+                    <span class="">${game.date}</span>
+                    <span>21:30</span>
+                </div>
+                <div class="d-flex">
+                    <div class="w-95">
+                        <div class="d-flex justify-content-between">
+                            <div class="team-name"><i class ="flag flag-${game.team1.toLowerCase().replace(/(\w+)\s+(\w+)/g, '$1-$2')}"></i>${game.team1}</div>
+                            <div><b>${game.team1score}</b></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="team-name"><i class ="flag flag-${game.team2.toLowerCase().replace(/(\w+)\s+(\w+)/g, '$1-$2')}"></i>${game.team2}</div>
+                            <div><b>${game.team2score}</b></div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center full-time">FT</div>
+                </div>
+            </div>
         </div>
-        <div class="d-flex">
-          <div class = "w-95">
-          <div class="d-flex justify-content-between">
-            <div class = "team-name"><i class="flag flag-${newTeam1.toLowerCase()}"></i>${game.team1}</div>
-            <div><b>${game.team1score}</b></div>
-          </div>
-          <div class="d-flex justify-content-between">
-            <div class = "team-name"><i class="flag flag-${newTeam2.toLowerCase()}"></i>${game.team2}</div>
-            <div><b>${game.team2score}</b></div>
-          </div>
-          </div>
-          <div class = "d-flex align-items-center justify-content-center full-time">FT</div>
-        </div>
-      </div>
-    </div>
-  `;
+    `;
+
+  scoreCard.addEventListener('click', () => {
+    // Store the match_id in local storage
+    localStorage.setItem('selectedMatchId', game.match_id);
+    // Redirect to another page
+    window.location.href = '../HTML/statspage.html';
+  });
+
   return scoreCard;
 }
 
@@ -167,5 +195,3 @@ function chunk(array, chunkSize) {
   }
   return chunks;
 }
-
-fetchData();

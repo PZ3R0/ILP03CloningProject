@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../Style/header.css">
-    <link rel="stylesheet" href="../Style/scoresandfixtures.css">
+    <link rel="stylesheet" href="../Style/statspage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="
@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
-    <script src="../Scripts/scoreandfixtures.js" type="module"></script>
+    <script src="../Scripts/statspage.js" type="module"></script>
 </head>
 
 <body>
@@ -65,51 +65,46 @@
             </div>
         </div>
     </nav>
-    <div class="d-flex justify-content-between navbar-adjacent-header ps-4">
-        <div class="d-flex">
-            <div class="page-name d-flex align-items-center fs-4 ms-5">SCORES & FIXTURES | ADIDAS LOGO</div>
+    <div class="navbar-adjacent-header d-flex flex-column">
+        <div id="matchDetailsContainer"></div>
+
+        <div class="d-flex justify-content-center align-items-center w-100 mt-4" id="tv-providers">WHERE TO WATCH :
         </div>
-        <div>
-            <img src="../Assets/scoreandfixrures/FWC-2022-Header-pattern-Web.webp" alt="">
+        <i class="d-flex justify-content-center fa-solid fa-chevron-down mt-3"></i>
+        <hr style="border: 1px solid;  border-color: #FF0E56;">
+        <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center highlights-button"><i class="fa-solid fa-play pt-1"></i>
+                <div class="ms-2">HIGHLIGHTS</div>
+            </div>
+
         </div>
+        <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-around my-5">
+                <div class="choose-item" id="lineup" onclick="">LINEUP</div>
+                <div class="choose-item ms-4" id="stats">STATS</div>
+                <div class="choose-item ms-4" id="table">TABLE</div>
+            </div>
+        </div>
+
     </div>
 
     <div class="main-content">
-        <div class="body-inside-main-content w-80">
-            <div class="d-flex justify-content-between pt-5 pe-4">
-                <div class="d-flex">
-                    <p>Where to watch:</p>
-                    <!-- HTML -->
-                    <select name="" id="countrySelect" class="ms-2 wtw-dropdown">
-                        <option value="" selected>Select a country</option>
-                        <option value="Indian">India</option>
-                        <option value="German">Germany</option>
-                        <option value="Spanish">Spain</option>
-                    </select>
-
-                </div>
-                <div class="d-flex">
-                    <div class="sort-button-wtw me-2"><i class="fa-solid fa-sort" id="sort-button"></i>
-                    </div>
-                    <div class="sort-button-wtw"><i class="fa-solid fa-bars" id="filter-button"></i></div>
-                </div>
-            </div>
-            <div class="mb-3"><i>Match time shown in local time</i></div>
-            <div id="tvProviderContainer" class="tv-provider-container">
-
-            </div>
-            <div id="imageContainer"></div>
-            <div id="cardelement" class=""></div>
+        <div class="container pt-5s">
+            <div id="tablesContainer"></div>
+            <div id = "team-names" class="d-flex justify-content-between"></div>
+            <div id="progress-bar-container"></div>
         </div>
-
     </div>
-    <!-- MDB -->
+
+
+
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
 
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
-    <script src="../Scripts/scoreandfixtures.js" type="module" async defer></script>
+    <script src="../Scripts/statspage.js" type="module" async defer></script>
+    <script src="../Scripts/cardtest.js"></script>
 </body>
 
 </html>
