@@ -276,9 +276,40 @@
         
     ],
 
-    "highScoringClubs" : {
-
-    },
+    "highScoringClubs" : [
+        {
+            "image" : "https://digitalhub.fifa.com/transform/c652a7a7-5671-4fe7-8218-8de6cc79cc20/ALL_GOALS_MILAN?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "AC Milan | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/540cf2ca-e946-45f3-8a61-2f772dfbc8ba/ALL_GOALS_ATLETICO?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Atletico Madrid | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/94c17c62-9196-4a43-a250-b2fd953ffdf6/ALL_GOALS_CHELSEA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Chelsea | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/8c524a55-4d99-4f22-9abe-f1faed271ce2/ALL_GOALS_BARCELONA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "FC Barcelona | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/33ebda40-40c2-42ea-8af4-d6ad078fc913/ALL_GOALS_MAN_CITY?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Manchester City | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/b92548ec-09b6-4ae2-a0a2-f41af7ff31d5/ALL_GOALS_MAN_UTD?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Manchester United | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/136d7812-9ef7-4b7d-abf1-1a1a3ec8a4f5/ALL_GOALS_PSG?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Paris Saint-Germain | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/222fc5fc-c4dc-46e7-9f0a-5cc7b42efc83/ALL_GOALS_TOTTENHAM?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Tottenham Hotspur | All Goals | FIFA World Cup Qatar 2022™"
+        }
+    ],
 
     "watchGols" : {
 
