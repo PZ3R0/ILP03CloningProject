@@ -311,9 +311,52 @@
         }
     ],
 
-    "watchGols" : {
-
-    },
+    "watchGoals" : [
+        {
+            "image" : "https://digitalhub.fifa.com/transform/e4b8c64b-b5c9-4d62-bc62-20b8e039d953/2022_FWC_GOLDEN_BOOT_MBAPPE?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Kylian Mbappé | Golden Boot Award | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/967a85cb-d023-4a42-b81a-4bde52551c0c/2022_FWC_SILVER_BOOT_MESSI_V2?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Lionel Messi | Silver Boot Award | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/8e0c2fc3-70d7-47f0-9056-fc720dd258e2/2022_FWC_BRONZE_BOOT_GIROUD?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Olivier Giroud | Bronze Boot Award | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/ece70269-48ab-4180-9f67-10bb482552d9/ALL_GOALS_JULIAN_ALVAREZ_4?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Julian Alvarez | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/30c6e8d2-4021-4fe8-8e09-370f48be051d/Ramos-All-Goals?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Gonçalo Ramos | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/e9600a22-afcc-4938-8e1f-7a18fe092e7f/ALL_GOALS_ALVARO_MORATA?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Alvaro Morata | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/ff97d567-5892-4721-8e22-a102bd076678/Marcus-Rashford_All_Goals?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Marcus Rashford | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/a85ec596-b1ea-466c-ab10-acaa593066d3/Enner-Valencia_All_Goals?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Enner Valencia | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/7c4e870c-f4a3-44b6-ac35-9b7de70e6444/All-Goals-Saka?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Bukayo Saka | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/45316339-9851-44fb-9ed1-931452bf6014/All-Goals-Richarlison?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Richarlison | All Goals | FIFA World Cup Qatar 2022™"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/94e76232-eab0-4aa3-abbf-87d546e3d0df/Cody-Gakpo_All_Goals?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Cody Gakpo | All Goals | FIFA World Cup Qatar 2022™"
+        }
+    ],
 
     "finals" : {
 
