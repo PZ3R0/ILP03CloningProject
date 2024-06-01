@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA World Cup Final</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="part1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+        <script>
+             var firebaseConfig = {
+                apiKey: "AIzaSyD7xlna3AUhnAQ-ucRWyJkbP-LHgwiXHq0",
+                authDomain: "fifa2022-1f27d.firebaseapp.com",
+                databaseURL: "https://fifa2022-1f27d-default-rtdb.firebaseio.com",
+                projectId: "fifa2022-1f27d",
+                storageBucket: "fifa2022-1f27d.appspot.com",
+                messagingSenderId: "970965857308",
+                appId: "1:970965857308:web:a9ce29ca1d40e299b81bd9",
+                measurementId: "G-L1LYGV2C12"
+};
+        </script>
+ 
+   
+</head>
+<body>
+    
+    <main>
+        <div class="part1">
+            <div class="d-flex justify-content-between p-0">
+                <div class="col-4 p-0">
+                    <div class="col d-flex justify-content-between p-0">
+                        <div class="d-flex py-5 px-3 text-light">
+                            <h3>Matches</h3>
+                        </div>
+                            <img class="imagewatch"src="https://digitalhub.fifa.com/transform/98c884b5-8a99-4897-a50a-703275f553c6/Hublot-Final" alt="watch">
+                    </div>
+                    <div class="container mt-4 ">
+        
+                    </div>
+    
+                </div>
+                
+                <div class="carousel-container m-0 p-0 col-8">
+                    <div class=" p-0 main-content active">
+                        <img src="assests/Argentinacuplift.jpg" alt="Main content image 1">
+                        <div class="overlay-text">
+                            <p>NOW AVAILABLE</p>
+                            <p>Goals, highlights and more</p>
+                        </div>
+                    </div>
+                    <div class=" p-0 main-content">
+                        <img src="assests/D1.jpg" alt="Main content image 2">
+                        <div class="overlay-text">
+                            <p>NOW AVAILABLE</p>
+                            <p>Highlights and updates</p>
+                        </div>
+                    </div>
+                    <div class="p-0 main-content">
+                        <img src="assests/D2.jpg" alt="Main content image 3">
+                        <div class="overlay-text">
+                            <p>NOW AVAILABLE</p>
+                            <p>Exclusive content</p>
+                        </div>
+                    </div>
+            
+                    <button class="carousel-button prev" id="prevButton" onclick="changeImage(-1)"><i id="left" class="fa-solid  fas fa-angle-left"></i></button>
+                    <button class="carousel-button next" id="nextButton" onclick="changeImage(1)"><i id="right" class="fa-solid  fas fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section class="container py-5">
+            <div class="carousel-head d-flex column justify-content-between p-0">
+                <div>
+                    <p class="fw-bold">THE BEST OF QATAR 2022</p>
+                </div>
+                <div class="px-3">
+                    <a href="" id="seeall">SEE ALL</a>
+                </div>
+            </div>
+            <div class="wrapper-small">
+                <i id="left1" class="fa-solid fas fa-angle-left"></i>
+                <ul class="carousel-small" id="carousel-content1">
+                    <!-- Dynamic content will be inserted here -->
+                </ul>
+                <i id="right1" class="fa-solid fas fa-angle-right"></i>
+            </div>
+        </section>
+        <section class="container py-5">
+            <div class="carousel-head d-flex column justify-content-between p-0">
+                <div>
+                    <p class="fw-bold">THE BEST OF QATAR 2022</p>
+                </div>
+                <div class="px-3">
+                    <a href="" id="seeall">SEE ALL</a>
+                </div>
+            </div>
+            <div class="wrapper-small">
+                <i id="left2" class="fa-solid fas fa-angle-left"></i>
+                <ul class="carousel-small" id="carousel-content2">
+                    <!-- Dynamic content will be inserted here -->
+                </ul>
+                <i id="right2" class="fa-solid fas fa-angle-right"></i>
+            </div>
+        </section>
+
+
+
+        <div class="d-flex row justify-content-between w-95 pt-3">
+            <div class="content col-lg-5 col-md-12" >
+                <header class="pt-3">
+                    <h1>THE FINAL</h1>
+                </header>
+                <p class="pb-3">
+                    It was the perfect final to an unforgettable FIFA World Cup™, with Argentina and France delivering an all-time classic at Lusail Stadium.
+                </p>
+                <p class="pb-3">
+                    <em>La Albiceleste</em> looked to be in control for most of the match and were two goals to the good by half-time, thanks to Lionel Messi and Angel Di Maria. However, France produced a stirring late comeback inspired by two goals from star man Kylian Mbappé.
+                </p>
+                <p class="pb-3">
+                    During a breathless and breath-taking extra time, Argentina regained the lead with Messi's second goal, only for Mbappé to level once again. Ultimately, the match was decided by penalties, with Gonzalo Montiel clinching Argentina's historic triumph.
+                </p>
+            </div>
+            <div class="image col-lg-6 col-md-12">
+                <img src="" alt="Argentina celebrating their victory" id="final-img">
+            </div>
+
+        </div>
+        <div class="d-flex row justify-content-between w-95">
+            <div class="content col-lg-5 col-md-12" >
+                <header class="pt-3">
+                    <h1>THE KNOCKOUT STAGE</h1>
+                </header>
+                <p class="pb-3">
+                    Some of the most exhilarating performances in FIFA World Cup history were showcased during knockout stage of Qatar 2022.
+
+                </p>
+                <p class="pb-3">
+                    The tournament's surprise package, Morocco, produced a groundbreaking achievement as the first African team to reach the last four. The Atlas Lions triumphed over Spain and Portugal before being halted by France in the semi-finals.                </p>
+                <p class="pb-3">
+                    <em>Les Bleus</em> advanced with victories against Poland and England, while Argentina's path to the final featured a nail-biting penalty shoot-out win against the Netherlands and a 3-0 triumph over 2018 FIFA World Cup finalists Croatia.                </p>
+            </div>
+            <div class="image col-lg-6 col-md-12">
+                <img src="" alt="Argentina celebrating their victory" id="knockout-img">
+            </div>
+
+        </div>
+        <div class="d-flex row justify-content-between w-95">
+            <div class="content col-lg-5 col-md-12" >
+                <header class="pt-3">
+                    <h1>THE GROUP STAGE</h1>
+                </header>
+                <p class="pb-3">
+                    Although many favourites advanced, the group stage proved to be challenging for every team. Argentina were stunned by Saudi Arabia, while Japan triumphed over Germany in a nail-biting match. Consequently, Die Mannschaft and Belgium made early exits, with the latter pushed out by Croatia and the tournament's surprise package, Morocco.                </p>
+                <p class="pb-3">
+                    Under the guidance of Walid Regragui, Morocco topped their group, while France confidently claimed first place in Group D.</p>
+            </div>
+            <div class="image col-lg-6 col-md-12">
+                <img src="" alt="Argentina celebrating their victory" id="groupstage-img">
+            </div>
+
+        </div>
+
+        
+        <div class="d-flex row justify-content-between w-95">
+            <div class="content pt-3 pb-0" >
+            <header class="pt-3">
+                <h1>INTO THE LEGEND</h1>
+            </header>
+            </div>
+            <div class="image col-lg-6 col-md-12 p-3" >
+                    <img class="rounded-3" src="" alt="Messi-img" id="Messi-img">
+                    <p class="py-3 fs-4">Lionel Messi</p>
+            </div>
+            <div class="image col-lg-6 col-md-12 p-3" >
+                    <img  class="rounded-3" alt="Mbappé-img" id="Mbappé-img">
+                    <p class="py-3 fs-4">Kylian Mbappé</p>
+
+            </div>
+        </div>
+        <section class="w-100">
+            <div class="archive-section" background="#000">
+                <div class="archive-content">
+                    <p class="fs-4">Browse through the FIFA World Cup Qatar 2022™ Archive</p>
+                    <p>All the matches, all the highlights, all the moments. Find what you're looking for.</p>
+                    <button type="button" class="btn">EXPLORE NOW</button>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+    <script src="part1.js"></script>
+</body>
+</html>
