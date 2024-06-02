@@ -10,13 +10,210 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="../Style/group_frontend.css">
+    <link rel="stylesheet" href="../Style/main.css">
+    <link rel="stylesheet" href="../Style/sidebarhover.css">
+    <link rel="stylesheet" href="../Style/global.css">
+
+    <link rel="stylesheet" href="
+        https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     
     
 </head>
 <body class="">
+    
+    <!--NAV  Highlights-->
+    <section id="blank" style="padding: 40px;">
+
+    </section>
+    <section id="header">
+        <nav class="navbar p-1 fixed-top">
+            <div class="d-flex flex-column w-100">
+                <div class="d-flex justify-content-between w-100 global-menu">
+                    <div class="px-4 py-0">
+                        <a href="https://www.fifa.com/fifaplus/">
+                            <img src="../Assets/headerFooter/fifaLogoTopLeft.png" style="height: 15px;">
+                        </a>
+                    </div>
+                    <div class="d-flex w-25 justify-content-around navbar-top-right poppins-medium ">
+                        <a class="text-decoration-none" href="#">TICKETS</a>
+                        <a class="text-decoration-none" href="#">FIFA +</a>
+                        <a class="text-decoration-none" href="#">FIFA STORE</a>
+                        <a class="text-decoration-none" href="#">INSIDE FIFA</a>
+                    </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars px-4 hamburger" id="hamburger"></i>
+                    </div>
+                    <div class="navbar-bottom-middle d-flex align-items-center">
+                        <img class="navbar-bottom-image px-4" src="../Assets/headerFooter/image.png">
+                        <div class="scrollable poppins-medium d-flex align-items-center">
+                            <a href="../HTML/scoreandfixtures.html">SCORES & FIXTURES</a>
+                            <a href="../HTML/knockout-and-groups.html">KNOCKOUT & GROUPS</a>
+                            <a href="../HTML/teams_home_page.html">TEAMS</a>
+                            <a href="#">HIGHLIGHTS</a>
+                            <a href="#">NEWS</a>
+                            <a href="#">WATCH ON FIFA +</a>
+                            <a href="#">PLAY</a>
+                            <a href="#">TICKETS</a>
+                            <a href="../HTML/shop.html">SHOP</a>
+                            <a href="#">VISIT</a>
+                            <a href="#">TOURNAMENTS</a>
+                        </div>
+                    </div>
+                    <div class="navbar-bottom-right d-flex px-4 justify-content-around gap-3">
+                        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                        <i class="fa-solid fa-globe fa-xl"></i>
+                        <i class="fa-solid fa-user fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- SIDEBAR STUFFF -->
     <div>
-        <!--NAV  Highlights-->
+        <div id="backdrop"></div>
+        <div class="sidebarMenu d-grid" style="font-size: 12px;" id="sidebarMenu">
+            <ul>
+                <li>
+                    <div class="sideelements" style="padding-top: 100px;">
+                        <a href="../HTML/scoreandfixtures.html">SCORES & FIXTURES</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="../HTML/knockout-and-groups.html">KNOCKOUT & GROUPS</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="../HTML/teams_home_page.html">TEAMS</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="../HTML/highlights.html">HIGHLIGHTS</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="#">HIGHLIGHTS</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="#">NEWS</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                        <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">WATCH ON FIFA+</a>
+                        <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                        <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">PLAY</a>
+                        <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="#">TICKETS</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="#">SHOP</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                        <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">VISIT</a>
+                        <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                        <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">TOURNAMENTS</a>
+                        <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                        <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">MORE FROM FIFA</a>
+                        <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a style="font-size: 10px; color: var(--golden); padding-top: 150px;">&nbsp;MORE FIFA</a>
+                        <hr style="padding: 0; margin: 0; color: var(--golden);">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="sideelements">
+                        <a href="#">TICKETS</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="#">FIFA+</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="#">FIFA STORE</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements">
+                        <a href="#">INSIDE FIFA</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a style="font-size: 10px; color: var(--golden); padding: 0;">PREFERENCES</a>
+                        <hr style="padding: 0; margin: 0; color: var(--golden);">
+                    </div>
+                </li>
+                <li>
+                    <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                        <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">LANGUAGES</a>
+                        <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                    </div>
+                </li>                  
+            </ul>
+        </div>
+        <div class="sidebarhoverwatch">
+            <img src="https://digitalhub.fifa.com/transform/771a2e45-6115-40c6-bd65-db9107d548e1/FIFAPLS_Logo_Blue" style="width: 90px;" alt="">
+        </div>
+
+        <ul>
+            <li>
+                <div>
+                    <a href="#"></a>
+                </div>
+            </li>
+        </ul>
+
     </div>
+</nav>
+    <!--NAV END HERE-->
 
     <!--Highlights Landing-->
     <section class="container highlight-main py-5" >
@@ -597,12 +794,158 @@
 
 
 </body>
+<!--Footer-->
+<!-- FOOTER -->
+
+<footer class="container-fluid" style="background-color: var(--violet)">
+    <div class="row p-2">
+        <section class="container">
+            <div class="row align-items-center justify-content-around footer-top">
+                <div class="col-auto col-md-2 col-lg-2 col-xl-2">
+                    <a href="https://www.fifa.com/fifaplus/en">
+                        <img width="78" height="24" src="../Assets/headerFooter/fifaLogoTopLeft.png">
+                    </a>
+                </div>
+                <div
+                    class="d-none d-md-block col-md-4 col-lg-3 col-xl-4 d-md-flex align-items-center justify-content-around">
+                    <a href="https://twitter.com/FIFAcom" title="Twitter">
+                        <i class="fa-brands fa-x-twitter fa-xl" style="color: white;">
+                        </i>
+                    </a>
+
+                    <a href="https://www.facebook.com/fifa" title="Facebook">
+                        <i class="fa-brands fa-facebook-f fa-xl" style="color: white;">
+                        </i>
+                    </a><a href="https://www.instagram.com/fifaworldcup" title="Instagram">
+                        <i class="fa-brands fa-instagram fa-xl" style="color: white;">
+                        </i>
+                    </a>
+                    <a href="https://www.youtube.com/FIFATV" title="Youtube">
+                        <i class="fa-brands fa-youtube fa-xl" style="color: white;">
+                        </i>
+                    </a>
+                    <a href="https://www.tiktok.com/@fifaworldcup" title="Tiktok">
+                        <i class="fa-brands fa-tiktok fa-xl" style="color: white;">
+                        </i>
+                    </a>
+                </div>
+                <!-- <div class="d-none d-lg-block col-lg-3 col-xl-3 text-sm text-align-end mb-0 text-white">Download the
+                    FIFA App today to enjoy more</div> -->
+                <div class="d-none d-lg-block col-lg-3 col-xl-3 text-sm text-align-end mb-0 text-white"></div>
+                <div class="col-auto col-md-5 col-lg-3 col-xl-3">
+                    <div class="d-flex justify-content-evenly align-items-center"><a
+                            href="https://play.google.com/store/apps/details?id=com.fifa.fifaapp.android&amp;hl=en"
+                            class="mr-8" target="_self"><img decoding="async" loading="lazy" height="auto" width="100%"
+                                src="../Assets/headerFooter/googlePlay.png" alt="GooglePlayStore"></a><a
+                            href="https://apps.apple.com/us/app/fifa-official-app/id756904853" class="ml-8"
+                            target="_self"><img decoding="async" loading="lazy" height="auto" width="100%"
+                                src="../Assets/headerFooter/appleAppStore.png" alt="AppleAppStore"></a></div>
+                </div>
+            </div>
+        </section>
+        <hr class="" style="background-color:var(--golden);">
+        <section class=" py-16">
+            <div class="">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-column align-content-center">
+                        <div class="col text-sm mb-0 text-uppercase d-flex justify-content-center"
+                            style="color: white;">FIFA PARTNERS</div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center mt-1 mx-auto flex-wrap">
+                        <div class="d-flex flex-row justify-content-around mt-1 mx-auto  footer-logostrip">
+                            <div class="d-flex justify-content-center align-items-center  footer-logostrip">
+                                <div class=""><a class="d-flex" href="https://www.adidas.com/football"><img
+                                            decoding="async" loading="lazy" height="50" width="100"
+                                            src="https://digitalhub.fifa.com/transform/91329980-156c-4be0-a0eb-d3bba5e3ccb4/"
+                                            alt="FIFA" title="adidas_partnerlogos_white" class="footer-logostrip"></a>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center  footer-logostrip">
+                                <div class=""><a class="d-flex" href="https://www.coca-cola.com/"><img decoding="async"
+                                            loading="lazy" height="76" width="151"
+                                            src="https://digitalhub.fifa.com/transform/a87c9878-42d8-435f-9362-bd213464e13f/"
+                                            alt="FIFA" title="coca-cola_partnerlogos_white"
+                                            class="footer-logostrip"></a></div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center  footer-logostrip">
+                                <div class=""><a class="d-flex" href="http://www.wanda-group.com/"><img decoding="async"
+                                            loading="lazy" height="76" width="151"
+                                            src="https://digitalhub.fifa.com/transform/c7e3339c-7783-4672-b038-0dd78dd5c652/"
+                                            alt="FIFA" title="wanda_partnerlogos_white" class="footer-logostrip"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center mt-1 mx-auto">
+                            <div class="d-flex justify-content-center align-items-center  footer-logostrip">
+                                <div class=""><a class="d-flex" href="https://www.hyundaimotorgroup.com/"><img
+                                            decoding="async" loading="lazy" height="100" width="200"
+                                            src="https://digitalhub.fifa.com/transform/d64872c4-6c46-4abc-aafe-f209754e342a/"
+                                            alt="FIFA" title="hyundai-kia_partnerlogos_white"
+                                            class="footer-logostrip"></a></div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center  footer-logostrip">
+                                <div class=""><a class="d-flex" href="https://www.qatarairways.com/"><img
+                                            decoding="async" loading="lazy" height="100" width="200"
+                                            src="https://digitalhub.fifa.com/transform/86cee875-e42a-4df8-83d1-912ad848c446/"
+                                            alt="FIFA" title="qatar-airways_partnerlogos_white"
+                                            class="footer-logostrip"></a></div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class=""><a class="d-flex" href="https://www.qatarenergy.qa"><img decoding="async"
+                                            loading="lazy" height="76" width="151"
+                                            src="https://digitalhub.fifa.com/transform/c796e16c-80f9-4b88-a377-d52e372a12f6/"
+                                            alt="" title="Qatar Energy - White Logo" class="footer-logostrip"></a></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center mt-1 mx-auto">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class=""><a class="d-flex" href="https://www.visa.com/"><img decoding="async"
+                                            loading="lazy" height="100" width="200"
+                                            src="https://digitalhub.fifa.com/transform/c6e9d9bf-4da6-46b1-a8e2-894129e13f34/"
+                                            alt="FIFA" title="visa_partnerlogos_white" class="footer-logostrip"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="" style="background-color: var(--golden);">
+        <section class="container mb-2 mt-2">
+            <div class="row">
+                <div class="d-flex col-xs col-md-7">
+                    <div class="row d-flex justify-content-center align-items-center ">
+                        <div class="col-xs col-md-auto mt-1 text-sm mb-0 text-uppercase undefined "><a
+                                class="poppins-medium text-decoration-none text-white"
+                                style="--textColor: #FFFFFF; --secondaryColor: #DAC96D;"
+                                href="https://www.fifa.com/data-protection-portal/data-protection-policy">Privacy
+                                Policy</a></div>
+                        <div class="col-xs col-md-auto mt-1 text-sm mb-0 text-uppercase undefined"><a
+                                class="poppins-medium text-decoration-none text-white"
+                                style="--textColor: #FFFFFF; --secondaryColor: #DAC96D;"
+                                href="https://www.fifa.com/terms-of-service">Terms of Service</a></div>
+                        <div
+                            class="d-flex justify-content-start align-items-center col-xs col-md-auto mt-1 text-sm mb-0 text-uppercase undefined">
+                            <button id="ot-sdk-btn"
+                                class="col-xs text-sm mb-0 text-uppercase btn-outline-none poppins-medium">Manage
+                                Cookie Preferences</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs col-md-5 mt-1 d-md-flex justify-content-end text-white" style="font-size: 12px;">
+                    Copyright © 1994 - 2024 FIFA. All rights reserved.</div>
+            </div>
+        </section>
+    </div>
+</footer>
+<!--Footer End-->
 <script>
     
 </script>
 <script src="../Scripts/highlightsData.js"></script>
 <script src="../Scripts/highlights.js"></script>
 <script src="../Scripts/part1.js"></script>
+<script src="../Scripts/main.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
