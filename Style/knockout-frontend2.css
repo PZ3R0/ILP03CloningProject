@@ -12,17 +12,17 @@ body {
 }
 
 .knockout {
-  /* max-width: 100vw;
-  max-height: 100vh; */
   width: 100%;
-  scale: 50%;
+  scale: 66%;
   margin-left: -13%;
+  /* overflow: auto; */
 }
 
 .knockoutheader{
   display: flex;
   justify-content: space-evenly;
   width: 150%;
+  margin-left: 6%;
 }
 .items{
   color: #03122B;
@@ -72,40 +72,19 @@ body {
   position: absolute;
   width: 2px;
   background-color: blue;
-  left: 22%;
+  left: 31.5%;
   transform: translateX(-50%);
 }
 .round-of-16-left::before {
   /*upper vertical line in right of round of 16-left */
-  height: 20.7%;
-  transform: translateY(56px);
+  height: 20.5%;
+  transform: translateY(58px);
 }
 .round-of-16-left::after {
   /*lower vertical line in right of round of 16-left */
-  height: 22.7%;
-  transform: translateY(418px);
+  height: 23.5%;
+  transform: translateY(420px);
 }
-
-/* .round-of-16-left .match:nth-child(3)::after,.round-of-16-left .match:nth-child(4)::after {
-    content: "";
-    position: absolute;
-    height: 76px;
-    width: 2px;
-    background-color: #333;
-    left: 23.6%;
-    transform: translateX(-50%) translateY(56px);
-} */
-
-/* .round::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 50%;
-    background-color: red;
-    top: 75%;
-    left: 25%;
-    transform: translateY(-50%);
-} */
 
 .match::before {
   /*ella match inte right side il cheriya horizontal line*/
@@ -115,7 +94,7 @@ body {
   width: 12.5%;
   background-color: #333;
   top: 50%;
-  right: -13%;
+  right: -12.5%;
   transform: translateY(-50%);
 }
 
@@ -132,13 +111,13 @@ body {
 }
 
 .quarter-final-left .match::before,.quarter-final-right .match::before     /*quarter-left, quarter-right left side horizontal line*/ {
-  width: 14.5%;
+  width: 18%;
   right: 100%;
 }
 .quarter-final-left .match::after,
 .quarter-final-right .match::after {
   /*quarter-left,quarter-right right side horizontal line */
-  width: 14.5%;
+  width: 18%;
   left: 100%;
 }
 
@@ -146,14 +125,14 @@ body {
   /*left il ulla quarter final inte right ile vertical line*/
   content: "";
   position: absolute;
-  height: 380px;
+  height: 50%;
   width: 2px;
   background-color: rgb(19, 75, 19);
-  left: 44.5%;
-  transform: translateX(60%) translateY(56px);
+  left: 55.2%;
+  transform: translateX(60%) translateY(58px);
 }
 .semi-final-left .match::before {
-  width: 26%;
+  width: 28%;
   background-color: aqua;
   right: 100%;
 }
@@ -171,20 +150,13 @@ body {
 }
 .semi-final-left::before,
 .semi-final-right::before {
-  height: 21.7%;
-  top: 26%;
+  height: 24%;
+  top: 23.7%;
   transform: translateY(70px);
 }
 
-/* .semi-final-left::after,
-.semi-final-right::after {
-  height: 27px;
-  top: 2700px;
-  transform: translateY(86px);
-} */
-
 .semi-final-right .match::before {
-  width: 25%;
+  width: 28%;
   background-color: greenyellow;
   left: 100%;
 }
@@ -193,11 +165,11 @@ body {
   /*right il ulla quarter final inte left ile vertical line*/
   content: "";
   position: absolute;
-  height: 363px;
+  height: 50%;
   width: 2px;
   background-color: brown;
-  right: 6.5%;
-  transform: translateX(60%) translateY(71px);
+  right: -5.5%;
+  transform: translateX(60%) translateY(80px);
 }
 
 /* third place inte adiyile vertical line */
@@ -207,7 +179,7 @@ body {
   width: 2px;
   background-color: rgb(90, 90, 11);
   transform: translateX(-50%) translateY(50px);
-  height: 140%;
+  height: 115%;
   top: 49%;
   left: 50%;
 }
@@ -216,20 +188,20 @@ body {
   content: "";
   position: absolute;
   height: 2px;
-  width: 22.25%;
-  top: 26%;
+  width: 23%;
+  top: 23.5%;
   background-color: purple;
-  right: 23%;
-  transform: translateX(15%) translateY(70px);
+  right: 11.5%;
+  transform: translateX(15%) translateY(71px);
 }
 .final::after {
   content: "";
   position: absolute;
   height: 2px;
-  width: 22.25%;
+  width: 23%;
   top: 45.5%;
   background-color: purple;
-  right: 23%;
+  right: 11.5%;
   transform: translateX(15%) translateY(84px);
 }
 
@@ -240,8 +212,8 @@ body {
   width: 2px;
   background-color: rgb(90, 90, 11);
   transform: translateX(-50%) translateY(-50%);
-  height: 80.5%;
-  top: -40%;
+  height: 62%;
+  top: -32%;
   left: 50%;
 }
 
@@ -255,18 +227,18 @@ body {
   position: absolute;
   width: 2px;
   background-color: pink;
-  right: -16.2%;
+  right: -29.25%;
   transform: translateX(-50%);
 }
 .round-of-16-right::before {
   /*upper vertical line in right of round of 16-right */
-  height: 21%;
-  transform: translateY(56px);
+  height: 21.5%;
+  transform: translateY(57px);
 }
 
 .round-of-16-right::after {
   /*lower vertical line in right of round of 16-right */
-  height: 23%;
+  height: 25%;
   transform: translateY(418px);
 }
 

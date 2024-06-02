@@ -1,0 +1,132 @@
+/* .card-small{
+    width: 544px;
+    height: 306px;
+} */
+
+.wrapper-small{
+    /* max-width: 1100px; */
+    width: 100%;
+    position: relative;
+}
+ 
+.wrapper-small .carousel-small{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 4)-12px);
+    gap: 2%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0; 
+    scrollbar-width: none;
+}
+
+#seeall{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#ff004c;
+    opacity: 0.75;
+    font-size: 12px;
+} 
+ 
+.carousel-small::-webkit-scrollbar{
+    display: none;
+}
+ 
+.carousel-small:where(.card-small, .img-small){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.carousel-small .dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+ 
+.carousel-small .no-transition{
+    scroll-behavior: auto;
+}
+ 
+.carousel-small .dragging .card-small{
+    cursor: grab;
+    user-select: none;
+}
+ 
+.carousel-small .card-small{
+    scroll-snap-align: start;
+    width: 544px;
+    height:306px;
+    list-style: none;
+    background: #eeeee4;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    overflow: hidden;
+ 
+}
+
+.landing-para {
+    font-weight: bold;
+    font-size: 14px;
+}
+ 
+ul{
+    list-style-type: none;
+}
+ 
+.card-small .img-small{
+    background-color: #eeeee4;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 10px; */
+    border-radius: 5%;
+}
+.card-small .img-small img{
+    background-color: #eeeee4;
+    width: 400px;
+    height: auto;
+   
+    object-fit: cover;
+    border-radius: 2%;
+   
+}
+ 
+.wrapper-small i{
+    height: 40px;
+    width: 40px;
+    background: #ff004c;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    color:#fff;
+    font-size: 1.25rem;
+    position: absolute;
+    cursor: pointer;
+    top : 40%;
+    transform: translateY(-40%);
+    z-index: 1;
+    opacity: 70%;
+}
+ 
+ 
+.wrapper-small i:first-child{
+    left: -2%;
+    opacity: 50%;
+}
+ 
+.wrapper-small i:last-child{
+    right:-2%;
+    opacity: 50%;
+}
+ 
+.wrapper-small i:active, .wrapper-small i:hover {
+    opacity: 1;
+}

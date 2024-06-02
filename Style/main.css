@@ -9,12 +9,26 @@
     color: white;
 }
 
-.navbar-top-right a {
-    color: white;
-    font-size: 12px;
+@media (width: 900px) {
+    .navbar-bottom-right {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: none !important;
+    }
 }
 
-.navbar-top-right>a:hover {
+.navbar-top-right a {
+    color: white;
+    font-size: 0.775rem;
+}
+
+.sideelements{
+    color: white;
+}
+
+.navbar-top-right>a:hover , .sideelements>a:hover, .sideelements>i:hover, .sideelements:hover{
     color: var(--golden);
 }
 
@@ -25,7 +39,7 @@
 .scrollable {
     display: inline-block;
     padding: 10px;
-    gap: 4%;
+    gap: 7%;
     overflow: auto;
     white-space: nowrap;
     scrollbar-width: none;
@@ -35,10 +49,20 @@
 
 .scrollable a {
     display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.scrollable a:hover {
+    color: var(--golden);
+}
+
+.navbar-bottom-middle {
+    width: 80%;
 }
 
 .navbar-bottom-right {
-    width: 12%;
+    width: 15%;
 }
 
 /* sidebar menu */
@@ -49,8 +73,11 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color: #333;
+    background-color: var(--violet);
     transition: left 0.3s ease;
+    z-index: 1;
+    overflow: auto;
+    scrollbar-width: none;
 }
 
 .sidebarMenu ul {
@@ -67,9 +94,6 @@
     text-decoration: none;
 }
 
-
-/* backdrop bluish when open sidebar */
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -78,7 +102,7 @@
     bottom: 0;
     background: #03122b;
     opacity: .8;
-    z-index: -1;
+    z-index: 1;
     animation: backdropFadeIn .3s ease-out 0s, .3
 }
 
@@ -131,9 +155,15 @@
 }
 
 #ot-sdk-btn {
-    
-        background-color: transparent;
-        border: none;
-        color: white;
-      
+
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+.legacyforallhero {
+    overflow: auto;
+    scrollbar-width: none;
+
 }
