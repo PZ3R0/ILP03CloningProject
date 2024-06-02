@@ -1,0 +1,129 @@
+
+/* Grid container for groups */
+.groups-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Space between grid items */
+  padding: 20px; /* Optional padding around the grid */
+}
+
+.group {
+  background-color: white; /* Background color for group items */
+  padding: 20px; /* Padding inside each group item */
+  border: 1px solid #ddd; /* Optional border for group items */
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for group items */
+  position: relative;
+  width: 25em;
+
+}
+
+.group-header {
+  font-size: 1.5em;
+  color: red;
+  text-align: left; /* Align to the left */
+  margin-bottom: 10px;
+  font-weight: bold;
+  position: absolute; /* Overlay the group header */
+  top: 10px;
+  left: 20px;
+  padding: 5px 10px;
+  z-index: 1; /* Ensure it's above other content */
+}
+
+.team-headers,
+.team {
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+  margin-bottom: 10px;
+}
+
+.team-headers span,
+.team span {
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+}
+
+.team span.points,span.country-name {
+  font-weight: bold; /* Make "abbreviation" and "pts" values bold */
+}
+.team-headers span {
+  font-weight: normal;
+  color: gray;
+}
+
+/* Custom placeholders for alignment */
+.flag-placeholder {
+  flex: 0 0 40px;
+}
+
+.team-name-placeholder {
+  flex: 0 0 100px;
+}
+
+.qualified-placeholder {
+  flex: 0 0 15px;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+
+.position-placeholder {
+  flex: 0 0 30px;
+}
+
+.flag {
+  width: 30px;
+  height: 20px;
+  background-size: cover;
+  justify-self: center;
+}
+
+div.team .qualified {
+  width: 15px; /* Adjust as needed */
+  height: 15px; /* Adjust as needed */
+  background-color: red; /* Adjust color as needed */
+  color: white; /* Adjust text color as needed */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em; /* Adjust font size as needed */
+  z-index: 2; /* Ensure it's above the placeholder */
+  position: relative; /* Ensure proper positioning */
+}
+
+.flag-eng { background-image: url("https://flagsapi.com/GB/flat/64.png"); }
+.flag-sen { background-image: url("https://flagsapi.com/SN/flat/64.png"); }
+.flag-fra { background-image: url("https://flagsapi.com/FR/flat/64.png"); }
+.flag-pol { background-image: url("https://flagsapi.com/PL/flat/64.png"); }
+.flag-mar { background-image: url("https://flagsapi.com/MA/flat/64.png"); }
+.flag-esp { background-image: url("https://flagsapi.com/ES/flat/64.png"); }
+.flag-por { background-image: url("https://flagsapi.com/PT/flat/64.png"); }
+.flag-sui { background-image: url("https://flagsapi.com/CH/flat/64.png"); }
+.flag-ned { background-image: url("https://flagsapi.com/NL/flat/64.png"); }
+.flag-usa { background-image: url("https://flagsapi.com/US/flat/64.png"); }
+.flag-arg { background-image: url("https://flagsapi.com/AR/flat/64.png"); }
+.flag-aus { background-image: url("https://flagsapi.com/AU/flat/64.png"); }
+.flag-jpn { background-image: url("https://flagsapi.com/JP/flat/64.png"); }
+.flag-cro { background-image: url("https://flagsapi.com/HR/flat/64.png"); }
+.flag-bra { background-image: url("https://flagsapi.com/BR/flat/64.png"); }
+.flag-kor { background-image: url("https://flagsapi.com/KR/flat/64.png"); }
+.flag-ecu { background-image: url("https://flagsapi.com/EC/flat/64.png"); }
+.flag-qat { background-image: url("https://flagsapi.com/QA/flat/64.png"); }
+.flag-irn { background-image: url("https://flagsapi.com/IR/flat/64.png"); }
+.flag-wal { background-image: url("https://flagcdn.com/h20/gb-wls.png"); }  /*different api*/
+.flag-mex { background-image: url("https://flagsapi.com/MX/flat/64.png"); }
+.flag-ksa { background-image: url("https://flagsapi.com/SA/flat/64.png"); }
+.flag-tun { background-image: url("https://flagsapi.com/TN/flat/64.png"); }
+.flag-den { background-image: url("https://flagsapi.com/DK/flat/64.png"); }
+.flag-ger { background-image: url("https://flagsapi.com/DE/flat/64.png"); }
+.flag-crc { background-image: url("https://flagsapi.com/CR/flat/64.png"); }
+.flag-bel { background-image: url("https://flagsapi.com/BE/flat/64.png"); }
+.flag-can { background-image: url("https://flagsapi.com/CA/flat/64.png"); }
+.flag-cmr { background-image: url("https://flagsapi.com/CM/flat/64.png"); }
+.flag-srb { background-image: url("https://flagsapi.com/RS/flat/64.png"); }
+.flag-uru { background-image: url("https://flagsapi.com/UY/flat/64.png"); }
+.flag-gha { background-image: url("https://flagsapi.com/GH/flat/64.png"); }
