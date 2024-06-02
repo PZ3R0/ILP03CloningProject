@@ -1,4 +1,11 @@
 const jsonFilePath = '../Assets/statspage/newestWCData1.json';
+import { firebaseConfig } from './config.js'
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
 
 // Function to fetch JSON data from a given path
 async function fetchData(path) {
@@ -14,12 +21,41 @@ async function fetchData(path) {
         return null;
     }
 }
+
+const selectedMatchId = localStorage.getItem('selectedMatchId');
 const tablesContainer = document.getElementById('tablesContainer');
 const progressBarContainer = document.getElementById('progress-bar-container');
-const teamNameContainer = document.getElementById('team-names')
+const teamNameContainer = document.getElementById('team-names');
+const keysContainer = document.getElementById('keys');
+
+// Function to observe when progress bars come into view
+function observeProgressBars() {
+    const progressBars = document.querySelectorAll('.progress-team');
+    const options = {
+        root: null,
+        rootMargin: '100px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.transition = 'width 1s ease-in-out';
+                entry.target.style.width = entry.target.getAttribute('data-width');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, options);
+
+    progressBars.forEach(bar => {
+        observer.observe(bar);
+    });
+}
+
 // Function to render progress bars
 function renderProgressBar(neededGameData) {
-    progressBarContainer.innerHTML = ''; // Clear previous content
+    // Clear previous content
+    progressBarContainer.innerHTML = '';
 
     // Loop through each statistic in neededGameData
     for (const stat in neededGameData) {
@@ -35,31 +71,48 @@ function renderProgressBar(neededGameData) {
         const statHeader = document.createElement('div');
         statHeader.classList.add('stat-header');
         statHeader.textContent = stat;
+
         const progressContainer = document.createElement('div');
         progressContainer.classList.add('progress-container');
 
-        const team1value = document.createElement('div');
-        team1value.classList.add('team1-stat-value');
-        team1value.textContent = team1StatValue;
+        const greyBarLeft = document.createElement('div');
+        greyBarLeft.classList.add('grey-bar', 'left');
+
+        const greyBarRight = document.createElement('div');
+        greyBarRight.classList.add('grey-bar', 'right');
+
         const team1ProgressBar = document.createElement('div');
         team1ProgressBar.classList.add('progress-team', 'team1');
-        team1ProgressBar.style.width = `${team1Percentage}%`;
+        team1ProgressBar.style.width = '0%';
+        team1ProgressBar.setAttribute('data-width', `calc(100% - ${team1Percentage}%)`);
 
         const team2ProgressBar = document.createElement('div');
         team2ProgressBar.classList.add('progress-team', 'team2');
-        team2ProgressBar.style.width = `${team2Percentage}%`;
-        const team2value = document.createElement('div');
-        team2value.classList.add('team2-stat-value');
-        team2value.textContent = team2StatValue;
+        team2ProgressBar.style.width = '0%';
+        team2ProgressBar.setAttribute('data-width', `${team2Percentage}%`);
+
+        const team1StatValueElem = document.createElement('div');
+        team1StatValueElem.classList.add('stat-value');
+        team1StatValueElem.textContent = team1StatValue;
+
+        const team2StatValueElem = document.createElement('div');
+        team2StatValueElem.classList.add('stat-value');
+        team2StatValueElem.textContent = team2StatValue;
 
         // Append progress bar elements to container
         progressBarContainer.appendChild(statHeader);
-        progressContainer.appendChild(team1value);
-        progressContainer.appendChild(team1ProgressBar);
-        progressContainer.appendChild(team2ProgressBar);
-        progressContainer.appendChild(team2value);
+        progressContainer.appendChild(team1StatValueElem);
+        progressContainer.appendChild(greyBarLeft);
+        greyBarLeft.appendChild(team1ProgressBar);
+        progressContainer.appendChild(greyBarRight);
+        greyBarRight.appendChild(team2ProgressBar);
+        progressContainer.appendChild(team2StatValueElem);
+
         progressBarContainer.appendChild(progressContainer);
     }
+
+    // Observe the newly created progress bars
+    observeProgressBars();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -74,7 +127,6 @@ document.addEventListener('DOMContentLoaded', function () {
         fetchData(jsonFilePath)
             .then(data => {
                 if (data) {
-                    const selectedMatchId = localStorage.getItem('selectedMatchId');
                     const neededGameData = data[selectedMatchId];
                     console.log(neededGameData);
                     if (neededGameData) {
@@ -112,16 +164,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Show stats by default
     renderStats();
+});
 
-    // Trigger the animation when user scrolls
-    window.addEventListener('scroll', function () {
-        const progressBars = document.querySelectorAll('.progress-team');
-        progressBars.forEach(bar => {
-            const barPosition = bar.getBoundingClientRect().top;
-            const screenPosition = window.innerHeight / 1.5;
-            if (barPosition < screenPosition) {
-                bar.classList.add('fill-animation'); // Add class to trigger animation
-            }
-        });
+const matchesRef = ref(database, 'WorldCupGamesData/matches');
+const team1Name = document.getElementById('team-1-name');
+const team2Name = document.getElementById('team-2-name');
+
+onValue(matchesRef, (snapshot) => {
+    const matches = snapshot.val();
+    console.log(matches);
+
+    // Loop through the matches to find the match with the selected match_id
+    matches.forEach(match => {
+        if (match.match_id === selectedMatchId) {
+            team1Name.textContent = match.team1;
+            team2Name.textContent = match.team2;
+        }
     });
 });

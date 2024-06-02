@@ -25,7 +25,7 @@
 .scrollable {
     display: inline-block;
     padding: 10px;
-    gap: 4%;
+    gap: 7%;
     overflow: auto;
     white-space: nowrap;
     scrollbar-width: none;
@@ -35,10 +35,20 @@
 
 .scrollable a {
     display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.scrollable a:hover {
+    color: var(--golden);
+}
+
+.navbar-bottom-middle {
+    width: 80%;
 }
 
 .navbar-bottom-right {
-    width: 12%;
+    width: 15%;
 }
 
 /* sidebar menu */
@@ -131,9 +141,9 @@
 }
 
 #ot-sdk-btn {
-    
-        background-color: transparent;
-        border: none;
-        color: white;
-      
+
+    background-color: transparent;
+    border: none;
+    color: white;
+
 }

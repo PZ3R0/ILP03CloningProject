@@ -153,7 +153,7 @@ async function fetchData(path) {
 }
 // Function to create table for each group
 // Function to create table for each group
-function createTables(data) {
+export function createTables(data) {
     const tablesContainer = document.getElementById('tablesContainer');
 
     // Iterate over each group

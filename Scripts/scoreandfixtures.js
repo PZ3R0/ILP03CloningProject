@@ -1,11 +1,8 @@
-// Function to fetch and display images based on the selected country
-
-import { firebaseConfig } from './config.js'
+import { firebaseConfig } from './config.js';
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
 import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
 
 export function showTVProviders() {
-
   // Clear existing images
   const imageContainer = document.getElementById('imageContainer');
   imageContainer.innerHTML = '';
@@ -13,16 +10,16 @@ export function showTVProviders() {
   // Get the selected country from the dropdown
   const countrySelect = document.getElementById('countrySelect');
   const selectedCountry = countrySelect.value;
-  localStorage.setItem('tvProviderNation', selectedCountry)
+  localStorage.setItem('tvProviderNation', selectedCountry);
 
   console.log("Selected country:", selectedCountry); // Check the selected country
 
   // Reference to the Firebase database for the selected country
-  const database = firebase.database();
-  const imageLinksRef = database.ref('TvProviders/' + selectedCountry + 'TvProviders');
+  const database = getDatabase(initializeApp(firebaseConfig));
+  const imageLinksRef = ref(database, 'TvProviders/' + selectedCountry + 'TvProviders');
 
   // Fetch image links from Firebase Realtime Database
-  imageLinksRef.once('value', (snapshot) => {
+  onValue(imageLinksRef, (snapshot) => {
     const imageLinks = snapshot.val();
     console.log("Image links:", imageLinks); // Check fetched image links
 
@@ -45,13 +42,11 @@ export function showTVProviders() {
     }
   });
 }
+
 document.addEventListener('DOMContentLoaded', () => {
   const countrySelect = document.getElementById('countrySelect');
   countrySelect.addEventListener('change', showTVProviders);
-
-
 });
-// Function to fetch and display images based on the selected country
 
 let data = [];
 let groupBy = 'group'; // Initial grouping method
@@ -78,9 +73,23 @@ const renderCards = () => {
   // Iterate over each group or date
   for (const [key, games] of Object.entries(groupedGames)) {
     // Create a group/date header
-    const header = document.createElement('p');
+    const header = document.createElement('div');
     header.classList.add('group-header');
-    header.textContent = `${key}`;
+
+    const headerText = document.createElement('p');
+    headerText.textContent = `${key}`;
+    header.appendChild(headerText);
+
+    const viewGroupsLink = document.createElement('a');
+    viewGroupsLink.href = "#";
+    viewGroupsLink.textContent = "View Groups";
+    viewGroupsLink.classList.add('view-groups-link');
+    viewGroupsLink.addEventListener('click', (event) => {
+      event.preventDefault();
+      showTables(key);
+    });
+    header.appendChild(viewGroupsLink);
+
     cardSpace.appendChild(header);
 
     // Create a container for the grid
@@ -113,6 +122,22 @@ const renderCards = () => {
     cardSpace.appendChild(imageElement);
   }
 };
+
+// Function to show tables in a popout window
+function showTables(groupKey) {
+  // Fetch the table data for the specified groupKey (You can adjust this logic as needed)
+  const tablesData = data.filter(game => game.group === groupKey);
+
+  // Create the popout window
+  const popoutWindow = window.open('', '', 'width=800,height=600');
+
+  // Write the HTML content for the table
+
+  tablesData.forEach((game) => {
+    // Assuming you have properties like team, played, won, drawn, lost, points in your data
+  });
+
+}
 
 // Event listener to toggle the grouping method
 document.getElementById('sort-button').addEventListener('click', () => {
@@ -151,31 +176,44 @@ function groupByDate(games) {
 
 // Helper function to create a score card element
 function createScoreCard(game) {
+
+  const isTeam1Winner = game.team1score > game.team2score;
+  const isTeam2Winner = game.team2score > game.team1score;
+
   const scoreCard = document.createElement('div');
   scoreCard.className = "card product-card";
   scoreCard.innerHTML = `
-        <div class="card">
-            <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between game-date">
-                    <span class="">${game.date}</span>
-                    <span>21:30</span>
-                </div>
-                <div class="d-flex">
-                    <div class="w-95">
-                        <div class="d-flex justify-content-between">
-                            <div class="team-name"><i class ="flag flag-${game.team1.toLowerCase().replace(/(\w+)\s+(\w+)/g, '$1-$2')}"></i>${game.team1}</div>
-                            <div><b>${game.team1score}</b></div>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <div class="team-name"><i class ="flag flag-${game.team2.toLowerCase().replace(/(\w+)\s+(\w+)/g, '$1-$2')}"></i>${game.team2}</div>
-                            <div><b>${game.team2score}</b></div>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center full-time">FT</div>
-                </div>
-            </div>
-        </div>
-    `;
+  <div class="card">
+  <div class="card-body d-flex flex-column">
+      <div class="d-flex justify-content-between game-date">
+          <span class="">${game.date}</span>
+          <span>21:30</span>
+      </div>
+      <div class="d-flex">
+          <div class="w-95">
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="team-name">
+                      ${isTeam1Winner ? '<span class="blue-dot"></span>' : ''}
+                      <i class="flag flag-${game.team1.toLowerCase().replace(/(\w+)\s+(\w+)/g, '$1-$2')}"></i>
+                      ${game.team1}
+                  </div>
+                  <div><b>${game.team1score}</b></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="team-name">
+                      ${isTeam2Winner ? '<span class="blue-dot"></span>' : ''}
+                      <i class="flag flag-${game.team2.toLowerCase().replace(/(\w+)\s+(\w+)/g, '$1-$2')}"></i>
+                      ${game.team2}
+                  </div>
+                  <div><b>${game.team2score}</b></div>
+              </div>
+          </div>
+          <div class="d-flex align-items-center justify-content-center full-time">FT</div>
+      </div>
+  </div>
+</div>
+              
+  `;
 
   scoreCard.addEventListener('click', () => {
     // Store the match_id in local storage
@@ -185,6 +223,17 @@ function createScoreCard(game) {
   });
 
   return scoreCard;
+}
+
+// Helper function to display a blue dot if the team is the winner
+function getWinnerDot(score1, score2, isFirstTeam) {
+  if (score1 > score2 && isFirstTeam) {
+    return `<span class="blue-dot"></span>`;
+  } else if (score2 > score1 && !isFirstTeam) {
+    return `<span class="blue-dot"></span>`;
+  } else {
+    return `<span class="blue-dot hidden"></span>`;
+  }
 }
 
 // Helper function to chunk an array into smaller arrays

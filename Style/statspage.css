@@ -138,16 +138,43 @@ thead {
 }
 
 /* CSS for progress bars and containers */
-.progress-container {
+/* .progress-container {
     display: flex;
     margin-right: 10px;
     height: 5px;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
+} */
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative;
 }
 
-.progress-team {
+.grey-bar {
+    background-color: lightgrey;
+    height: 8px;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.left {
+    background-color: #550065;
+    margin-right: 5px;
+}
+
+
+.right {
+    background-color: #E4E8F0;
+}
+
+/* .progress-team {
     display: inline-block;
     height: 30px;
     line-height: 30px;
@@ -155,18 +182,26 @@ thead {
     text-align: center;
     border-radius: 5px;
     /* margin-right: 10px; */
-    margin-top: 10px;
-    /* margin-left: 10px; */
+/* margin-top: 10px; */
 
+/* margin-left: 10px; */
+
+/* } */
+
+.progress-team {
+    height: 30px;
+    position: absolute;
+    top: 0;
 }
 
 #progress-bar-container {
     background-color: white;
     padding: 20px;
     margin-top: 40px;
+    padding-bottom: 40px;
 }
 
-.team1 {
+/* .team1 {
     background-color: #550065;
     height: 8px;
 }
@@ -174,19 +209,38 @@ thead {
 .team2 {
     background-color: #00CFB7;
     height: 8px;
+} */
+
+
+
+.team1 {
+    background-color: #E4E8F0;
+    height: 8px;
+    /* right: 50%; */
+    transform-origin: right;
+    padding-left: 10px;
+}
+
+.team2 {
+    background-color: teal;
+    height: 8px;
+    /* left: 50%; */
+    transform-origin: left;
 }
 
 .stat-header {
     display: flex;
     justify-content: center;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .team1-stat-value {
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .team2-stat-value {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .team-names {
@@ -194,6 +248,21 @@ thead {
     padding-right: 10px;
 }
 
-.progress-team:nth-child(2) {
-    margin-right: 5px;
+
+.main-content {
+    padding-bottom: 50px;
+}
+
+#team-names {
+    padding-top: 20px;
+    font-size: 27px;
+    font-weight: 400px;
+}
+
+.stat-value {
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
 }

@@ -154,6 +154,30 @@
     width: 95%;
 }
 
+.blue-dot {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+.group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-groups-link {
+    margin-left: 20px;
+    color: blue;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+
+
 .full-time {
     font-size: 10px;
     font-weight: 600;
@@ -204,4 +228,3 @@
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-
