@@ -10,7 +10,14 @@
     let semiFinalsDiv = document.getElementById('semi-finals')
     let quaterFinalsDiv = document.getElementById('quater-finals')
     let roundSixteenDiv = document.getElementById('round-sixteen')
-
+    let groupADiv = document.getElementById('group-a')
+    let groupBDiv = document.getElementById('group-b')
+    let groupCDiv = document.getElementById('group-c')
+    let groupDDiv = document.getElementById('group-d')
+    let groupEDiv = document.getElementById('group-e')
+    let groupFDiv = document.getElementById('group-f')
+    let groupGDiv = document.getElementById('group-g')
+    let groupHDiv = document.getElementById('group-h')
     // Read json data
     const jsonData = "../data/highlightsData.json"
 
@@ -36,6 +43,14 @@
         let semiFinalsContent = ``;
         let quaterFinalsContent = ``;
         let roundSixteenContent = ``;
+        let groupAContent = ``;
+        let groupBContent = ``;
+        let groupCContent = ``;
+        let groupDContent = ``
+        let groupEContent = ``;
+        let groupFContent = ``;
+        let groupGContent = ``;
+        let groupHContent = ``;
 
         for(i=0;i<data.allHighlights.length;i++){
             console.log(data.allHighlights[i].image)
@@ -212,6 +227,108 @@
 
             `
             roundSixteenDiv.innerHTML = roundSixteenContent
+
+        }
+
+        for(i=0;i<data.groupA.length;i++){
+            console.log(data.groupA.length)
+            groupAContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupA[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupA[i].title}</p>
+                </li>
+
+            `
+            groupBContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupB[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupB[i].title}</p>
+                </li>
+            `
+
+            groupCContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupC[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupC[i].title}</p>
+                </li>
+            `
+
+            groupDContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupD[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupD[i].title}</p>
+                </li>
+            `
+
+            groupEContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupE[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupE[i].title}</p>
+                </li>
+            `
+
+            groupFContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupF[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupF[i].title}</p>
+                </li>
+            `
+
+            groupGContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupG[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupG[i].title}</p>
+                </li>
+            `
+
+            groupHContent += `
+                <li class="card" >
+                        <div class="">
+                            <div class="img" >
+                                <img src="${data.groupH[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.groupH[i].title}</p>
+                </li>
+            `
+
+
+            groupADiv.innerHTML = groupAContent
+            groupBDiv.innerHTML = groupBContent
+            groupCDiv.innerHTML = groupCContent
+            groupDDiv.innerHTML = groupDContent
+            groupEDiv.innerHTML = groupEContent
+            groupFDiv.innerHTML = groupFContent
+            groupGDiv.innerHTML = groupGContent
+            groupHDiv.innerHTML = groupHContent
 
         }
 
