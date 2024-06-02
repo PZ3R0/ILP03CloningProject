@@ -6,7 +6,7 @@ let searchButton;
 
 
 
-fetch('dummyDataSports.json')
+fetch('../Json/dummyDataSports.json')
   .then(response => response.json())
   .then(data => {
 
@@ -154,7 +154,7 @@ fetch('dummyDataSports.json')
   let filteredDatas;
 
  function filterProducts() {
- fetch('dummyDataSports.json')
+ fetch('../Json/dummyDataSports.json')
     .then(response => response.json())
     .then(data => {
 
@@ -187,7 +187,7 @@ fetch('dummyDataSports.json')
 
 function sortProducts(sortBy) {
   console.log(sortBy);
-  fetch('dummyDataSports.json')
+  fetch('../Json/dummyDataSports.json')
     .then(response => response.json())
     .then(data => {
       const products = data.products;
@@ -292,7 +292,7 @@ function displayProducts(products) {
 
 
 function displayAllProducts() {
-  fetch('dummyDataSports.json')
+  fetch('../Json/dummyDataSports.json')
     .then(response => response.json())
     .then(data => {
       const products = data.products;
@@ -424,7 +424,7 @@ function searchProducts() {
       return []; // If the query is empty, return an empty array
   }
 
-  fetch('dummyDataSports.json')
+  fetch('../Json/dummyDataSports.json')
   .then(response => response.json())
   .then(data => {
     const products = data.products;

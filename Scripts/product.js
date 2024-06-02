@@ -34,7 +34,7 @@ function toggleArrow() {
 
 
 function displayProductDetails() {
-    fetch('dummyDataSports.json')
+    fetch('../Json/dummyDataSports.json')
         .then(response => response.json())
         .then(data => {
             const products = data.products;
@@ -298,7 +298,7 @@ setTimeout(function () {
     document.getElementById('totalCount').textContent = "(" + document.getElementById('count-items').value + ")";
     function displayCartItems() {
         // console.log(localStorage.getItem('selectedCardId'));
-        fetch('dummyDataSports.json')
+        fetch('../Json/dummyDataSports.json')
             .then(response => response.json())
             .then(data => {
                 const products = data.products;
@@ -352,7 +352,7 @@ function displayRelatedProducts() {
         return []; // If the query is empty, return an empty array
     }
 
-    fetch('dummyDataSports.json')
+    fetch('../Json/dummyDataSports.json')
         .then(response => response.json())
         .then(data => {
             const products = data.products;
@@ -390,7 +390,7 @@ function searchProducts() {
         return []; // If the query is empty, return an empty array
     }
 
-    fetch('dummyDataSports.json')
+    fetch('../Json/dummyDataSports.json')
         .then(response => response.json())
         .then(data => {
             const products = data.products;
