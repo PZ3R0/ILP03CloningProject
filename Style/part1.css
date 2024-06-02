@@ -1,0 +1,311 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dad4d4ae !important;
+    color: #333;
+}
+.main-content {
+    position: relative;
+}
+.main-content img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.carousel-head{
+    display: flex !important;
+    flex-direction: row !important;
+
+}
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card{
+    padding: 5px;
+    margin-bottom: 10px;
+    color: black;
+}
+.imagewatch{
+    width:40%;
+    height:40%;
+}
+.bgfulltime{
+    background-color: #550065;
+    color: aliceblue;           
+    font-size: .775rem;
+    border-radius: 10%;
+}
+.card-body{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+/* .matchcontainer2 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* display: inline-block; */
+   
+
+    .matchcontainer2 {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        max-width: 90%;
+        scrollbar-width: none;
+        gap: 10px;
+    }
+      .matchcontainer2 .card {
+        min-width: 50%; /* Adjust based on your card width */
+        flex: 0 0 auto;}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+
+.main-content {
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-content.active {
+    display: block;
+}
+
+.main-content img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    transform: translateY(-50%);
+    background: #ff004c;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 50%;
+    border: 0;
+
+}
+
+.carousel-button:hover{
+    opacity: 100%;
+
+}
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.part1{
+    background-color: #550065;
+
+}
+.card-small {
+    flex: 1 0 23%; /* Adjust to show 4 cards at a time with some gap */
+    margin: 0 10px;
+}
+#carousel-content2 .card-small {
+    flex: 1 0 35%; /* 3 cards for carousel-content2 */
+    margin: 0 10px;
+}
+@media (max-width: 768px) {
+    .card-small {
+        flex: 0 0 48%; /* Adjust to show 2 cards at a time with some gap on mobile */
+        margin: 0 1%;
+    }
+    .wrapper-small #right {
+        display: none;
+    }
+    .wrapper-small i {
+        display: none !important;
+    }
+    /* Make the carousel scrollable on mobile */
+    .wrapper-small .carousel-small {
+        overflow-x: scroll;
+        scrollbar-width: none;
+        scrollbar-color: #888 transparent; /* For Firefox */
+    }
+    .wrapper-small .carousel-small::-webkit-scrollbar { /* For Chrome, Safari and Opera */
+        height: 8px;
+    }
+    .wrapper-small .carousel-small::-webkit-scrollbar-thumb { /* For Chrome, Safari and Opera */
+        background: #888;
+    }
+    .wrapper-small .carousel-small::-webkit-scrollbar-thumb:hover { /* For Chrome, Safari and Opera */
+        background: #555;
+    }
+}
+.wrapper-small {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.wrapper-small .carousel-small {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+#seeall {
+    text-decoration: none;
+    color: rgb(147, 63, 63);
+}
+.card-small .img-small {
+    background-color: #eeeee4;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5%;
+    padding: 0;
+    margin: 0;
+}
+.card-small .img-small img {
+    background-color: #eeeee4;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+img {
+    overflow: hidden;
+    transition: 1s ease !important;
+}
+.img-small img:hover {
+    transform: scale(1.1);
+    background-color: #ffffff;
+    object-fit: cover;
+    border-radius: 2%;
+    overflow: hidden !important;
+}
+.wrapper-small i {
+    height: 40px;
+    width: 40px;
+    background: #ff004c;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    font-size: 1.25rem;
+    position: absolute;
+    cursor: pointer;
+    top: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+    opacity: 70%;
+}
+.wrapper-small i:hover {
+    opacity: 100%;
+}
+.wrapper-small i:first-child {
+    left: 10px;
+}
+.wrapper-small i:last-child {
+    right: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    text-align:justify;
+    margin-bottom: 2rem;
+    line-height: 160%;
+    font-family: "poppins Regular","Noto Sans Regular","Arial";
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem !important;
+}
+
+p {
+    line-height: 1.6;
+    margin: 1em 0;
+}
+.archive-section{
+
+    background-image: url(https://digitalhub.fifa.com/transform/6fe29743-4231-4ada-81e1-fa7129324d8d/Kylian-Mbappe-scores-for-France-in-FIFA-World-Cup-Final?), linear-gradient(to right, rgba(0, 0, 0, 0.562), rgb(231, 225, 225));
+    background-blend-mode:multiply;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    align-items: center;
+    height:90vh;
+    object-fit: fill;
+}
+ 
+.archive-content{
+    padding-left: 5%;
+    max-width: 50%;
+    color: #fff;
+   
+}
+ 
+.archive-content button{
+   
+    color: #fff;
+    border-radius: 20px;
+    width: 40%;
+    padding: 1%;
+    border-color: #fff solid;
+    /* border: 5px #fff; */
+    /* box-sizing: border-box; */
+    border: 2px solid #fff;
+    transition: transform 0.4s ease-in;
+}
+ 
+.archive-content button:hover{
+ 
+    transform: scale(1.2);
+    color: #fff;
+    border-color: #fff solid;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    
+
+
+
+}
+.w-95
+{
+    width: 100% !important;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
