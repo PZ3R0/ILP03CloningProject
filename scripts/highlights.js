@@ -1,6 +1,8 @@
 
 
 document.addEventListener("DOMContentLoaded", function() { 
+
+    // console.log("Its working")
 	const carousel = document.querySelector(".carousel"); 
 	const arrowBtns = document.querySelectorAll(".wrapper i"); 
 	const wrapper = document.querySelector(".wrapper"); 
@@ -10,10 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
 	const wrapperSmall = document.querySelector(".wrapper-small"); 
 
 	const firstCard = carousel.querySelector(".card"); 
-	const firstCardWidth = firstCard.offsetWidth; 
+	// const firstCardWidth = firstCard.offsetWidth;
+    // console.log(firstCardWidth)
+    const firstCardWidth = 400 
 
 	const firstCardSmall = carouselSmall.querySelector(".card-small"); 
-	const firstCardSmallWidth = firstCardSmall.offsetWidth; 
+    // console.log(firstCardSmall)
+	// const firstCardSmallWidth = firstCardSmall.offsetWidth; 
+    // console.log(firstCardSmallWidth)
+    const firstCardSmallWidth = 280
 
 	let isDragging = false, 
 		startX, 

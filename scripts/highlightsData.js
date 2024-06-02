@@ -26,9 +26,9 @@
         const response = await fetch(jsonData)
         const data = await response.json()
         // console.log(data)
-        console.log("All highlights :: " ,data.allHighlights.length)
-        console.log("Collected for you :: " ,data.collectedForYou.length)
-        console.log("Sign language :: ",data.signLanguage.length)
+        // console.log("All highlights :: " ,data.allHighlights.length)
+        // console.log("Collected for you :: " ,data.collectedForYou.length)
+        // console.log("Sign language :: ",data.signLanguage.length)
 
 
         let i;
@@ -53,10 +53,7 @@
         let groupHContent = ``;
 
         for(i=0;i<data.allHighlights.length;i++){
-            console.log(data.allHighlights[i].image)
-            console.log(data.allHighlights[i].title)
-
-            
+                      
 
             allHighlightscontent += `<li class="" >
                 <div class="card">
@@ -134,7 +131,7 @@
         }
 
         for(i=0;i<data.highScoringClubs.length;i++){
-            console.log(data.highScoringClubs.length)
+            // console.log(data.highScoringClubs.length)
             highScoringClubsContent += `
                 <li class="" >
                         <div class="card-small">
@@ -153,7 +150,7 @@
         }
 
         for(i=0;i<data.watchGoals.length;i++){
-            console.log(data.watchGoals.length)
+            // console.log(data.watchGoals.length)
             watchTheirGoalsContent += `
                 <li class="" >
                         <div class="card-small">
@@ -173,7 +170,7 @@
         }
 
         for(i=0;i<data.finals.length;i++){
-            console.log(data.finals.length)
+            // console.log(data.finals.length)
             finalsContent += `
                 <li class="" >
                     <div class="card-large">
@@ -192,7 +189,7 @@
         }
 
         for(i=0;i<data.semiFinals.length;i++){
-            console.log(data.semiFinals.length)
+            // console.log(data.semiFinals.length)
             semiFinalsContent += `
                 <li class="" >
                     <div class="card-large">
@@ -210,8 +207,8 @@
         }
 
         for(i=0;i<data.quaterFinals.length;i++){
-            console.log(data.quaterFinals[i].image)
-            console.log(data.quaterFinals[i].title)
+            // console.log(data.quaterFinals[i].image)
+            // console.log(data.quaterFinals[i].title)
 
             quaterFinalsContent += `<li class="" >
                 <div class="card">
@@ -229,7 +226,7 @@
         }
 
         for(i=0;i<data.roundSixteen.length;i++){
-            console.log(data.roundSixteen.length)
+            // console.log(data.roundSixteen.length)
             roundSixteenContent += `
                 <li class="" >
                         <div class="card-small">
@@ -247,7 +244,7 @@
         }
 
         for(i=0;i<data.groupA.length;i++){
-            console.log(data.groupA.length)
+            // console.log(data.groupA.length)
             groupAContent += `
                 <li class="card" >
                         <div class="">
