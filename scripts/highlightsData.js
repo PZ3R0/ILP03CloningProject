@@ -6,7 +6,10 @@
     let everyTeamGoalsDiv = document.getElementById('every-teams-goals')
     let highScoringClubsDiv = document.getElementById('high-scoring-clubs')
     let watchTheirGoalsDiv = document.getElementById('watch-their-goals')
-
+    let finalsDiv = document.getElementById('finals')
+    let semiFinalsDiv = document.getElementById('semi-finals')
+    let quaterFinalsDiv = document.getElementById('quater-finals')
+    let roundSixteenDiv = document.getElementById('round-sixteen')
 
     // Read json data
     const jsonData = "../data/highlightsData.json"
@@ -29,6 +32,10 @@
         let everyTeamGoalsContent = ``;
         let highScoringClubsContent = ``;
         let watchTheirGoalsContent = ``;
+        let finalsContent = ``;
+        let semiFinalsContent = ``;
+        let quaterFinalsContent = ``;
+        let roundSixteenContent = ``;
 
         for(i=0;i<data.allHighlights.length;i++){
             console.log(data.allHighlights[i].image)
@@ -139,6 +146,74 @@
 
         }
 
+        for(i=0;i<data.finals.length;i++){
+            console.log(data.finals.length)
+            finalsContent += `
+                <li class="" >
+                    <div class="card-large">
+                        <div class="img-large" >
+                            <img src="${data.finals[i].image}" alt="" draggable="false">
+                        </div>
+                    </div>
+                        <p class="landing-para">${data.finals[i].title}</p>
+                    
+                </li>
+            `     
+            finalsDiv.innerHTML = finalsContent
+
+        }
+
+        for(i=0;i<data.semiFinals.length;i++){
+            console.log(data.semiFinals.length)
+            semiFinalsContent += `
+                <li class="" >
+                    <div class="card-large">
+                        <div class="img-large" >
+                            <img src="${data.semiFinals[i].image}" alt="" draggable="false">
+                        </div>
+                    </div>
+                        <p class="landing-para">${data.semiFinals[i].title}</p>
+                    
+                </li>
+            `     
+            semiFinalsDiv.innerHTML = semiFinalsContent
+
+        }
+
+        for(i=0;i<data.quaterFinals.length;i++){
+            console.log(data.quaterFinals[i].image)
+            console.log(data.quaterFinals[i].title)
+
+            quaterFinalsContent += `<li class="" >
+                <div class="card">
+                    <div class="img" >
+                        <img src="${data.quaterFinals[i].image}" alt="" draggable="false">
+                    </div>
+                
+                <p class="landing-para">${data.quaterFinals[i].title}</p>
+            </div>
+            </li>`
+
+            quaterFinalsDiv.innerHTML = quaterFinalsContent
+            
+        }
+
+        for(i=0;i<data.roundSixteen.length;i++){
+            console.log(data.roundSixteen.length)
+            roundSixteenContent += `
+                <li class="" >
+                        <div class="card-small">
+                            <div class="img-small" >
+                                <img src="${data.roundSixteen[i].image}" alt="" draggable="false">
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.roundSixteen[i].title}</p>
+                </li>
+
+            `
+            roundSixteenDiv.innerHTML = roundSixteenContent
+
+        }
 
 
         // allHighlightsDiv.innerHTML = allHighlightscontent

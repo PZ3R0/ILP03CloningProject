@@ -358,21 +358,82 @@
         }
     ],
 
-    "finals" : {
+    "finals" : [
+        {
+            "image" : "https://digitalhub.fifa.com/transform/8f382ffb-1adc-4a8a-9f03-feb2166736f1/ARG_FRA_FINAL_FWC22_THUMB_V4?io=transform:fill,aspectratio:16x9,width:768&quality=75",
+            "title" : "Argentina v France | Final | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/9856a6d2-3ba2-4f48-8591-bd16dd3673f3/CRO_MAR_3rd_FWC22_THUMB_V2?io=transform:fill,aspectratio:16x9,width:768&quality=75",
+            "title" : "Croatia v Morocco | Play-off for third place | FIFA World Cup Qatar 2022™ | Highlights"
+        }
+    ],
 
-    },
+    "semiFinals" : [
+        {
+            "image" : "https://digitalhub.fifa.com/transform/78cb8efd-f010-4ba9-957d-03b1cd6a0940/FRA_MAR_SF_FW22?io=transform:fill,aspectratio:16x9,width:768&quality=75",
+            "title" : "France v Morocco | Semi-finals | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/ccdb19bf-2bbf-401d-a2de-17d9c5696806/ARG_CRO_SF_FW22?io=transform:fill,aspectratio:16x9,width:768&quality=75",
+            "title" : "Argentina v Croatia | Semi-finals | FIFA World Cup Qatar 2022™ | Highlights"
+        }
+    ],
 
-    "semiFinals" : {
+    "quaterFinals" : [
+        {
+            "image" : "https://digitalhub.fifa.com/transform/c6f530c6-53d7-4a4a-b78c-72fbdbf1df7d/ENG_FRA_QF_FWC22_THUMB_V3?io=transform:fill,aspectratio:16x9,width:640&quality=75",
+            "title" : "England v France | Quarter-finals | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/09125409-8dda-41c0-b5e8-4c2d92215caf/MAR_POR_QF_FW22?io=transform:fill,aspectratio:16x9,width:640&quality=75",
+            "title" : "Morocco v Portugal | Quarter-finals | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/4be784cd-f418-4fb9-b462-2385267180f2/NED_ARG_QF_FW22?io=transform:fill,aspectratio:16x9,width:640&quality=75",
+            "title" : "Netherlands v Argentina | Quarter-finals | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/3b610500-4b1a-4305-9545-a82de4153b91/CRO_BRA_QF_FWC22_THUMB_V4?io=transform:fill,aspectratio:16x9,width:640&quality=75",
+            "title" : "Croatia v Brazil | Quarter-finals | FIFA World Cup Qatar 2022™ | Highlights"
+        }
+    ],
 
-    },
-
-    "quaterFinals" : {
-
-    },
-
-    "roundSixteen" : {
-
-    },
+    "roundSixteen" : [
+        {
+            "image" : "https://digitalhub.fifa.com/transform/afa1ba7d-c307-4994-b648-e50d4fcaa2cf/POR_SUI_R16_FWC22_THUMB_V2?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Portugal v Switzerland | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/0e681ccc-c9d2-4e62-a623-0f1c709427f5/MAR_ESP_R16_2022_FWC_V2?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Morocco v Spain | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/da130ff1-e4bc-4eb5-a7ea-88daea06900b/BRA_KOR_R16_FWC22_THUMB_V1?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Brazil v Korea Republic | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/6a13e544-fb06-46da-8b78-fea5b2c6e0f4/JPN_CRO_R16_FWC22_HERO_V2?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Japan v Croatia | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/7236e90c-6fdb-4918-b1c8-82f7e22d8027/ENG_SEN_R16_FWC22_THUMB?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "England v Senegal | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/9f6aba22-5ef3-4f17-85ba-c880ce8e277b/FRA_POL_R16_FW22?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "France v Poland | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/22f3fb66-2c76-4285-a11f-00daf45bc840/ARG_AUS_R16_FWC22_THUMB_V1?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Argentina v Australia | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        },
+        {
+            "image" : "https://digitalhub.fifa.com/transform/da181fdf-43a5-4229-acc1-52fec81ec5a0/NED_USA_R16_FW22?io=transform:fill,aspectratio:16x9,width:450&quality=75",
+            "title" : "Netherlands v USA | Round of 16 | FIFA World Cup Qatar 2022™ | Highlights"
+        }
+        
+    ],
 
     "groupA" : {
 
