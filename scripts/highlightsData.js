@@ -61,7 +61,9 @@
             allHighlightscontent += `<li class="" >
                 <div class="card">
                     <div class="img" >
-                        <img src="${data.allHighlights[i].image}" alt="" draggable="false">
+                        <a href="viewhighlights.html?data=allHighlights&id=${i}">
+                            <img src="${data.allHighlights[i].image}" alt="" draggable="false">
+                        </a>
                     </div>
                 
                 <p class="landing-para">${data.allHighlights[i].title}</p>
@@ -77,7 +79,9 @@
                 <li class="" >
                     <div class="card-large">
                         <div class="img-large" >
+                        <a href="viewhighlights.html?data=collectedForYou&id=${i}">
                             <img src="${data.collectedForYou[i].image}" alt="" draggable="false">
+                        </a>
                         </div>
                     </div>
                     
@@ -94,7 +98,8 @@
                 <li class="" >
                     <div class="card-large">
                         <div class="img-large" >
-                            <img src="${data.signLanguage[i].image}" alt="" draggable="false">
+                        <a href="viewhighlights.html?data=signLanguage&id=${i}">
+                            <img src="${data.signLanguage[i].image}" alt="" draggable="false"></a>
                         </div>
                     </div>
                     
@@ -115,7 +120,9 @@
                 <li class="" >
                         <div class="card-small">
                             <div class="img-small" >
+                            <a href="viewhighlights.html?data=everyTeamGoals&id=${i}">
                                 <img src="${data.everyTeamGoals[i].image}" alt="" draggable="false">
+                            </a>
                             </div>
                         </div>
                             <p class="landing-para">${data.everyTeamGoals[i].title}</p>
@@ -132,7 +139,9 @@
                 <li class="" >
                         <div class="card-small">
                             <div class="img-small" >
+                            <a href="viewhighlights.html?data=highScoringClubs&id=${i}">
                                 <img src="${data.highScoringClubs[i].image}" alt="" draggable="false">
+                            </a>
                             </div>
                         </div>
                             <p class="landing-para">${data.highScoringClubs[i].title}</p>
@@ -149,7 +158,9 @@
                 <li class="" >
                         <div class="card-small">
                             <div class="img-small" >
+                            <a href="viewhighlights.html?data=watchGoals&id=${i}">
                                 <img src="${data.watchGoals[i].image}" alt="" draggable="false">
+                                </a>
                             </div>
                         </div>
                             <p class="landing-para">${data.watchGoals[i].title}</p>
@@ -167,7 +178,9 @@
                 <li class="" >
                     <div class="card-large">
                         <div class="img-large" >
+                        <a href="viewhighlights.html?data=finals&id=${i}">
                             <img src="${data.finals[i].image}" alt="" draggable="false">
+                        </a>
                         </div>
                     </div>
                         <p class="landing-para">${data.finals[i].title}</p>
@@ -184,7 +197,8 @@
                 <li class="" >
                     <div class="card-large">
                         <div class="img-large" >
-                            <img src="${data.semiFinals[i].image}" alt="" draggable="false">
+                        <a href="viewhighlights.html?data=semiFinals&id=${i}">
+                            <img src="${data.semiFinals[i].image}" alt="" draggable="false"></a>
                         </div>
                     </div>
                         <p class="landing-para">${data.semiFinals[i].title}</p>
@@ -202,7 +216,8 @@
             quaterFinalsContent += `<li class="" >
                 <div class="card">
                     <div class="img" >
-                        <img src="${data.quaterFinals[i].image}" alt="" draggable="false">
+                    <a href="viewhighlights.html?data=quaterFinals&id=${i}">
+                        <img src="${data.quaterFinals[i].image}" alt="" draggable="false"></a>
                     </div>
                 
                 <p class="landing-para">${data.quaterFinals[i].title}</p>
@@ -219,7 +234,8 @@
                 <li class="" >
                         <div class="card-small">
                             <div class="img-small" >
-                                <img src="${data.roundSixteen[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=roundSixteen&id=${i}">
+                                <img src="${data.roundSixteen[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.roundSixteen[i].title}</p>
@@ -236,7 +252,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupA[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupA&id=${i}">
+                                <img src="${data.groupA[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupA[i].title}</p>
@@ -247,7 +264,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupB[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupB&id=${i}">
+                                <img src="${data.groupB[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupB[i].title}</p>
@@ -258,7 +276,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupC[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupC&id=${i}">
+                                <img src="${data.groupC[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupC[i].title}</p>
@@ -269,7 +288,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupD[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupD&id=${i}">
+                                <img src="${data.groupD[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupD[i].title}</p>
@@ -280,7 +300,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupE[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupE&id=${i}">
+                                <img src="${data.groupE[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupE[i].title}</p>
@@ -291,7 +312,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupF[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupF&id=${i}">
+                                <img src="${data.groupF[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupF[i].title}</p>
@@ -302,7 +324,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupG[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupG&id=${i}">
+                                <img src="${data.groupG[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupG[i].title}</p>
@@ -313,7 +336,8 @@
                 <li class="card" >
                         <div class="">
                             <div class="img" >
-                                <img src="${data.groupH[i].image}" alt="" draggable="false">
+                            <a href="viewhighlights.html?data=groupH&id=${i}">
+                                <img src="${data.groupH[i].image}" alt="" draggable="false"></a>
                             </div>
                         </div>
                             <p class="landing-para">${data.groupH[i].title}</p>
