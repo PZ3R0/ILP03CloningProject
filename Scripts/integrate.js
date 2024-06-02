@@ -25,32 +25,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // for hover effects of sidebar
   // watch
-  // function toggleSidebar(show) {
-  //   var sidebar = document.querySelector('.sidebarhoverwatch');
-  //   if (show) {
-  //     sidebar.style.display = 'block';
-  //   } else {
-  //     sidebar.style.display = 'none';
-  //   }
-  // }
-
-  var sidebarActive = false;
-
-function toggleSidebar(show) {
+  function toggleSidebar(show) {
     var sidebar = document.querySelector('.sidebarhoverwatch');
-    if (show && !sidebarActive) {
-        console.log(show);
-        sidebar.style.display = 'block';
+    if (show) {
+      sidebar.style.display = 'block';
+    } else {
+      sidebar.style.display = 'none';
     }
   }
-// Add an event listener for when the sidebar is active
-document.querySelector('.sidebarhoverwatch').addEventListener('mousehover', function() {
-    sidebarActive = true;
-console.log("mouseon")
-});
-
-// setTimeout(function() {
-//   sidebar.style.display = 'none';
-// }, 2000);
-// }
   
