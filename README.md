@@ -40,3 +40,15 @@ Review with others while adding, commiting and pushing to git.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 These are the base rules, Discuss with the team and we can update these Rules.
+
+
+
+
+
+COLORS USED HEX CODES
+
+Background Color : #550065 
+Hero Section Background : #eeeee4
+Text Black : #03122b
+Text White : #ffffff
+Button Hover : #c8b06c
