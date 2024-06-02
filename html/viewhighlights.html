@@ -44,7 +44,7 @@
         }
         
         body{
-            background-color: #000 !important;
+            background-color: #100e36 !important;
         }
         button{
             background: linear-gradient(#5878ed,#4d73ff);
@@ -55,6 +55,155 @@
             width: 10%;
             height: auto;
         }
+        
+        .card-small{
+            
+            width: 240px;
+            height: 120px;
+            
+            
+        }
+        .landing-para{
+            /* font-size: xx-large !important; */
+            color: #fff;
+        }
+
+
+
+        .wrapper-small{
+            max-width: 1100px;
+            width: 100%;
+            position: relative;
+        }
+
+        .wrapper-small .carousel-small{
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: calc((100% / 4)-12px);
+            gap: 2%;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            scrollbar-width: 0;
+
+        }
+
+
+
+        .carousel-small::-webkit-scrollbar{
+            display: none;
+        }
+
+        .carousel-small:where(.card-small, .img-small){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .carousel-small .dragging{
+            scroll-snap-type: none;
+            scroll-behavior: auto;
+        }
+
+        .carousel-small .no-transition{
+            scroll-behavior: auto;
+        }
+
+        .carousel-small .dragging .card-small{
+            cursor: grab;
+            user-select: none;
+        }
+
+        .carousel-small .card-small{
+            scroll-snap-align: start;
+            height: 150px;
+            list-style: none;
+            background: #eeeee4;
+            border-radius: 8px;
+            display: flex;
+            cursor: pointer;
+            padding-bottom: 15px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 280px;
+            border: none;
+            overflow: hidden;
+
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
+        .card-small .img-small{
+            background-color: #eeeee4;
+            width:100%;
+            height: 100%;
+            
+            /* padding-top: 10px; */
+            border-radius: 5%;
+        }
+        .card-small .img-small img{
+            background-color: #eeeee4;
+            width: 100%;
+            height: auto;
+            /* position: relative; */
+            object-fit:fill !important;
+            border-radius: 2%;
+            /* vertical-align: initial; */
+            
+        }
+
+        img{
+            overflow: hidden;
+            transition: 1s ease-in-out !important;
+        }
+
+        .img-small img:hover{
+            
+            /* transform: scale(1.01) !important; */
+            background-color: #eeeee4;
+            width: 400px;
+            height: auto;
+            /* max-width: 300px;
+            max-height: 250px; */
+            object-fit: cover;
+            border-radius: 2%;
+            /* background-size: 50%; */
+            overflow: hidden !important;
+
+            /* object-fit: cover; */
+            border-radius: 2%;
+        }
+
+
+        .wrapper-small i{
+            height: 40px;
+            width: 40px;
+            background: #ff004c;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 40px;
+            color:#fff;
+            font-size: 1.25rem;
+            position: absolute;
+            cursor: pointer;
+            top : 40%;
+            transform: translateY(-40%);
+            z-index: 1;
+            opacity: 70%;
+        }
+
+
+        .wrapper-small i:first-child{
+            left: -22px;
+        }
+
+        .wrapper-small i:last-child{
+            right:-22px;
+        }
+
     </style>
 </head>
 <body>
@@ -91,57 +240,103 @@
         </div>
       </nav>
 
-      <section class="d-flex justify-content-around align-items-center" id="highlight-view">
-        <script>
-
-            const jsonData = "../data/highlightsData.json"
-
-            let highlightView = document.getElementById('highlight-view')
-
-            let urlParams = new URLSearchParams(window.location.search)
-
-            let dataName = urlParams.get('data')
-            let id = urlParams.get('id')
-            console.log(dataName,"::",id)
-
-            async function getData(){
-                const response = await fetch(jsonData)
-                const data = await response.json() 
-
-                
-                console.log(data[dataName][id])
-                console.log(data[dataName][id].title)
-            
-
-            
-            let content;
-
-            
-            content = `
-                <div class="card" style="width: 40rem; height:50%">
-                    <video width="" height="" poster="${data[dataName][id].image}" controls>
-                        <source src="${data[dataName][id].video}" controls>
-                        
-                    </video>
-                    
-                    <div class="card-body bg-white">
-                    <h5 class="card-title">${data[dataName][id].title}</h5>
-                    <p class="card-text">Watch the highlights from the match between ${data[dataName][id].title}</p>
-                    
-                    </div>
-                </div>
-            `
-            highlightView.innerHTML = content
-
-
-        }
-            getData()
-
-        </script>
+      <section class="d-flex justify-content-around align-items-center pb-5" id="highlight-view">
+        
       </section>
+      <section class="container pt-5 ">
+        <div class="carousel-head d-flex column justify-content-between">
+            <div>
+                <h5 class="text-white">More like this</h5>
+            </div>
+            <div class=" px-3">
+                <a href="">
+                    <p><small></small></p>
+                </a>
+               
+            </div>
+
+        </div>
+
+        <div class="wrapper-small">
+            
+            <ul class="carousel-small" id="more-like-this">
+                <!--Data from api-->                
+            </ul>
+            
+
+        </div>
+
+    </section>
 
     
 </body>
+<script>
+
+    const jsonData = "../data/highlightsData.json"
+
+    let highlightView = document.getElementById('highlight-view')
+
+    let urlParams = new URLSearchParams(window.location.search)
+
+    let dataName = urlParams.get('data')
+    let id = urlParams.get('id')
+    console.log(dataName,"::",id)
+
+    async function getData(){
+        const response = await fetch(jsonData)
+        const data = await response.json() 
+
+        
+        console.log(data[dataName][id])
+        console.log(data[dataName][id].title)
+    
+
+    
+    let content;
+
+    
+    content = `
+        <div class="card" style="width: 40rem; height:50%;border:0px;">
+            <video width="" height="" poster="${data[dataName][id].image}" controls>
+                <source src="${data[dataName][id].video}" controls>
+                
+            </video>
+            
+            <div class="card-body bg-white">
+            <h3 class="card-title">${data[dataName][id].title}</h3>
+            <p class="card-text">Watch the highlights from the match between ${data[dataName][id].title}</p>
+            
+            </div>
+        </div>
+    `
+    highlightView.innerHTML = content
+
+    let moreContentDiv = document.getElementById('more-like-this')
+    let moreContent = ``
+    for(i=0;i<data.roundSixteen.length;i++){
+            console.log(data.roundSixteen.length)
+            moreContent += `
+                <li class="" >
+                        <div class="card-small">
+                            <div class="img-small" >
+                            <a href="viewhighlights.html?data=roundSixteen&id=${i}">
+                                <img src="${data.roundSixteen[i].image}" alt="" draggable="false"></a>
+                            </div>
+                        </div>
+                            <p class="landing-para">${data.roundSixteen[i].title}</p>
+                </li>
+
+            `
+            moreContentDiv.innerHTML = moreContent
+
+        }
+    
+
+
+}
+    getData()
+
+</script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </html>
