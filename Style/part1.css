@@ -127,6 +127,11 @@ body {
     flex: 1 0 35%; /* 3 cards for carousel-content2 */
     margin: 0 10px;
 }
+#carousel-content0 .card-small {
+    flex: 1 0 50%; /* 3 cards for carousel-content2 */
+    height: 70%;
+    margin: 0 10px;
+}
 @media (max-width: 768px) {
     .card-small {
         flex: 0 0 48%; /* Adjust to show 2 cards at a time with some gap on mobile */

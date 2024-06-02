@@ -31,7 +31,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
 
 const picsRef = firebase.database().ref('pics');
-fetchData('imageconsol0', 'carousel-content0', 'left0', 'right0',3);
+fetchData('imageconsol0', 'carousel-content0', 'left0', 'right0',2);
 fetchData('imagesconsol1', 'carousel-content1', 'left1', 'right1',4);
 fetchData('imageconsol2', 'carousel-content2', 'left2', 'right2',3);
 fetchData('imageconsol4', 'carousel-content3', 'left3', 'right3',4);
