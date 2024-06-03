@@ -1,4 +1,24 @@
 
+/* Base styles for the element with line */
+.element-with-line {
+  position: relative;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 20px; /* Space between the line element and the grid */
+}
+
+.element-with-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 2px;
+  background-color: #000;
+}
+
+
 /* Grid container for groups */
 .groups-container {
   display: grid;
@@ -14,7 +34,9 @@
   border-radius: 8px; /* Optional rounded corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for group items */
   position: relative;
+
   width: 25em;
+
 
 }
 
@@ -34,8 +56,13 @@
 .team-headers,
 .team {
   display: flex;
+
+  flex-direction: row;
+  align-items: center;
+
   align-items: center;
   flex-direction: row !important;
+
   margin-bottom: 10px;
 }
 
