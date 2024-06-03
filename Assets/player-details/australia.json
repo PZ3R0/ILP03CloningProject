@@ -1,0 +1,148 @@
+{
+  "Goalkeeper": [
+    {
+      "firstName": "Mathew",
+      "lastName": "RYAN",
+      "position": "GOALKEEPER"
+    },
+    {
+        "firstName": "Andrew",
+        "lastName": "REDMAYNE",
+        "position": "GOALKEEPER"
+    },
+    {
+        "firstName": "Danny",
+        "lastName": "VUKOVIC",
+        "position": "GOALKEEPER"
+    }
+  ],
+  "Defender": [
+    {
+      "firstName": "Milos",
+      "lastName": "DEGENEK",
+      "position": "DEFENDER"
+    },
+    {
+        "firstName": "Nathaniel",
+        "lastName": "ATKINSON",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Kye",
+        "lastName": "ROWLES",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Fran",
+        "lastName": "KARACIC",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Bailey",
+        "lastName": "WRIGHT",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Aziz",
+        "lastName": "BEHICH",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "SOUTTAR",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Thomas",
+        "lastName": "DENG",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Joel",
+        "lastName": "KING",
+        "position": "DEFENDER"
+    }
+],
+"Forward": [
+    {
+        "firstName": "Marco",
+        "lastName": "TILIO",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Mathew",
+        "lastName": "LECKIE",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Jamie",
+        "lastName": "MacLAREN",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Awer",
+        "lastName": "MABIL",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Mitch",
+        "lastName": "DUKE",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Garang",
+        "lastName": "KUOL",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Craig",
+        "lastName": "GOODWIN",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Jason",
+        "lastName": "CUMMINGS",
+        "position": "FORWARD"
+    }
+],
+"Midfielder": [
+    {
+        "firstName": "Ajdin",
+        "lastName": "HRUSTIC",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Aaron",
+        "lastName": "MOOY",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Riley",
+        "lastName": "McGREE",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Cameron",
+        "lastName": "DEVLIN",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Jackson",
+        "lastName": "IRVINE",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Keanu",
+        "lastName": "BACCUS",
+        "position": "MIDFIELDER"
+    }
+],
+"Manager": [
+    {
+    "firstName": "Graham",
+    "lastName": "James Arnold",
+    "position": "MANAGER"
+    }
+]
+}
+

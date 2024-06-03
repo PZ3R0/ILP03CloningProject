@@ -1,0 +1,83 @@
+body {
+  background-color: #EEEEE4;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h2 {
+  margin-bottom: 10px;
+  font-size: 24px; /* Adjust as necessary */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: left; /* Ensure even spacing */
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 50% 50% 25% 25% / 10% 10% 15% 15%; 
+  padding: 20px;
+  width: calc(25% - 20px); /* 4 cards per row with some gap */
+  text-align: center;
+  box-sizing: border-box; /* Include padding in width calculation */
+  position: relative; 
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.card div {
+  margin-top: 10px;
+  font-size: 18px; /* Adjust as necessary */
+}
+
+.card hr {
+  width: 80%;
+  margin: 10px auto;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.first-name {
+  font-size: 14px !important;
+}
+.last-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.position {
+  font-size: 10px !important;
+  color: #550065;
+}
+
+.flag-arg,.flag-aus {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 25px; /* Adjust width as necessary */
+  height: 20px; /* Adjust height as necessary */
+  background-size: cover;
+  border-radius: 2px; /* Optional: to round the corners of the flag */
+}
+
+.flag-arg{
+  background-image: url("https://flagsapi.com/AR/flat/64.png");
+}
+.flag-aus{
+  background-image: url("https://flagsapi.com/AU/flat/64.png");
+}

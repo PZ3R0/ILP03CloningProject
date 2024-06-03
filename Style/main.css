@@ -7,14 +7,54 @@
 .navbar {
     background-color: var(--violet);
     color: white;
+    
+}
+@media (max-width: 900px) {
+
+    .navbar-bottom-right,.navbar-bottom-right i{
+        display: none !important;
+    }
+    .hamburger{
+        display: none !important;
+    }
+
+    
+    /* .navbar-bottom-right {
+        width: 0%;
+    } */
+    .navbar-top-right a {
+        color: white;
+        font-size: .475rem;
+        display: none;
+    }
+    .scrollable {
+        padding: 10px;
+        gap: 7%;
+        /* width: 100%; */
+        overflow: none;
+        white-space: nowrap;
+        scrollbar-width: none;
+        /* Hide scrollbar for Firefox */
+        -ms-overflow-style: none;
+    }
+    .scrollable a {
+        width: 800%;
+        text-decoration: none;
+        color: white;
+    }
+    
 }
 
 .navbar-top-right a {
     color: white;
-    font-size: 12px;
+    font-size: .775rem;
+    padding: 2%;
 }
 
-.navbar-top-right>a:hover {
+.sideelements{
+    color: white;
+}
+.navbar-top-right>a:hover , .sideelements>a:hover, .sideelements>i:hover, .sideelements:hover{
     color: var(--golden);
 }
 
@@ -26,6 +66,7 @@
     display: inline-block;
     padding: 10px;
     gap: 7%;
+    /* width: 100%; */
     overflow: auto;
     white-space: nowrap;
     scrollbar-width: none;
@@ -35,6 +76,7 @@
 
 .scrollable a {
     display: inline-block;
+    width: 180%;
     text-decoration: none;
     color: white;
 }
@@ -43,12 +85,12 @@
     color: var(--golden);
 }
 
-.navbar-bottom-middle {
-    width: 80%;
+.navbar-bottom-middle{
+    width: 75%;
 }
 
 .navbar-bottom-right {
-    width: 15%;
+    width: auto;
 }
 
 /* sidebar menu */
@@ -59,8 +101,11 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color: #333;
+    background-color: var(--violet);
     transition: left 0.3s ease;
+    z-index: 1000;
+    overflow: auto;
+    scrollbar-width: none;
 }
 
 .sidebarMenu ul {
@@ -77,9 +122,6 @@
     text-decoration: none;
 }
 
-
-/* backdrop bluish when open sidebar */
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -88,7 +130,7 @@
     bottom: 0;
     background: #03122b;
     opacity: .8;
-    z-index: -1;
+    z-index: 2;
     animation: backdropFadeIn .3s ease-out 0s, .3
 }
 
@@ -141,9 +183,20 @@
 }
 
 #ot-sdk-btn {
+    
+        background-color: transparent;
+        border: none;
+        color: white;
+      
+}
 
-    background-color: transparent;
-    border: none;
-    color: white;
+.knockout-nevin {
+    padding: 0;
+    display: flex;
+}
+
+.legacyforallhero {
+    overflow: auto;
+    scrollbar-width: none;
 
 }

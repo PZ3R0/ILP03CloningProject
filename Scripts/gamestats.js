@@ -3,11 +3,9 @@ import { firebaseConfig } from './config.js'
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
 import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
-// Function to fetch JSON data from a given path
 async function fetchData(path) {
     try {
         const response = await fetch(path);
@@ -33,7 +31,7 @@ function observeProgressBars() {
     const progressBars = document.querySelectorAll('.progress-team');
     const options = {
         root: null,
-        rootMargin: '100px',
+        rootMargin: '0px',
         threshold: 0.1
     };
 
@@ -54,20 +52,16 @@ function observeProgressBars() {
 
 // Function to render progress bars
 function renderProgressBar(neededGameData) {
-    // Clear previous content
     progressBarContainer.innerHTML = '';
 
-    // Loop through each statistic in neededGameData
     for (const stat in neededGameData) {
         const team1StatValue = neededGameData[stat]['team1'];
         const team2StatValue = neededGameData[stat]['team2'];
 
-        // Convert values to percentages
         const total = team1StatValue + team2StatValue;
         const team1Percentage = (team1StatValue / total) * 100;
         const team2Percentage = (team2StatValue / total) * 100;
 
-        // Create progress bar elements
         const statHeader = document.createElement('div');
         statHeader.classList.add('stat-header');
         statHeader.textContent = stat;
@@ -111,7 +105,6 @@ function renderProgressBar(neededGameData) {
         progressBarContainer.appendChild(progressContainer);
     }
 
-    // Observe the newly created progress bars
     observeProgressBars();
 }
 
@@ -119,9 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const statsButton = document.getElementById('stats');
     const tableButton = document.getElementById('table');
 
-    // Function to fetch data and render stats
     function renderStats() {
-        // Fetch data from JSON file and render progress bars
         tablesContainer.style.display = 'none';
         progressBarContainer.style.display = 'block';
         fetchData(jsonFilePath)
@@ -139,30 +130,23 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error:', error));
     }
 
-    // Event listener for stats button
     statsButton.addEventListener('click', function () {
         renderStats();
     });
 
-    // Event listener for table button
     tableButton.addEventListener('click', function () {
-        // Fetch data for table and render
         fetchData(jsonFilePath)
             .then(data => {
                 if (data) {
-                    // Clear previous content
                     progressBarContainer.innerHTML = '';
-                    // Display tables
                     tablesContainer.style.display = 'block';
                     progressBarContainer.style.display = 'none';
-                    // Render tables here
                     createTables(data);
                 }
             })
             .catch(error => console.error('Error:', error));
     });
 
-    // Show stats by default
     renderStats();
 });
 

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>FIFA World Cup Qatar 2022™ | Knockout Stage Bracket</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+zGm0yQbDrj8PeJD6SsqK6mVVqAy4+8gSgR4U8i"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../Style/knockout-frontend2 1.css" />
+    <link rel="stylesheet" href="../Style/group_frontend.css" />
+    <link rel="stylesheet" href="../Style/global.css" />
+    <link rel="stylesheet" href="../Style/main.css" />
+    <link rel="stylesheet" href="../Style/sidebarhover.css" />
+    <link rel="stylesheet" href="../Style/small-corousel.css">
+    <!-- Firebase JavaScript SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <!-- my JS file -->
+    <script src="../Scripts/group_frontend.js"></script>
+    <script src="../Scripts/small-carousel.js"></script>
+    <!-- <script src="../Scripts/main.js"></script> -->
+  </head>
+
+  <body>
+        <section id="header">
+        <nav class="navbar p-1 fixed-top">
+            <div class="d-flex flex-column w-100">
+                <div class="d-flex justify-content-between w-100 global-menu">
+                    <div class="px-4 py-0">
+                        <a href="https://www.fifa.com/fifaplus/">
+                            <img src="../Assets/headerFooter/fifaLogoTopLeft.png" style="height: 15px;">
+                        </a>
+                    </div>
+                    <div class="d-flex w-25 justify-content-around navbar-top-right poppins-medium ">
+                        <a class="text-decoration-none" href="#">TICKETS</a>
+                        <a class="text-decoration-none" href="#">FIFA +</a>
+                        <a class="text-decoration-none" href="#">FIFA STORE</a>
+                        <a class="text-decoration-none" href="#">INSIDE FIFA</a>
+                    </div>
+                </div>
+                <hr class="my-2">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars px-4 hamburger" id="hamburger"></i>
+                    </div>
+                    <div class="navbar-bottom-middle d-flex align-items-center">
+                        <img class="navbar-bottom-image px-4" src="../Assets/headerFooter/image.png">
+                        <div class="scrollable poppins-medium d-flex align-items-center">
+                            <a href="#">SCORES & FIXTURES</a>
+                            <a href="#">KNOCKOUT & GROUPS</a>
+                            <a href="#">TEAMS</a>
+                            <a href="#">HIGHLIGHTS</a>
+                            <a href="#">NEWS</a>
+                            <a href="#">WATCH ON FIFA +</a>
+                            <a href="#">PLAY</a>
+                            <a href="#">TICKETS</a>
+                            <a href="#">SHOP</a>
+                            <a href="#">VISIT</a>
+                            <a href="#">TOURNAMENTS</a>
+                        </div>
+                    </div>
+                    <div class="navbar-bottom-right d-flex px-4 justify-content-around gap-3">
+                        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                        <i class="fa-solid fa-globe fa-xl"></i>
+                        <i class="fa-solid fa-user fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- SIDEBAR STUFFF -->
+    <div>
+            <div id="backdrop"></div>
+            <div class="sidebarMenu d-grid" style="font-size: 12px;" id="sidebarMenu">
+                <ul>
+                    <li>
+                        <div class="sideelements" style="padding-top: 100px;">
+                            <a href="#">SCORES & FIXTURES</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">KNOCKOUT & GROUPS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">TEAMS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">HIGHLIGHTS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">HIGHLIGHTS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">NEWS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                            <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">WATCH ON FIFA+</a>
+                            <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                            <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">PLAY</a>
+                            <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">TICKETS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">SHOP</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                            <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">VISIT</a>
+                            <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                            <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">TOURNAMENTS</a>
+                            <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                            <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">MORE FROM FIFA</a>
+                            <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a style="font-size: 10px; color: var(--golden); padding-top: 150px;">&nbsp;MORE FIFA</a>
+                            <hr style="padding: 0; margin: 0; color: var(--golden);">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">TICKETS</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">FIFA+</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">FIFA STORE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements">
+                            <a href="#">INSIDE FIFA</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a style="font-size: 10px; color: var(--golden); padding: 0;">PREFERENCES</a>
+                            <hr style="padding: 0; margin: 0; color: var(--golden);">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sideelements d-flex justify-content-between" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">
+                            <a href="#" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)">LANGUAGES</a>
+                            <i class="fa-solid fa-chevron-right" onmouseover="toggleSidebar(true)" onmouseout="toggleSidebar(false)"></i>
+                        </div>
+                    </li>                  
+                </ul>
+            </div>
+            <div class="sidebarhoverwatch">
+                <img src="https://digitalhub.fifa.com/transform/771a2e45-6115-40c6-bd65-db9107d548e1/FIFAPLS_Logo_Blue" style="width: 90px;" alt="">
+            </div>
+
+            <ul>
+                <li>
+                    <div>
+                        <a href="#"></a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <section id="sectionToExport">
+      <div class="container knockout">
+        <div class="knockoutheader">
+          <span class="items">Round of 16</span>
+          <span class="items">Quarter-final</span>
+          <span class="items">Semi-final</span>
+          <span class="items">Play-off for third place</span>
+          <span class="items">Semi-final</span>
+          <span class="items">Quarter-final</span>
+          <span class="items">Round of 16</span>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="knockout-bracket">
+              <!-- Round of 16 left-->
+              <div class="round round-of-16-left">
+                <div class="column">
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-eng"></div>
+                      <span class="country-name">ENG</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">3-0</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-sen"></div>
+                      <span class="country-name">SEN</span>
+                    </div>
+                  </div>
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-fra"></div>
+                      <span class="country-name">FRA</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">3-1</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-pol"></div>
+                      <span class="country-name">POL</span>
+                    </div>
+                  </div>
+                  <div class="match custom-align">
+                    <div class="team">
+                      <div class="flag flag-mar"></div>
+                      <span class="country-name">MAR</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">0-0</div>
+                      <div class="ft">FT</div>
+                      <div class="penalties">Morocco wins 3-0 on penalties</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-esp"></div>
+                      <span class="country-name">ESP</span>
+                    </div>
+                  </div>
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-por"></div>
+                      <span class="country-name">POR</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">6-1</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-sui"></div>
+                      <span class="country-name">SUI</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quarter-finals-left -->
+              <div class="round quarter-final-left">
+                <div class="column">
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-eng"></div>
+                      <span class="country-name">ENG</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">1-2</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-fra"></div>
+                      <span class="country-name">FRA</span>
+                    </div>
+                  </div>
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-mar"></div>
+                      <span class="country-name">MAR</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">1-0</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-por"></div>
+                      <span class="country-name">POR</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Semi-Final, Third-place and Final -->
+              <div class="round third-semi-final-final">
+                <div class="column">
+                  <div class="round third-place">
+                    <div class="match">
+                      <div class="team">
+                        <div class="flag flag-cro"></div>
+                        <span class="country-name">CRO</span>
+                      </div>
+                      <div class="score-section">
+                        <div class="score">2-1</div>
+                        <div class="ft">FT</div>
+                      </div>
+                      <div class="team">
+                        <div class="flag flag-mar"></div>
+                        <span class="country-name">MAR</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="semi-finals">
+                    <!-- Semi-finals-left -->
+                    <div class="round semi-final-left">
+                      <div class="column">
+                        <div class="match">
+                          <div class="team">
+                            <div class="flag flag-fra"></div>
+                            <span class="country-name">FRA</span>
+                          </div>
+                          <div class="score-section">
+                            <div class="score">2-0</div>
+                            <div class="ft">FT</div>
+                          </div>
+                          <div class="team">
+                            <div class="flag flag-mar"></div>
+                            <span class="country-name">MAR</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Semi-finals-right -->
+                    <div class="round semi-final-right">
+                      <div class="column">
+                        <div class="match">
+                          <div class="team">
+                            <div class="flag flag-arg"></div>
+                            <span class="country-name">ARG</span>
+                          </div>
+                          <div class="score-section">
+                            <div class="score">3-0</div>
+                            <div class="ft">FT</div>
+                          </div>
+                          <div class="team">
+                            <div class="flag flag-cro"></div>
+                            <span class="country-name">CRO</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="round final">
+                    <div class="match">
+                      <div class="team">
+                        <div class="flag flag-arg"></div>
+                        <span class="country-name">ARG</span>
+                      </div>
+                      <div class="score-section">
+                        <div class="final-word">FINAL</div>
+                        <div class="score">3-3</div>
+                        <div class="ft">FT</div>
+                        <div class="penalties">
+                          Argentina wins 4-2 on penalties
+                        </div>
+                      </div>
+                      <div class="team">
+                        <div class="flag flag-fra"></div>
+                        <span class="country-name">FRA</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quarter-finals-right -->
+              <div class="round quarter-final-right">
+                <div class="column">
+                  <div class="match custom-align">
+                    <div class="team">
+                      <div class="flag flag-ned"></div>
+                      <span class="country-name">NED</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">2-2</div>
+                      <div class="ft">FT</div>
+                      <div class="penalties">
+                        Argentina wins 4-3 on penalties
+                      </div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-arg"></div>
+                      <span class="country-name">ARG</span>
+                    </div>
+                  </div>
+                  <div class="match custom-align">
+                    <div class="team">
+                      <div class="flag flag-cro"></div>
+                      <span class="country-name">CRO</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">1-1</div>
+                      <div class="ft">FT</div>
+                      <div class="penalties">Croatia wins 4-2 on penalties</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-bra"></div>
+                      <span class="country-name">BRA</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Round of 16 - Next 4 Matches -->
+              <div class="round round-of-16-right">
+                <div class="column">
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-ned"></div>
+                      <span class="country-name">NED</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">3-1</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-usa"></div>
+                      <span class="country-name">USA</span>
+                    </div>
+                  </div>
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-arg"></div>
+                      <span class="country-name">ARG</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">2-1</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-aus"></div>
+                      <span class="country-name">AUS</span>
+                    </div>
+                  </div>
+                  <div class="match custom-align">
+                    <div class="team">
+                      <div class="flag flag-jpn"></div>
+                      <span class="country-name">JPN</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">1-1</div>
+                      <div class="ft">FT</div>
+                      <div class="penalties">Croatia wins 2-1 on penalties</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-cro"></div>
+                      <span class="country-name">CRO</span>
+                    </div>
+                  </div>
+                  <div class="match">
+                    <div class="team">
+                      <div class="flag flag-bra"></div>
+                      <span class="country-name">BRA</span>
+                    </div>
+                    <div class="score-section">
+                      <div class="score">4-1</div>
+                      <div class="ft">FT</div>
+                    </div>
+                    <div class="team">
+                      <div class="flag flag-kor"></div>
+                      <span class="country-name">KOR</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="groups-container"></div>
+    <!-- <section class="container pt-3">
+        <div class="carousel-head d-flex column justify-content-between">
+            <div>
+                <p class="">Round of Sixteen</p>
+            </div>
+            <div class=" px-3">
+                <a href="">
+                    <p><small>SEE ALL</small></p>
+                </a>
+               
+            </div>
+ 
+        </div>
+ 
+        <div class="wrapper-small">
+            <i id="left" class="fa-solid  fas fa-angle-left"></i>
+            <ul class="carousel-small" id="car-high">
+                Data from api-->                
+            <!-- </ul>
+            <i id="right" class="fa-solid  fas fa-angle-right"></i>
+ 
+        </div>
+ 
+    </section> -->
+  </body>
+  <script src="../Scripts/small-carousal-data.js"></script>
+</html>

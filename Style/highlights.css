@@ -1,0 +1,537 @@
+
+body{
+    margin: 0% !important;
+    padding: 0% !important;
+    background-color: #eeeee4 !important;
+    font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif" !important;
+    
+}
+
+/* .highlight-main{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+} */
+
+.carousel-head a{
+    color: #ff004c;
+    text-decoration: none;
+
+}
+
+.carousel-head a:hover{
+    color: #ff004f;
+    text-decoration: none;
+
+}
+
+.landing-head{
+    font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif";
+}
+.landing-para{
+    font-family:"Poppins","Poppins 500", "Noto Sans Regular", "'Helvetica Neue', Arial, sans-serif";
+    width: 90%;
+    padding-top:1% ;
+}
+
+/* Medium Card Design */
+
+.card{
+    
+    width: 300px;
+    height: 150px;
+    
+}
+
+
+
+.wrapper{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3)-12px);
+    gap: 2%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+
+}
+
+
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel:where(.card, .img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel .no-transition{
+    scroll-behavior: auto;
+}
+
+.carousel .dragging .card{
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel .card{
+    scroll-snap-align: start;
+    height: 300px;
+    list-style: none;
+    background: #eeeee4;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border: none;
+    overflow: hidden;
+
+}
+
+.card .img{
+    background-color: #eeeee4;
+    width: 400px;
+    height: 100%;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+.card .img img{
+    background-color: #eeeee4;
+    width: 400px;
+    height: auto;
+    
+    object-fit: cover;
+    border-radius: 2%;
+    
+}
+
+img{
+    overflow: hidden;
+    transition: 1s ease !important;
+}
+
+.img img:hover{
+    
+    transform: scale(1.1);
+    background-color: #eeeee4;
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2%;
+    background-size: 50%;
+    overflow: hidden !important;
+
+    /* object-fit: cover; */
+    border-radius: 2%;
+}
+
+
+.wrapper i{
+    height: 50px;
+    width: 50px;
+    background: #ff004c;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    color:#fff;
+    font-size: 1.25rem;
+    position: absolute;
+    cursor: pointer;
+    top : 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    opacity: 70%;
+}
+
+
+.wrapper i:first-child{
+    left: -22px;
+}
+
+.wrapper i:last-child{
+    right:-22px;
+}
+
+/* Medium Card Caurosel Design Ends */
+
+/* Small Card Carousel Design */
+
+.card-small{
+    
+    width: 240px;
+    height: 120px;
+    
+}
+
+
+
+.wrapper-small{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper-small .carousel-small{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 4)-12px);
+    gap: 2%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+
+}
+
+
+
+.carousel-small::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel-small:where(.card-small, .img-small){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-small .dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel-small .no-transition{
+    scroll-behavior: auto;
+}
+
+.carousel-small .dragging .card-small{
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel-small .card-small{
+    scroll-snap-align: start;
+    height: 150px;
+    list-style: none;
+    background: #eeeee4;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    border: none;
+    overflow: hidden;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.card-small .img-small{
+    background-color: #eeeee4;
+    width:100%;
+    height: 100%;
+    
+    /* padding-top: 10px; */
+    border-radius: 5%;
+}
+.card-small .img-small img{
+    background-color: #eeeee4;
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+    object-fit:fill !important;
+    border-radius: 2%;
+    /* vertical-align: initial; */
+    
+}
+
+img{
+    overflow: hidden;
+    transition: 1s ease-in-out !important;
+}
+
+.img-small img:hover{
+    
+    /* transform: scale(1.01) !important; */
+    background-color: #eeeee4;
+    width: 400px;
+    height: auto;
+    /* max-width: 300px;
+    max-height: 250px; */
+    object-fit: cover;
+    border-radius: 2%;
+    /* background-size: 50%; */
+    overflow: hidden !important;
+
+    /* object-fit: cover; */
+    border-radius: 2%;
+}
+
+
+.wrapper-small i{
+    height: 40px;
+    width: 40px;
+    background: #ff004c;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    color:#fff;
+    font-size: 1.25rem;
+    position: absolute;
+    cursor: pointer;
+    top : 40%;
+    transform: translateY(-40%);
+    z-index: 1;
+    opacity: 70%;
+}
+
+
+.wrapper-small i:first-child{
+    left: -22px;
+}
+
+.wrapper-small i:last-child{
+    right:-22px;
+}
+
+/* Small Card Carousel Design End*/
+
+/* Large Card Carousel Design */
+
+.card-large{
+    
+    width: 340px;
+    height: 220px;
+    
+}
+
+
+
+.wrapper-large{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper-large .carousel-large{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 2)-12px);
+    gap: 3.5%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+
+}
+
+
+
+.carousel-large::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel-large:where(.card-large, .img-large){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-large .dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel-large .no-transition{
+    scroll-behavior: auto;
+}
+
+.carousel-large .dragging .card-large{
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel-large .card-large{
+    scroll-snap-align: start;
+    height: 300px;
+    list-style: none;
+    background: #eeeee4;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 530px;
+    border: none;
+    overflow: hidden;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.card-large .img-large{
+    background-color: #eeeee4;
+    width:100%;
+    height: 100%;
+    
+    /* padding-top: 10px; */
+    border-radius: 5%;
+}
+.card-large .img-large img{
+    background-color: #eeeee4;
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+    object-fit:fill !important;
+    border-radius: 2%;
+    /* vertical-align: initial; */
+    
+}
+
+img{
+    overflow: hidden;
+    transition: 1s ease-in-out !important;
+}
+
+/* .img-large img:hover{
+    
+    
+    background-color: #eeeee4;
+    width: 600px;
+    height: auto;
+   
+    object-fit: cover;
+    border-radius: 2%;
+   
+    overflow: hidden !important;
+
+   
+    border-radius: 2%;
+} */
+
+
+.wrapper-large i{
+    height: 40px;
+    width: 40px;
+    background: #ff004c;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    color:#fff;
+    font-size: 1.25rem;
+    position: absolute;
+    cursor: pointer;
+    top : 40%;
+    transform: translateY(-40%);
+    z-index: 1;
+    opacity: 70%;
+}
+
+
+.wrapper-large i:first-child{
+    left: -22px;
+}
+
+.wrapper-large i:last-child{
+    right:-22px;
+}
+
+/* Large Card Carousel Design End */
+
+.archive-section{
+    /* background: url('https://digitalhub.fifa.com/transform/c15465ea-9930-4830-87ef-06d84e4ae05f/FIFAPLS_XX_A_TitleDescriptor_Axxxx_Banner_00?&quality=75'); */
+    /* height: 90vh; */
+    /* height: 100%;
+    display: inline-block;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    object-fit: fill;
+    background-position: 0%;
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+    /* position: relative; */
+    /* --aspect-ratio: calc(9 / 21 * 100%); */
+    /* width: 100%; */
+    
+    /* display: inline-block;
+    padding-top: 0%;
+    padding-bottom: 0% !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: calc(9 / 21 * 100%); */
+
+    
+   
+    /* background-image: linear-gradient(1turn, #550065, rgba(2, 15, 42, 0)); */
+    background: url('https://digitalhub.fifa.com/transform/c15465ea-9930-4830-87ef-06d84e4ae05f/FIFAPLS_XX_A_TitleDescriptor_Axxxx_Banner_00?&quality=75');
+    background-color: #f7c7ff !important;
+    background-blend-mode:multiply;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    align-items: center;
+    height:90vh;
+    object-fit: fill;
+}
+
+.archive-content{
+    padding-left: 5%;
+    max-width: 50%;
+    color: #fff;
+    
+}
+
+.archive-content button{
+    
+    color: #fff;
+    border-radius: 20px;
+    width:20%;
+    padding: 1%;
+    border-color: #fff solid;
+    /* border: 5px #fff; */
+    /* box-sizing: border-box; */
+    border: 2px solid #fff;
+    transition: transform 0.2s ease-in;
+}
+
+.archive-content button:hover{
+
+    transform: scale(1.1);
+    color: #fff;
+}
