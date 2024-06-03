@@ -51,7 +51,10 @@
     padding: 2%;
 }
 
-.navbar-top-right>a:hover {
+.sideelements{
+    color: white;
+}
+.navbar-top-right>a:hover , .sideelements>a:hover, .sideelements>i:hover, .sideelements:hover{
     color: var(--golden);
 }
 
@@ -95,11 +98,14 @@
 .sidebarMenu {
     position: fixed;
     top: 0;
-    /* left: -250px;
-    width: 250px; */
+    left: -250px;
+    width: 250px;
     height: 100%;
-    background-color: #333;
+    background-color: var(--violet);
     transition: left 0.3s ease;
+    z-index: 1000;
+    overflow: auto;
+    scrollbar-width: none;
 }
 
 .sidebarMenu ul {
@@ -116,9 +122,6 @@
     text-decoration: none;
 }
 
-
-/* backdrop bluish when open sidebar */
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -127,7 +130,7 @@
     bottom: 0;
     background: #03122b;
     opacity: .8;
-    z-index: -1;
+    z-index: 2;
     animation: backdropFadeIn .3s ease-out 0s, .3
 }
 
@@ -190,4 +193,10 @@
 .knockout-nevin {
     padding: 0;
     display: flex;
+}
+
+.legacyforallhero {
+    overflow: auto;
+    scrollbar-width: none;
+
 }

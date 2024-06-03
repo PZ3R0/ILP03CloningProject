@@ -132,6 +132,17 @@ body {
     height: 70%;
     margin: 0 10px;
 }
+
+#carousel-content0 .card-small .img-small {
+    background-color: #eeeee4;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5%;
+    padding: 0;
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     .card-small {
         flex: 0 0 48%; /* Adjust to show 2 cards at a time with some gap on mobile */
@@ -170,10 +181,15 @@ body {
     display: flex;
     transition: transform 0.5s ease;
 }
-#seeall {
+#seeall{
     text-decoration: none;
-    color: rgb(147, 63, 63);
-}
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#ff004c;
+    opacity: 0.75;
+    font-size: 12px;
+} 
 .card-small .img-small {
     background-color: #eeeee4;
     width: 100%;

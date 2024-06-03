@@ -4,7 +4,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     // Load the content of abh section from a.html
-    fetch("knockout-frontend.html")
+    fetch("./html/knockout-frontend.html")
       .then(response => response.text())
       .then(data => {
         const parser = new DOMParser();

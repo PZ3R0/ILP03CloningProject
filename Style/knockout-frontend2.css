@@ -13,8 +13,9 @@ body {
 
 .knockout {
   width: 100%;
-  scale: 70%;
+  scale: 60%;
   margin-left: -13%;
+  overflow: auto;
 }
 
 .knockoutheader{
@@ -76,12 +77,12 @@ body {
 }
 .round-of-16-left::before {
   /*upper vertical line in right of round of 16-left */
-  height: 20.5%;
+  height: 18%;
   transform: translateY(58px);
 }
 .round-of-16-left::after {
   /*lower vertical line in right of round of 16-left */
-  height: 23.5%;
+  height: 25%;
   transform: translateY(420px);
 }
 
@@ -124,7 +125,7 @@ body {
   /*left il ulla quarter final inte right ile vertical line*/
   content: "";
   position: absolute;
-  height: 50%;
+  height: 47%;
   width: 2px;
   background-color: rgb(19, 75, 19);
   left: 55.2%;
@@ -164,11 +165,11 @@ body {
   /*right il ulla quarter final inte left ile vertical line*/
   content: "";
   position: absolute;
-  height: 50%;
+  height: 53%;
   width: 2px;
   background-color: brown;
   right: -5.5%;
-  transform: translateX(60%) translateY(80px);
+  transform: translateX(60%) translateY(102px);
 }
 
 /* third place inte adiyile vertical line */
@@ -178,8 +179,8 @@ body {
   width: 2px;
   background-color: rgb(90, 90, 11);
   transform: translateX(-50%) translateY(50px);
-  height: 115%;
-  top: 49%;
+  height: 135%;
+  top: 50%;
   left: 50%;
 }
 /* horizontal line above and below the semi final matches is drawn using third round and final */
@@ -211,8 +212,8 @@ body {
   width: 2px;
   background-color: rgb(90, 90, 11);
   transform: translateX(-50%) translateY(-50%);
-  height: 62%;
-  top: -32%;
+  height: 42%;
+  top: -21%;
   left: 50%;
 }
 
@@ -231,7 +232,7 @@ body {
 }
 .round-of-16-right::before {
   /*upper vertical line in right of round of 16-right */
-  height: 21.5%;
+  height: 19.5%;
   transform: translateY(57px);
 }
 
