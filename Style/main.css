@@ -24,14 +24,11 @@
     font-size: 0.775rem;
 }
 
-.sideelements {
+.sideelements{
     color: white;
 }
 
-.navbar-top-right>a:hover,
-.sideelements>a:hover,
-.sideelements>i:hover,
-.sideelements:hover {
+.navbar-top-right>a:hover , .sideelements>a:hover, .sideelements>i:hover, .sideelements:hover{
     color: var(--golden);
 }
 

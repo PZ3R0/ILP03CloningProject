@@ -1,3 +1,4 @@
+
 /* Base styles for the element with line */
 .element-with-line {
   position: relative;
@@ -17,6 +18,7 @@
   background-color: #000;
 }
 
+
 /* Grid container for groups */
 .groups-container {
   display: grid;
@@ -32,6 +34,10 @@
   border-radius: 8px; /* Optional rounded corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for group items */
   position: relative;
+
+  width: 25em;
+
+
 }
 
 .group-header {
@@ -50,8 +56,13 @@
 .team-headers,
 .team {
   display: flex;
+
   flex-direction: row;
   align-items: center;
+
+  align-items: center;
+  flex-direction: row !important;
+
   margin-bottom: 10px;
 }
 
