@@ -43,4 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
 
-  
+  function toggleSidebar(show) {
+    var sidebar = document.querySelector('.sidebarhoverwatch');
+    if (show) {
+      sidebar.style.display = 'block';
+    } else {
+      sidebar.style.display = 'none';
+    }
+  }

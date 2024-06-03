@@ -1,0 +1,370 @@
+{
+  "Group A": {
+    "Netherlands": {
+      "abr":"NED",
+      "MP": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 5,
+      "GA": 1,
+      "PlusMinus": 4,
+      "Pts": 7
+    },
+    "Senegal": {
+      "abr":"SEN",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 4,
+      "GA": 3,
+      "PlusMinus": 1,
+      "Pts": 6
+    },
+    "Ecuador": {
+      "abr":"ECU",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 4,
+      "GA": 3,
+      "PlusMinus": 1,
+      "Pts": 4
+    },
+    "Qatar": {
+      "abr":"QAT",
+      "MP": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 1,
+      "GA": 7,
+      "PlusMinus": -6,
+      "Pts": 0
+    }
+  },
+  "Group B": {
+    "England": {
+      "abr":"ENG",
+      "MP": 3,
+      "W": 2,
+      "D": 1,
+      "L": 0,
+      "GF": 9,
+      "GA": 2,
+      "PlusMinus": 7,
+      "Pts": 7
+    },
+    "USA": {
+      "abr":"USA",
+      "MP": 3,
+      "W": 1,
+      "D": 2,
+      "L": 0,
+      "GF": 2,
+      "GA": 1,
+      "PlusMinus": 1,
+      "Pts": 5
+    },
+    "Iran": {
+      "abr":"IRN",
+      "MP": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 4,
+      "GA": 7,
+      "PlusMinus": -3,
+      "Pts": 3
+    },
+    "Wales": {
+      "abr":"WAL",
+      "MP": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 1,
+      "GA": 6,
+      "PlusMinus": -5,
+      "Pts": 1
+    }
+  },
+  "Group C": {
+    "Argentina": {
+      "abr":"ARG",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 5,
+      "GA": 2,
+      "PlusMinus": 3,
+      "Pts": 6
+    },
+    "Poland": {
+      "abr":"POL",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 2,
+      "PlusMinus": 0,
+      "Pts": 4
+    },
+    "Mexico": {
+      "abr":"MEX",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 3,
+      "PlusMinus": -1,
+      "Pts": 4
+    },
+    "Saudi_Arabia": {
+      "abr":"KSA",
+      "MP": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 3,
+      "GA": 4,
+      "PlusMinus": -1,
+      "Pts": 3
+    }
+  },
+  "Group D": {
+    "France": {
+      "abr":"FRA",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 6,
+      "GA": 3,
+      "PlusMinus": 3,
+      "Pts": 6
+    },
+    "Australia": {
+      "abr":"AUS",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 5,
+      "GA": 4,
+      "PlusMinus": -1,
+      "Pts": 6
+    },
+    "Tunisia": {
+      "abr":"TUN",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 1,
+      "GA": 1,
+      "PlusMinus": 0,
+      "Pts": 4
+    },
+    "Denmark": {
+      "abr":"DEN",
+      "MP": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 1,
+      "GA": 3,
+      "PlusMinus": -2,
+      "Pts": 1
+    }
+  },
+  "Group E": {
+    "Japan": {
+      "abr":"JPN",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 4,
+      "GA": 3,
+      "PlusMinus": 1,
+      "Pts": 6
+    },
+    "Spain": {
+      "abr":"ESP",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 9,
+      "GA": 3,
+      "PlusMinus": 6,
+      "Pts": 4
+    },
+    "Germany": {
+      "abr":"GER",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 6,
+      "GA": 5,
+      "PlusMinus": 1,
+      "Pts": 4
+    },
+    "Costa_Rica": {
+      "abr":"CRC",
+      "MP": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 3,
+      "GA": 11,
+      "PlusMinus": -8,
+      "Pts": 3
+    }
+  },
+  "Group F": {
+    "Morocco": {
+      "abr":"MAR",
+      "MP": 3,
+      "W": 3,
+      "D": 1,
+      "L": 0,
+      "GF": 4,
+      "GA": 1,
+      "PlusMinus": 3,
+      "Pts": 7
+    },
+    "Croatia": {
+      "abr":"CRO",
+      "MP": 3,
+      "W": 1,
+      "D": 2,
+      "L": 0,
+      "GF": 4,
+      "GA": 1,
+      "PlusMinus": 3,
+      "Pts": 5
+    },
+    "Belgium": {
+      "abr":"BEL",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 1,
+      "GA": 1,
+      "PlusMinus": 0,
+      "Pts": 4
+    },
+    "Canada": {
+      "abr":"CAN",
+      "MP": 3,
+      "W": 0,
+      "D": 0,
+      "L": 3,
+      "GF": 2,
+      "GA": 7,
+      "PlusMinus": -5,
+      "Pts": 0
+    }
+  },
+  "Group G": {
+    "Brazil": {
+      "abr":"BRA",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 3,
+      "GA": 1,
+      "PlusMinus": 2,
+      "Pts": 6
+    },
+    "Switzerland": {
+      "abr":"SUI",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 4,
+      "GA": 3,
+      "PlusMinus": 1,
+      "Pts": 6
+    },
+    "Cameroon": {
+      "abr":"CMR",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 4,
+      "GA": 4,
+      "PlusMinus": 0,
+      "Pts": 4
+    },
+    "Serbia": {
+      "abr":"SRB",
+      "MP": 3,
+      "W": 0,
+      "D": 1,
+      "L": 2,
+      "GF": 5,
+      "GA": 8,
+      "PlusMinus": -3,
+      "Pts": 1
+    }
+  },
+  "Group H": {
+    "Portugal": {
+      "abr":"POR",
+      "MP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 6,
+      "GA": 4,
+      "PlusMinus": 2,
+      "Pts": 6
+    },
+    "South_Korea": {
+      "abr":"KOR",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 4,
+      "GA": 4,
+      "PlusMinus": 0,
+      "Pts": 4
+    },
+    "Uruguay": {
+      "abr":"URU",
+      "MP": 3,
+      "W": 1,
+      "D": 1,
+      "L": 1,
+      "GF": 2,
+      "GA": 2,
+      "PlusMinus": 0,
+      "Pts": 4
+    },
+    "Ghana": {
+      "abr":"GHA",
+      "MP": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 5,
+      "GA": 7,
+      "PlusMinus": -2,
+      "Pts": 3
+    }
+  }
+}
