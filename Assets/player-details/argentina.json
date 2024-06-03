@@ -1,0 +1,146 @@
+{
+  "Goalkeeper": [
+    {
+      "firstName": "Franco",
+      "lastName": "ARMANI",
+      "position": "GOALKEEPER"
+    },
+    {
+        "firstName": "Geronimo",
+        "lastName": "RULLI",
+        "position": "GOALKEEPER"
+    },
+    {
+        "firstName": "Emiliano",
+        "lastName": "MARTINEZ",
+        "position": "GOALKEEPER"
+    }
+  ],
+  "Defender": [
+    {
+      "firstName": "Juan",
+      "lastName": "FOYTH",
+      "position": "DEFENDER"
+    },
+    {
+        "firstName": "Nicolas",
+        "lastName": "TAGLIAFICO",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Gonzalo",
+        "lastName": "MONTIEL",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "German",
+        "lastName": "PEZZELLA",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Cristian",
+        "lastName": "ROMERO",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Nicolas",
+        "lastName": "OTAMENDI",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Lisandro",
+        "lastName": "MARTINEZ",
+        "position": "DEFENDER"
+    },
+    {
+        "firstName": "Nahuel",
+        "lastName": "MOLINA",
+        "position": "DEFENDER"
+    }
+],
+"Midfielder": [
+    {
+        "firstName": "Leandro",
+        "lastName": "PAREDES",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Rodrigo",
+        "lastName": "DE PAUL",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Marcos",
+        "lastName": "ACUNA",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Exequiel",
+        "lastName": "PALACIOS",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Thiago",
+        "lastName": "ALMADA",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Alejandro",
+        "lastName": "GOMEZ",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Rodriguez",
+        "lastName": "GUIDO",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Alexis",
+        "lastName": "MAC ALLISTER",
+        "position": "MIDFIELDER"
+    },
+    {
+        "firstName": "Enzo",
+        "lastName": "FERNANDEZ",
+        "position": "MIDFIELDER"
+    }
+],
+"Forward": [
+    {
+        "firstName": "Julian",
+        "lastName": "ALVAREZ",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Lionel",
+        "lastName": "MESSI",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Angel",
+        "lastName": "DI MARIA",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Angel",
+        "lastName": "CORREA",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Paulo",
+        "lastName": "DYBALA",
+        "position": "FORWARD"
+    },
+    {
+        "firstName": "Lautaro",
+        "lastName": "MARTINEZ",
+        "position": "FORWARD"
+    }
+],
+"Manager": {
+    "firstName": "Lionel",
+    "lastName": "SCALONI",
+    "position": "MANAGER"
+}
+}
+
