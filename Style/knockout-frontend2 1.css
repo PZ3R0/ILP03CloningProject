@@ -1,0 +1,397 @@
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.knockout-bracket {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+
+.knockout {
+  width: 100%;
+  scale: 66%;
+  margin-left: -13%;
+  /* overflow: auto; */
+}
+
+.knockoutheader{
+  display: flex;
+  justify-content: space-evenly;
+  width: 150%;
+  margin-left: 0;
+}
+.items{
+  color: #03122B;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1%;
+}
+
+
+.round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.match {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  position: relative;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Drawing the connection between the matches */
+.round-of-16-left::before,
+.round-of-16-left::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: blue;
+  left: 22%;
+  transform: translateX(-50%);
+}
+.round-of-16-left::before {
+  /*upper vertical line in right of round of 16-left */
+  height: 20%;
+  transform: translateY(50px);
+}
+.round-of-16-left::after {
+  /*lower vertical line in right of round of 16-left */
+  height: 23.5%;
+  transform: translateY(400px);
+}
+
+.match::before {
+  /*ella match inte right side il cheriya horizontal line*/
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 12.5%;
+  background-color: #333;
+  top: 50%;
+  right: -12.5%;
+  transform: translateY(-50%);
+}
+
+.quarter-final-left .match::before,
+.quarter-final-left .match::after,
+.quarter-final-right .match::before,
+.quarter-final-right .match::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: orange;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.quarter-final-left .match::before,.quarter-final-right .match::before     /*quarter-left, quarter-right left side horizontal line*/ {
+  width: 18%;
+  right: 100%;
+}
+.quarter-final-left .match::after,
+.quarter-final-right .match::after {
+  /*quarter-left,quarter-right right side horizontal line */
+  width: 18%;
+  left: 100%;
+}
+
+.quarter-final-left::before {
+  /*left il ulla quarter final inte right ile vertical line*/
+  content: "";
+  position: absolute;
+  height: 54%;
+  width: 2px;
+  background-color: rgb(19, 75, 19);
+  left: 45.5%;
+  transform: translateX(60%) translateY(58px);
+}
+.semi-final-left .match::before {
+  width: 24%;
+  background-color: aqua;
+  right: 100%;
+}
+
+/* vertical lines above and below for the semi-final-left and right matches */
+.semi-final-left::before,
+.semi-final-left::after,
+.semi-final-right::before,
+.semi-final-right::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: springgreen;
+  transform: translateX(-50%);
+}
+.semi-final-left::before,
+.semi-final-right::before {
+  height: 24%;
+  top: 23.7%;
+  transform: translateY(70px);
+}
+
+.semi-final-right .match::before {
+  width: 24.4%;
+  background-color: greenyellow;
+  left: 100%;
+}
+
+.quarter-final-right::before {
+  /*right il ulla quarter final inte left ile vertical line*/
+  content: "";
+  position: absolute;
+  height: 54%;
+  width: 2px;
+  background-color: brown;
+  right: 5.5%;
+  transform: translateX(60%) translateY(73px);
+}
+
+/* third place inte adiyile vertical line */
+.third-place .match::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: rgb(90, 90, 11);
+  transform: translateX(-50%) translateY(50px);
+  height: 146%;
+  top: 40%;
+  left: 50%;
+}
+/* horizontal line above and below the semi final matches is drawn using third round and final */
+.third-place::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 22.5%;
+  top: 23.5%;
+  background-color: purple;
+  right: 23.5%;
+  transform: translateX(22%) translateY(71px);
+}
+.final::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 22.5%;
+  top: 45.5%;
+  background-color: purple;
+  right: 23.5%;
+  transform: translateX(22%) translateY(84px);
+}
+
+/* vertical line above final match */
+.final .match::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: rgb(90, 90, 11);
+  transform: translateX(-50%) translateY(-50%);
+  height: 70%;
+  top: -35%;
+  left: 50%;
+}
+
+.round-of-16-right .match::before       /*right il ulla round of 16 inte left il cheriya horizontal line*/ {
+  width: 12%;
+  right: 100%;
+}
+.round-of-16-right::before,
+.round-of-16-right::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: pink;
+  right: -18%;
+  transform: translateX(-40%);
+}
+.round-of-16-right::before {
+  /*upper vertical line in right of round of 16-right */
+  height: 19.5%;
+  transform: translateY(53px);
+}
+
+.round-of-16-right::after {
+  /*lower vertical line in right of round of 16-right */
+  height: 23%;
+  transform: translateY(400px);
+}
+
+/* Completed-Drawing the connection between the matches */
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.ft {
+  color: red;
+  margin-top: 12%;
+}
+
+.penalties {
+  color: gray;
+  margin-top: 9%;
+  font-size: 0.8rem;
+}
+
+.match.custom-align {
+  align-items: flex-start;
+}
+.match.custom-align .team {
+  margin-top: 0;
+}
+
+.score-section {
+  text-align: center;
+}
+
+.final-word {
+  font-weight: 600;
+}
+
+.flag {
+  width: 40px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.third-semi-final-final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.semi-finals {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* aligning the matches to match the original */
+
+.round-of-16-left .match:nth-child(2),
+.round.round-of-16-right .match:nth-child(2) {
+  margin-bottom: 45%;
+}
+.quarter-final-left,
+.round.quarter-final-right {
+  margin-top: 6%;
+}
+.quarter-final-left .match:nth-child(1) {
+  margin-bottom: 124%;
+}
+.round.quarter-final-right .match:nth-child(1) {
+  margin-bottom: 104%;
+}
+.semi-finals {
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+/*Ends here--- aligning the matches to match the original */
+
+.score {
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+.country-name {
+  margin-top: 5px;
+  margin-left: -5px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.flag-eng {
+  background-image: url("https://flagsapi.com/GB/flat/64.png");
+}
+
+.flag-sen {
+  background-image: url("https://flagsapi.com/SN/flat/64.png");
+}
+
+.flag-fra {
+  background-image: url("https://flagsapi.com/FR/flat/64.png");
+}
+
+.flag-pol {
+  background-image: url("https://flagsapi.com/PL/flat/64.png");
+}
+
+.flag-mar {
+  background-image: url("https://flagsapi.com/MA/flat/64.png");
+}
+
+.flag-esp {
+  background-image: url("https://flagsapi.com/ES/flat/64.png");
+}
+
+.flag-por {
+  background-image: url("https://flagsapi.com/PT/flat/64.png");
+}
+
+.flag-sui {
+  background-image: url("https://flagsapi.com/CH/flat/64.png");
+}
+
+.flag-ned {
+  background-image: url("https://flagsapi.com/NL/flat/64.png");
+}
+
+.flag-usa {
+  background-image: url("https://flagsapi.com/US/flat/64.png");
+}
+
+.flag-arg {
+  background-image: url("https://flagsapi.com/AR/flat/64.png");
+}
+
+.flag-aus {
+  background-image: url("https://flagsapi.com/AU/flat/64.png");
+}
+
+.flag-jpn {
+  background-image: url("https://flagsapi.com/JP/flat/64.png");
+}
+
+.flag-cro {
+  background-image: url("https://flagsapi.com/HR/flat/64.png");
+}
+
+.flag-bra {
+  background-image: url("https://flagsapi.com/BR/flat/64.png");
+}
+
+.flag-kor {
+  background-image: url("https://flagsapi.com/KR/flat/64.png");
+}
+
+
