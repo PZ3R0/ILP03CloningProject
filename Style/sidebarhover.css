@@ -1,0 +1,62 @@
+/* sidebarmenu hover stuffs */
+/* sidebarhoverwatch */
+.sidebarhoverwatch {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    transition: left 0.3s ease;
+    z-index: 1;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.sidebarhoverwatch ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebarhoverwatch ul li {
+    padding: 10px;
+}
+
+.sidebarhoverwatch ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* backdrop bluish when open sidebar */
+
+/* for visit */
+.sidebarhovervisit {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    transition: left 0.3s ease;
+    z-index: 1;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.sidebarhovervisit ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebarhovervisit ul li {
+    padding: 10px;
+}
+
+.sidebarhovervisit ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* backdrop bluish when open sidebar */
